@@ -1,0 +1,158 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_camera_1_1_camera" xml:lang="en-US">
+<title>Camera.Camera Class Reference</title>
+<indexterm><primary>Camera.Camera</primary></indexterm>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_class_camera_1_1_camera_1ace13c0651990c91a11ab4c769257d9ec">__init__</link> (self, title, date_from, date_to)</para>
+</listitem>
+            <listitem><para><link linkend="_class_camera_1_1_camera_1ae91ab5f8a2b515c5174ed6df1938babc">get_data</link> (self)</para>
+</listitem>
+            <listitem><para><link linkend="_class_camera_1_1_camera_1a11c964399305741362b80524f760b315">fetch_data</link> (self)</para>
+</listitem>
+            <listitem><para><link linkend="_class_camera_1_1_camera_1ab1829bed4a07d659e4c94e4191d3c23d">get_info</link> (self)</para>
+</listitem>
+            <listitem><para><link linkend="_class_camera_1_1_camera_1a5f97627a748c57e8af2c9c37aef51a4f">get_info_result</link> (self)</para>
+</listitem>
+            <listitem><para><link linkend="_class_camera_1_1_camera_1a4a074527c85391bf7a210bdcf3e96df4">get_info_option</link> (self, option)</para>
+</listitem>
+            <listitem><para><link linkend="_class_camera_1_1_camera_1a0c49ce10aa756aed08ddc395e32bd325">get_sorted_types</link> (self)</para>
+</listitem>
+            <listitem><para><link linkend="_class_camera_1_1_camera_1a2e7861611a1ca003d086f417d18bc7bf">get_options</link> (self)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para><literallayout><computeroutput>The Camera class have:
+
+    Attributes:
+        title : Camera name
+        date_from : start date
+        date_to : end date
+        options : what options the camera has
+        data : the camera data
+        selected_camera_data : the selected_camera
+
+    Methods:
+        get_data() : Function that get the data
+        fetch_data() :  Function that fetch the data.
+        get_info() : Function that checks if there is data and return info about the camera if there is. Otherwise, it returns
+        text that it can&apos;t find any data.
+        get_info_result() :  Function that show how many accepted, failed, passed or notDone tests have been done.
+        get_info_option(option) : Function that checks if there is option and show info about the camera if there is. Otherwise, it returns
+        empty text.
+        get_sorted_types() : Function that sort the types.
+        get_options() : Function that return list of options.</computeroutput></literallayout> </para>
+</section>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_class_camera_1_1_camera_1ace13c0651990c91a11ab4c769257d9ec"/><section>
+    <title>__init__()</title>
+<indexterm><primary>__init__</primary><secondary>Camera.Camera</secondary></indexterm>
+<indexterm><primary>Camera.Camera</primary><secondary>__init__</secondary></indexterm>
+<para><computeroutput>Camera.Camera.__init__ ( self,  title,  date_from,  date_to)</computeroutput></para></section>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_camera_1_1_camera_1a11c964399305741362b80524f760b315"/><section>
+    <title>fetch_data()</title>
+<indexterm><primary>fetch_data</primary><secondary>Camera.Camera</secondary></indexterm>
+<indexterm><primary>Camera.Camera</primary><secondary>fetch_data</secondary></indexterm>
+<para><computeroutput>Camera.Camera.fetch_data ( self)</computeroutput></para>
+<para><literallayout><computeroutput>    fetch_data()
+    Function that fetch the data.
+
+    Returns:
+        self.__selected_camera_data.get_data() (DataFrame)
+</computeroutput></literallayout> </para>
+</section>
+<anchor xml:id="_class_camera_1_1_camera_1ae91ab5f8a2b515c5174ed6df1938babc"/><section>
+    <title>get_data()</title>
+<indexterm><primary>get_data</primary><secondary>Camera.Camera</secondary></indexterm>
+<indexterm><primary>Camera.Camera</primary><secondary>get_data</secondary></indexterm>
+<para><computeroutput>Camera.Camera.get_data ( self)</computeroutput></para>
+<para><literallayout><computeroutput>    get_data()
+    Function that get the data
+
+    Returns:
+        data (DataFrame)
+</computeroutput></literallayout> </para>
+</section>
+<anchor xml:id="_class_camera_1_1_camera_1ab1829bed4a07d659e4c94e4191d3c23d"/><section>
+    <title>get_info()</title>
+<indexterm><primary>get_info</primary><secondary>Camera.Camera</secondary></indexterm>
+<indexterm><primary>Camera.Camera</primary><secondary>get_info</secondary></indexterm>
+<para><computeroutput>Camera.Camera.get_info ( self)</computeroutput></para>
+<para><literallayout><computeroutput>    get_info()
+    Function that checks if there is data and return info about the camera if there is. Otherwise, it returns
+    text that it can&apos;t find any data.
+
+    Returns:
+        &apos;No results found&apos; (sting)
+        or
+        camera information that includes
+        the camera types and
+        how many tests were accepted or passed with each type (string)
+</computeroutput></literallayout> </para>
+</section>
+<anchor xml:id="_class_camera_1_1_camera_1a4a074527c85391bf7a210bdcf3e96df4"/><section>
+    <title>get_info_option()</title>
+<indexterm><primary>get_info_option</primary><secondary>Camera.Camera</secondary></indexterm>
+<indexterm><primary>Camera.Camera</primary><secondary>get_info_option</secondary></indexterm>
+<para><computeroutput>Camera.Camera.get_info_option ( self,  option)</computeroutput></para>
+<para><literallayout><computeroutput>    get_info_option()
+    Function that checks if there is option and show info about the camera if there is. Otherwise, it returns
+    empty text.
+
+    Args:
+        option (str) : The option that is selected
+
+    Returns:
+        camera information that includes
+        how much is the minimum, maximum and average value of a selected option.(string)
+</computeroutput></literallayout> </para>
+</section>
+<anchor xml:id="_class_camera_1_1_camera_1a5f97627a748c57e8af2c9c37aef51a4f"/><section>
+    <title>get_info_result()</title>
+<indexterm><primary>get_info_result</primary><secondary>Camera.Camera</secondary></indexterm>
+<indexterm><primary>Camera.Camera</primary><secondary>get_info_result</secondary></indexterm>
+<para><computeroutput>Camera.Camera.get_info_result ( self)</computeroutput></para>
+<para><literallayout><computeroutput>    get_info_result()
+    Function that show how many accepted, failed, passed or notDone tests have been done.
+
+    Returns:
+        camera information that includes
+        how many accepted, failed, passed or notDone tests (string)
+</computeroutput></literallayout> </para>
+</section>
+<anchor xml:id="_class_camera_1_1_camera_1a2e7861611a1ca003d086f417d18bc7bf"/><section>
+    <title>get_options()</title>
+<indexterm><primary>get_options</primary><secondary>Camera.Camera</secondary></indexterm>
+<indexterm><primary>Camera.Camera</primary><secondary>get_options</secondary></indexterm>
+<para><computeroutput>Camera.Camera.get_options ( self)</computeroutput></para>
+<para><literallayout><computeroutput>    get_options()
+    Function that return list of options.
+
+    Returns:
+        options (list)
+</computeroutput></literallayout> </para>
+</section>
+<anchor xml:id="_class_camera_1_1_camera_1a0c49ce10aa756aed08ddc395e32bd325"/><section>
+    <title>get_sorted_types()</title>
+<indexterm><primary>get_sorted_types</primary><secondary>Camera.Camera</secondary></indexterm>
+<indexterm><primary>Camera.Camera</primary><secondary>get_sorted_types</secondary></indexterm>
+<para><computeroutput>Camera.Camera.get_sorted_types ( self)</computeroutput></para>
+<para><literallayout><computeroutput>    get_sorted_types()
+    Function that sort the types.
+
+    Returns:
+        map(str, values) (map object)
+</computeroutput></literallayout> </para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+D:/Katerina/data-visualisation-and-analysis-app/<link linkend="__camera_8py">Camera.py</link></section>
+</section>

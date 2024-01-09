@@ -1,0 +1,181 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classdata_1_1_data" kind="class" language="Python" prot="public">
+    <compoundname>data::Data</compoundname>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classdata_1_1_data_1a2fedf45c3db7de36ccb9ddd5f03ce4e5" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>data.Data::__table_name</definition>
+        <argsstring></argsstring>
+        <name>__table_name</name>
+        <qualifiedname>data.Data.__table_name</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Katerina/data-visualisation-and-analysis-app/data.py" line="46" column="1" bodyfile="D:/Katerina/data-visualisation-and-analysis-app/data.py" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classdata_1_1_data_1a1cfb90efb91a4775b7c87283130412ab" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>data.Data::__date_from</definition>
+        <argsstring></argsstring>
+        <name>__date_from</name>
+        <qualifiedname>data.Data.__date_from</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Katerina/data-visualisation-and-analysis-app/data.py" line="47" column="1" bodyfile="D:/Katerina/data-visualisation-and-analysis-app/data.py" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classdata_1_1_data_1a3d1dd673f2d5e8b7ea049fb5bfccee34" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>data.Data::__date_to</definition>
+        <argsstring></argsstring>
+        <name>__date_to</name>
+        <qualifiedname>data.Data.__date_to</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Katerina/data-visualisation-and-analysis-app/data.py" line="48" column="1" bodyfile="D:/Katerina/data-visualisation-and-analysis-app/data.py" bodystart="48" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classdata_1_1_data_1a549a925818b17a9a716978d7eb31c761" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>data.Data.__init__</definition>
+        <argsstring>(self, table_name, date_from, date_to)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>data.Data.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>table_name</type>
+          <defname>table_name</defname>
+        </param>
+        <param>
+          <type>date_from</type>
+          <defname>date_from</defname>
+        </param>
+        <param>
+          <type>date_to</type>
+          <defname>date_to</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Katerina/data-visualisation-and-analysis-app/data.py" line="45" column="1" bodyfile="D:/Katerina/data-visualisation-and-analysis-app/data.py" bodystart="45" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="function" id="classdata_1_1_data_1aa4109d99b68c490e84c93fcf39ba8904" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>data.Data.get_data</definition>
+        <argsstring>(self)</argsstring>
+        <name>get_data</name>
+        <qualifiedname>data.Data.get_data</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>    get_data()
+    Function that return DataFrame with data for selected camera and selected period of time.
+
+    Returns:
+        data_accepted_passed.set_index(&apos;Date&apos;) (DataFrame)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Katerina/data-visualisation-and-analysis-app/data.py" line="50" column="1" bodyfile="D:/Katerina/data-visualisation-and-analysis-app/data.py" bodystart="50" bodyend="62"/>
+      </memberdef>
+      <memberdef kind="function" id="classdata_1_1_data_1adde6ba0e4bc74edda0bff00e0b9d9c41" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>data.Data.get_options</definition>
+        <argsstring>(self)</argsstring>
+        <name>get_options</name>
+        <qualifiedname>data.Data.get_options</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>    get_option()
+    Function that return DataFrame with data for every option with decimal or integer values.
+
+    Returns:
+        data_accepted_passed.set_index(&apos;Date&apos;) (DataFrame)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Katerina/data-visualisation-and-analysis-app/data.py" line="63" column="1" bodyfile="D:/Katerina/data-visualisation-and-analysis-app/data.py" bodystart="63" bodyend="74"/>
+      </memberdef>
+      <memberdef kind="function" id="classdata_1_1_data_1a6721ace52e4d9d48f8cf9ae17338fb05" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>data.Data.get_complete_test_res</definition>
+        <argsstring>(self)</argsstring>
+        <name>get_complete_test_res</name>
+        <qualifiedname>data.Data.get_complete_test_res</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>    get_complete_test_res()
+    Function that return DataFrame with data for all tests, not only the accepted and passed test.
+
+    Returns:
+        compete_test_res (DataFrame)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Katerina/data-visualisation-and-analysis-app/data.py" line="75" column="1" bodyfile="D:/Katerina/data-visualisation-and-analysis-app/data.py" bodystart="75" bodyend="88"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>The MainWindow class inherits QMainWindow and Ui_MainWindow class and have:
+
+           Attributes:
+               table_name :
+               date_from :
+               date_to :
+
+           Methods:
+              get_data() :  Function that return DataFrame with data for selected camera and selected period of time
+              get_options() : Function that return DataFrame with data for every option with decimal or integer values.
+              get_complete_test_res() : Function that return DataFrame with data for all tests, not only the
+              accepted and passed test.
+</verbatim> </para>
+    </detaileddescription>
+    <location file="D:/Katerina/data-visualisation-and-analysis-app/data.py" line="31" column="1" bodyfile="D:/Katerina/data-visualisation-and-analysis-app/data.py" bodystart="31" bodyend="88"/>
+    <listofallmembers>
+      <member refid="classdata_1_1_data_1a1cfb90efb91a4775b7c87283130412ab" prot="private" virt="non-virtual"><scope>data::Data</scope><name>__date_from</name></member>
+      <member refid="classdata_1_1_data_1a3d1dd673f2d5e8b7ea049fb5bfccee34" prot="private" virt="non-virtual"><scope>data::Data</scope><name>__date_to</name></member>
+      <member refid="classdata_1_1_data_1a549a925818b17a9a716978d7eb31c761" prot="public" virt="non-virtual"><scope>data::Data</scope><name>__init__</name></member>
+      <member refid="classdata_1_1_data_1a2fedf45c3db7de36ccb9ddd5f03ce4e5" prot="private" virt="non-virtual"><scope>data::Data</scope><name>__table_name</name></member>
+      <member refid="classdata_1_1_data_1a6721ace52e4d9d48f8cf9ae17338fb05" prot="public" virt="non-virtual"><scope>data::Data</scope><name>get_complete_test_res</name></member>
+      <member refid="classdata_1_1_data_1aa4109d99b68c490e84c93fcf39ba8904" prot="public" virt="non-virtual"><scope>data::Data</scope><name>get_data</name></member>
+      <member refid="classdata_1_1_data_1adde6ba0e4bc74edda0bff00e0b9d9c41" prot="public" virt="non-virtual"><scope>data::Data</scope><name>get_options</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

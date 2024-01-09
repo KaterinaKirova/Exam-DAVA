@@ -1,0 +1,813 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classui__mainwindow_1_1_ui___main_window" kind="class" language="Python" prot="public">
+    <compoundname>ui_mainwindow::Ui_MainWindow</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">object</basecompoundref>
+    <derivedcompoundref refid="classmain_window_1_1_main_window" prot="public" virt="non-virtual">mainWindow.MainWindow</derivedcompoundref>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classui__mainwindow_1_1_ui___main_window_1ae98e7f65edb7c3995f5e5dcb99a70431" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>ui_mainwindow.Ui_MainWindow::centralwidget</definition>
+        <argsstring></argsstring>
+        <name>centralwidget</name>
+        <qualifiedname>ui_mainwindow.Ui_MainWindow.centralwidget</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Katerina/data-visualisation-and-analysis-app/ui_mainwindow.py" line="33" column="1" bodyfile="D:/Katerina/data-visualisation-and-analysis-app/ui_mainwindow.py" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classui__mainwindow_1_1_ui___main_window_1a00f85b97abf944c50f49ca0f53a14e17" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>ui_mainwindow.Ui_MainWindow::horizontalLayout</definition>
+        <argsstring></argsstring>
+        <name>horizontalLayout</name>
+        <qualifiedname>ui_mainwindow.Ui_MainWindow.horizontalLayout</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Katerina/data-visualisation-and-analysis-app/ui_mainwindow.py" line="35" column="1" bodyfile="D:/Katerina/data-visualisation-and-analysis-app/ui_mainwindow.py" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classui__mainwindow_1_1_ui___main_window_1a201dda6fbe672f31e18ba98393468be1" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>ui_mainwindow.Ui_MainWindow::frame_7</definition>
+        <argsstring></argsstring>
+        <name>frame_7</name>
+        <qualifiedname>ui_mainwindow.Ui_MainWindow.frame_7</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Katerina/data-visualisation-and-analysis-app/ui_mainwindow.py" line="37" column="1" bodyfile="D:/Katerina/data-visualisation-and-analysis-app/ui_mainwindow.py" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classui__mainwindow_1_1_ui___main_window_1ad0af872b0f9c072e4193a358f4e19fc5" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>ui_mainwindow.Ui_MainWindow::horizontalLayout_2</definition>
+        <argsstring></argsstring>
+        <name>horizontalLayout_2</name>
+        <qualifiedname>ui_mainwindow.Ui_MainWindow.horizontalLayout_2</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Katerina/data-visualisation-and-analysis-app/ui_mainwindow.py" line="41" column="1" bodyfile="D:/Katerina/data-visualisation-and-analysis-app/ui_mainwindow.py" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classui__mainwindow_1_1_ui___main_window_1a161f7db8e998687e9deaf5e1764398d7" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>ui_mainwindow.Ui_MainWindow::frame_2</definition>
+        <argsstring></argsstring>
+        <name>frame_2</name>
+        <qualifiedname>ui_mainwindow.Ui_MainWindow.frame_2</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Katerina/data-visualisation-and-analysis-app/ui_mainwindow.py" line="43" column="1" bodyfile="D:/Katerina/data-visualisation-and-analysis-app/ui_mainwindow.py" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classui__mainwindow_1_1_ui___main_window_1a88672e0fc5fd5050c3b3cc964eb423c4" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>ui_mainwindow.Ui_MainWindow::verticalLayout_2</definition>
+        <argsstring></argsstring>
+        <name>verticalLayout_2</name>
+        <qualifiedname>ui_mainwindow.Ui_MainWindow.verticalLayout_2</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Katerina/data-visualisation-and-analysis-app/ui_mainwindow.py" line="49" column="1" bodyfile="D:/Katerina/data-visualisation-and-analysis-app/ui_mainwindow.py" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classui__mainwindow_1_1_ui___main_window_1a93a5b1d1c9ea80b65ce86c9fbda5a6a1" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>ui_mainwindow.Ui_MainWindow::frame</definition>
+        <argsstring></argsstring>
+        <name>frame</name>
+        <qualifiedname>ui_mainwindow.Ui_MainWindow.frame</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Katerina/data-visualisation-and-analysis-app/ui_mainwindow.py" line="51" column="1" bodyfile="D:/Katerina/data-visualisation-and-analysis-app/ui_mainwindow.py" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classui__mainwindow_1_1_ui___main_window_1a784c6ab0319151e1faee148d2fff2b28" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>ui_mainwindow.Ui_MainWindow::formLayout_2</definition>
+        <argsstring></argsstring>
+        <name>formLayout_2</name>
+        <qualifiedname>ui_mainwindow.Ui_MainWindow.formLayout_2</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Katerina/data-visualisation-and-analysis-app/ui_mainwindow.py" line="63" column="1" bodyfile="D:/Katerina/data-visualisation-and-analysis-app/ui_mainwindow.py" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classui__mainwindow_1_1_ui___main_window_1adb984b085ebbc227dcbee2d0479361e1" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>ui_mainwindow.Ui_MainWindow::groupBox_period</definition>
+        <argsstring></argsstring>
+        <name>groupBox_period</name>
+        <qualifiedname>ui_mainwindow.Ui_MainWindow.groupBox_period</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Katerina/data-visualisation-and-analysis-app/ui_mainwindow.py" line="65" column="1" bodyfile="D:/Katerina/data-visualisation-and-analysis-app/ui_mainwindow.py" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classui__mainwindow_1_1_ui___main_window_1ad4eac9c606168c46779531c49a60ab5d" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>ui_mainwindow.Ui_MainWindow::formLayout</definition>
+        <argsstring></argsstring>
+        <name>formLayout</name>
+        <qualifiedname>ui_mainwindow.Ui_MainWindow.formLayout</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Katerina/data-visualisation-and-analysis-app/ui_mainwindow.py" line="72" column="1" bodyfile="D:/Katerina/data-visualisation-and-analysis-app/ui_mainwindow.py" bodystart="72" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classui__mainwindow_1_1_ui___main_window_1a42280a9bb649411621ef005de275e746" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>ui_mainwindow.Ui_MainWindow::label_from</definition>
+        <argsstring></argsstring>
+        <name>label_from</name>
+        <qualifiedname>ui_mainwindow.Ui_MainWindow.label_from</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Katerina/data-visualisation-and-analysis-app/ui_mainwindow.py" line="74" column="1" bodyfile="D:/Katerina/data-visualisation-and-analysis-app/ui_mainwindow.py" bodystart="74" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classui__mainwindow_1_1_ui___main_window_1a43ff5d9fa022cf44a4c3c059d40a3279" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>ui_mainwindow.Ui_MainWindow::dateEdit_from</definition>
+        <argsstring></argsstring>
+        <name>dateEdit_from</name>
+        <qualifiedname>ui_mainwindow.Ui_MainWindow.dateEdit_from</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Katerina/data-visualisation-and-analysis-app/ui_mainwindow.py" line="79" column="1" bodyfile="D:/Katerina/data-visualisation-and-analysis-app/ui_mainwindow.py" bodystart="79" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classui__mainwindow_1_1_ui___main_window_1a638ce5ca92814fd1441607f5ffd90424" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>ui_mainwindow.Ui_MainWindow::label_to</definition>
+        <argsstring></argsstring>
+        <name>label_to</name>
+        <qualifiedname>ui_mainwindow.Ui_MainWindow.label_to</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Katerina/data-visualisation-and-analysis-app/ui_mainwindow.py" line="84" column="1" bodyfile="D:/Katerina/data-visualisation-and-analysis-app/ui_mainwindow.py" bodystart="84" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classui__mainwindow_1_1_ui___main_window_1a2dc50dd2c96bad5d4416c1111fa2de08" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>ui_mainwindow.Ui_MainWindow::dateEdit_to</definition>
+        <argsstring></argsstring>
+        <name>dateEdit_to</name>
+        <qualifiedname>ui_mainwindow.Ui_MainWindow.dateEdit_to</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Katerina/data-visualisation-and-analysis-app/ui_mainwindow.py" line="89" column="1" bodyfile="D:/Katerina/data-visualisation-and-analysis-app/ui_mainwindow.py" bodystart="89" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classui__mainwindow_1_1_ui___main_window_1a94f74cd8d490af0ae03924d22309bbbb" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>ui_mainwindow.Ui_MainWindow::frame_3</definition>
+        <argsstring></argsstring>
+        <name>frame_3</name>
+        <qualifiedname>ui_mainwindow.Ui_MainWindow.frame_3</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Katerina/data-visualisation-and-analysis-app/ui_mainwindow.py" line="101" column="1" bodyfile="D:/Katerina/data-visualisation-and-analysis-app/ui_mainwindow.py" bodystart="101" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classui__mainwindow_1_1_ui___main_window_1a34783b6de2a1105eb091601f3d907e84" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>ui_mainwindow.Ui_MainWindow::verticalLayout</definition>
+        <argsstring></argsstring>
+        <name>verticalLayout</name>
+        <qualifiedname>ui_mainwindow.Ui_MainWindow.verticalLayout</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Katerina/data-visualisation-and-analysis-app/ui_mainwindow.py" line="108" column="1" bodyfile="D:/Katerina/data-visualisation-and-analysis-app/ui_mainwindow.py" bodystart="108" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classui__mainwindow_1_1_ui___main_window_1ace4bfebe95f52f4917c0882a1df11806" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>ui_mainwindow.Ui_MainWindow::groupBox_selec_camera</definition>
+        <argsstring></argsstring>
+        <name>groupBox_selec_camera</name>
+        <qualifiedname>ui_mainwindow.Ui_MainWindow.groupBox_selec_camera</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Katerina/data-visualisation-and-analysis-app/ui_mainwindow.py" line="110" column="1" bodyfile="D:/Katerina/data-visualisation-and-analysis-app/ui_mainwindow.py" bodystart="110" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classui__mainwindow_1_1_ui___main_window_1a38c9ed064be7141994e48cb33a5abed1" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>ui_mainwindow.Ui_MainWindow::verticalLayout_3</definition>
+        <argsstring></argsstring>
+        <name>verticalLayout_3</name>
+        <qualifiedname>ui_mainwindow.Ui_MainWindow.verticalLayout_3</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Katerina/data-visualisation-and-analysis-app/ui_mainwindow.py" line="113" column="1" bodyfile="D:/Katerina/data-visualisation-and-analysis-app/ui_mainwindow.py" bodystart="113" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classui__mainwindow_1_1_ui___main_window_1a97af4908add12fce8288e1b811c2d31c" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>ui_mainwindow.Ui_MainWindow::comboBox_camera</definition>
+        <argsstring></argsstring>
+        <name>comboBox_camera</name>
+        <qualifiedname>ui_mainwindow.Ui_MainWindow.comboBox_camera</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Katerina/data-visualisation-and-analysis-app/ui_mainwindow.py" line="115" column="1" bodyfile="D:/Katerina/data-visualisation-and-analysis-app/ui_mainwindow.py" bodystart="115" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classui__mainwindow_1_1_ui___main_window_1a67bab3830da21866588effc7cd88a8f9" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>ui_mainwindow.Ui_MainWindow::groupBox_options</definition>
+        <argsstring></argsstring>
+        <name>groupBox_options</name>
+        <qualifiedname>ui_mainwindow.Ui_MainWindow.groupBox_options</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Katerina/data-visualisation-and-analysis-app/ui_mainwindow.py" line="134" column="1" bodyfile="D:/Katerina/data-visualisation-and-analysis-app/ui_mainwindow.py" bodystart="134" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classui__mainwindow_1_1_ui___main_window_1a2e98ac6c3aafc3cb3e997af4329abd72" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>ui_mainwindow.Ui_MainWindow::verticalLayout_4</definition>
+        <argsstring></argsstring>
+        <name>verticalLayout_4</name>
+        <qualifiedname>ui_mainwindow.Ui_MainWindow.verticalLayout_4</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Katerina/data-visualisation-and-analysis-app/ui_mainwindow.py" line="137" column="1" bodyfile="D:/Katerina/data-visualisation-and-analysis-app/ui_mainwindow.py" bodystart="137" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classui__mainwindow_1_1_ui___main_window_1a421cb8fcc100a2920366efbfc608bc22" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>ui_mainwindow.Ui_MainWindow::comboBox_options</definition>
+        <argsstring></argsstring>
+        <name>comboBox_options</name>
+        <qualifiedname>ui_mainwindow.Ui_MainWindow.comboBox_options</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Katerina/data-visualisation-and-analysis-app/ui_mainwindow.py" line="139" column="1" bodyfile="D:/Katerina/data-visualisation-and-analysis-app/ui_mainwindow.py" bodystart="139" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classui__mainwindow_1_1_ui___main_window_1a0ed0e486dc9e3052fa1b528ca855cff5" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>ui_mainwindow.Ui_MainWindow::groupBox_select_method</definition>
+        <argsstring></argsstring>
+        <name>groupBox_select_method</name>
+        <qualifiedname>ui_mainwindow.Ui_MainWindow.groupBox_select_method</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Katerina/data-visualisation-and-analysis-app/ui_mainwindow.py" line="148" column="1" bodyfile="D:/Katerina/data-visualisation-and-analysis-app/ui_mainwindow.py" bodystart="148" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classui__mainwindow_1_1_ui___main_window_1a5ac9fe8cd1bc3ed51fdf71541c5e8e58" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>ui_mainwindow.Ui_MainWindow::verticalLayout_5</definition>
+        <argsstring></argsstring>
+        <name>verticalLayout_5</name>
+        <qualifiedname>ui_mainwindow.Ui_MainWindow.verticalLayout_5</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Katerina/data-visualisation-and-analysis-app/ui_mainwindow.py" line="151" column="1" bodyfile="D:/Katerina/data-visualisation-and-analysis-app/ui_mainwindow.py" bodystart="151" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classui__mainwindow_1_1_ui___main_window_1a7b9e1abd26b756c7fba70179d36ed721" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>ui_mainwindow.Ui_MainWindow::comboBox_method</definition>
+        <argsstring></argsstring>
+        <name>comboBox_method</name>
+        <qualifiedname>ui_mainwindow.Ui_MainWindow.comboBox_method</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Katerina/data-visualisation-and-analysis-app/ui_mainwindow.py" line="153" column="1" bodyfile="D:/Katerina/data-visualisation-and-analysis-app/ui_mainwindow.py" bodystart="153" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classui__mainwindow_1_1_ui___main_window_1a402741a7d4d9109d6b5064eefa1a7e65" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>ui_mainwindow.Ui_MainWindow::groupBox_select_type</definition>
+        <argsstring></argsstring>
+        <name>groupBox_select_type</name>
+        <qualifiedname>ui_mainwindow.Ui_MainWindow.groupBox_select_type</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Katerina/data-visualisation-and-analysis-app/ui_mainwindow.py" line="165" column="1" bodyfile="D:/Katerina/data-visualisation-and-analysis-app/ui_mainwindow.py" bodystart="165" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classui__mainwindow_1_1_ui___main_window_1a9d794c3eca1fa7185e8ebecc0f47b0b0" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>ui_mainwindow.Ui_MainWindow::verticalLayout_6</definition>
+        <argsstring></argsstring>
+        <name>verticalLayout_6</name>
+        <qualifiedname>ui_mainwindow.Ui_MainWindow.verticalLayout_6</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Katerina/data-visualisation-and-analysis-app/ui_mainwindow.py" line="168" column="1" bodyfile="D:/Katerina/data-visualisation-and-analysis-app/ui_mainwindow.py" bodystart="168" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classui__mainwindow_1_1_ui___main_window_1acc3e7c28b791d123af2358459951ee11" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>ui_mainwindow.Ui_MainWindow::comboBox_type</definition>
+        <argsstring></argsstring>
+        <name>comboBox_type</name>
+        <qualifiedname>ui_mainwindow.Ui_MainWindow.comboBox_type</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Katerina/data-visualisation-and-analysis-app/ui_mainwindow.py" line="170" column="1" bodyfile="D:/Katerina/data-visualisation-and-analysis-app/ui_mainwindow.py" bodystart="170" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classui__mainwindow_1_1_ui___main_window_1a7d1142673b3cca82939e36c0047a4faa" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>ui_mainwindow.Ui_MainWindow::frame_6</definition>
+        <argsstring></argsstring>
+        <name>frame_6</name>
+        <qualifiedname>ui_mainwindow.Ui_MainWindow.frame_6</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Katerina/data-visualisation-and-analysis-app/ui_mainwindow.py" line="181" column="1" bodyfile="D:/Katerina/data-visualisation-and-analysis-app/ui_mainwindow.py" bodystart="181" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classui__mainwindow_1_1_ui___main_window_1a15a73ec8712b1f2a2bf255304fe378b0" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>ui_mainwindow.Ui_MainWindow::gridLayout</definition>
+        <argsstring></argsstring>
+        <name>gridLayout</name>
+        <qualifiedname>ui_mainwindow.Ui_MainWindow.gridLayout</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Katerina/data-visualisation-and-analysis-app/ui_mainwindow.py" line="186" column="1" bodyfile="D:/Katerina/data-visualisation-and-analysis-app/ui_mainwindow.py" bodystart="186" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classui__mainwindow_1_1_ui___main_window_1aa20ffb0bb0de6e2c768cdd3aed6d3337" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>ui_mainwindow.Ui_MainWindow::pushButton</definition>
+        <argsstring></argsstring>
+        <name>pushButton</name>
+        <qualifiedname>ui_mainwindow.Ui_MainWindow.pushButton</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Katerina/data-visualisation-and-analysis-app/ui_mainwindow.py" line="188" column="1" bodyfile="D:/Katerina/data-visualisation-and-analysis-app/ui_mainwindow.py" bodystart="188" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classui__mainwindow_1_1_ui___main_window_1a88b29874d5ce73608453e8b2f67520cf" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>ui_mainwindow.Ui_MainWindow::pushButton_Export</definition>
+        <argsstring></argsstring>
+        <name>pushButton_Export</name>
+        <qualifiedname>ui_mainwindow.Ui_MainWindow.pushButton_Export</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Katerina/data-visualisation-and-analysis-app/ui_mainwindow.py" line="194" column="1" bodyfile="D:/Katerina/data-visualisation-and-analysis-app/ui_mainwindow.py" bodystart="194" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classui__mainwindow_1_1_ui___main_window_1aa5e53b40c2e850d8da2ee39e9bbc180b" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>ui_mainwindow.Ui_MainWindow::frame_4</definition>
+        <argsstring></argsstring>
+        <name>frame_4</name>
+        <qualifiedname>ui_mainwindow.Ui_MainWindow.frame_4</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Katerina/data-visualisation-and-analysis-app/ui_mainwindow.py" line="203" column="1" bodyfile="D:/Katerina/data-visualisation-and-analysis-app/ui_mainwindow.py" bodystart="203" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classui__mainwindow_1_1_ui___main_window_1a5b0b1f1b6489378de9101a3214bf1ddd" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>ui_mainwindow.Ui_MainWindow::horizontalLayout_4</definition>
+        <argsstring></argsstring>
+        <name>horizontalLayout_4</name>
+        <qualifiedname>ui_mainwindow.Ui_MainWindow.horizontalLayout_4</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Katerina/data-visualisation-and-analysis-app/ui_mainwindow.py" line="209" column="1" bodyfile="D:/Katerina/data-visualisation-and-analysis-app/ui_mainwindow.py" bodystart="209" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classui__mainwindow_1_1_ui___main_window_1a2ac6ede77745d9b22fded2e206c9fd3e" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>ui_mainwindow.Ui_MainWindow::groupBox_about</definition>
+        <argsstring></argsstring>
+        <name>groupBox_about</name>
+        <qualifiedname>ui_mainwindow.Ui_MainWindow.groupBox_about</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Katerina/data-visualisation-and-analysis-app/ui_mainwindow.py" line="211" column="1" bodyfile="D:/Katerina/data-visualisation-and-analysis-app/ui_mainwindow.py" bodystart="211" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classui__mainwindow_1_1_ui___main_window_1a7df63b5c295dabd85bbe1a3f37f29f2e" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>ui_mainwindow.Ui_MainWindow::label_info</definition>
+        <argsstring></argsstring>
+        <name>label_info</name>
+        <qualifiedname>ui_mainwindow.Ui_MainWindow.label_info</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Katerina/data-visualisation-and-analysis-app/ui_mainwindow.py" line="214" column="1" bodyfile="D:/Katerina/data-visualisation-and-analysis-app/ui_mainwindow.py" bodystart="214" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classui__mainwindow_1_1_ui___main_window_1a5bbccbf767b42b0e195d198425ee27a6" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>ui_mainwindow.Ui_MainWindow::groupBox_about_3</definition>
+        <argsstring></argsstring>
+        <name>groupBox_about_3</name>
+        <qualifiedname>ui_mainwindow.Ui_MainWindow.groupBox_about_3</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Katerina/data-visualisation-and-analysis-app/ui_mainwindow.py" line="221" column="1" bodyfile="D:/Katerina/data-visualisation-and-analysis-app/ui_mainwindow.py" bodystart="221" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classui__mainwindow_1_1_ui___main_window_1a76f899bed61651dc771160d5b3670d84" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>ui_mainwindow.Ui_MainWindow::label_label_info_result</definition>
+        <argsstring></argsstring>
+        <name>label_label_info_result</name>
+        <qualifiedname>ui_mainwindow.Ui_MainWindow.label_label_info_result</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Katerina/data-visualisation-and-analysis-app/ui_mainwindow.py" line="224" column="1" bodyfile="D:/Katerina/data-visualisation-and-analysis-app/ui_mainwindow.py" bodystart="224" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classui__mainwindow_1_1_ui___main_window_1ab5b26072d900102a35ed0968414c5578" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>ui_mainwindow.Ui_MainWindow::frame_5</definition>
+        <argsstring></argsstring>
+        <name>frame_5</name>
+        <qualifiedname>ui_mainwindow.Ui_MainWindow.frame_5</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Katerina/data-visualisation-and-analysis-app/ui_mainwindow.py" line="234" column="1" bodyfile="D:/Katerina/data-visualisation-and-analysis-app/ui_mainwindow.py" bodystart="234" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classui__mainwindow_1_1_ui___main_window_1a53a03e3d9ff7c7bcd823b94781c0e509" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>ui_mainwindow.Ui_MainWindow::groupBox_about_2</definition>
+        <argsstring></argsstring>
+        <name>groupBox_about_2</name>
+        <qualifiedname>ui_mainwindow.Ui_MainWindow.groupBox_about_2</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Katerina/data-visualisation-and-analysis-app/ui_mainwindow.py" line="240" column="1" bodyfile="D:/Katerina/data-visualisation-and-analysis-app/ui_mainwindow.py" bodystart="240" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classui__mainwindow_1_1_ui___main_window_1a7bece7881b88e701c80384d9b70c1ea9" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>ui_mainwindow.Ui_MainWindow::label_info_option</definition>
+        <argsstring></argsstring>
+        <name>label_info_option</name>
+        <qualifiedname>ui_mainwindow.Ui_MainWindow.label_info_option</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Katerina/data-visualisation-and-analysis-app/ui_mainwindow.py" line="244" column="1" bodyfile="D:/Katerina/data-visualisation-and-analysis-app/ui_mainwindow.py" bodystart="244" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classui__mainwindow_1_1_ui___main_window_1a38a6f008ca80257e753fd01812f36854" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>ui_mainwindow.Ui_MainWindow::frame_8</definition>
+        <argsstring></argsstring>
+        <name>frame_8</name>
+        <qualifiedname>ui_mainwindow.Ui_MainWindow.frame_8</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Katerina/data-visualisation-and-analysis-app/ui_mainwindow.py" line="254" column="1" bodyfile="D:/Katerina/data-visualisation-and-analysis-app/ui_mainwindow.py" bodystart="254" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classui__mainwindow_1_1_ui___main_window_1a867d28a674ec471cfa937e11caf0f084" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>ui_mainwindow.Ui_MainWindow::verticalLayout_7</definition>
+        <argsstring></argsstring>
+        <name>verticalLayout_7</name>
+        <qualifiedname>ui_mainwindow.Ui_MainWindow.verticalLayout_7</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Katerina/data-visualisation-and-analysis-app/ui_mainwindow.py" line="258" column="1" bodyfile="D:/Katerina/data-visualisation-and-analysis-app/ui_mainwindow.py" bodystart="258" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classui__mainwindow_1_1_ui___main_window_1a0cafd21c7c2e52da4bd13b6c2aefd0d9" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>ui_mainwindow.Ui_MainWindow::menubar</definition>
+        <argsstring></argsstring>
+        <name>menubar</name>
+        <qualifiedname>ui_mainwindow.Ui_MainWindow.menubar</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Katerina/data-visualisation-and-analysis-app/ui_mainwindow.py" line="267" column="1" bodyfile="D:/Katerina/data-visualisation-and-analysis-app/ui_mainwindow.py" bodystart="267" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classui__mainwindow_1_1_ui___main_window_1a0e75b14ce74c9d3d12e8d0ee751e4145" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>ui_mainwindow.Ui_MainWindow::statusbar</definition>
+        <argsstring></argsstring>
+        <name>statusbar</name>
+        <qualifiedname>ui_mainwindow.Ui_MainWindow.statusbar</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Katerina/data-visualisation-and-analysis-app/ui_mainwindow.py" line="271" column="1" bodyfile="D:/Katerina/data-visualisation-and-analysis-app/ui_mainwindow.py" bodystart="271" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classui__mainwindow_1_1_ui___main_window_1aa1b3c49a9e22a611933e2afc2335461a" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>ui_mainwindow.Ui_MainWindow::figure</definition>
+        <argsstring></argsstring>
+        <name>figure</name>
+        <qualifiedname>ui_mainwindow.Ui_MainWindow.figure</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Katerina/data-visualisation-and-analysis-app/ui_mainwindow.py" line="277" column="1" bodyfile="D:/Katerina/data-visualisation-and-analysis-app/ui_mainwindow.py" bodystart="277" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classui__mainwindow_1_1_ui___main_window_1a621d7b6d65ea3468ea687c6902e31331" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>ui_mainwindow.Ui_MainWindow::canvas</definition>
+        <argsstring></argsstring>
+        <name>canvas</name>
+        <qualifiedname>ui_mainwindow.Ui_MainWindow.canvas</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Katerina/data-visualisation-and-analysis-app/ui_mainwindow.py" line="278" column="1" bodyfile="D:/Katerina/data-visualisation-and-analysis-app/ui_mainwindow.py" bodystart="278" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classui__mainwindow_1_1_ui___main_window_1a8df90fded31935cdddf584100849944c" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>ui_mainwindow.Ui_MainWindow::toolbar</definition>
+        <argsstring></argsstring>
+        <name>toolbar</name>
+        <qualifiedname>ui_mainwindow.Ui_MainWindow.toolbar</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Katerina/data-visualisation-and-analysis-app/ui_mainwindow.py" line="280" column="1" bodyfile="D:/Katerina/data-visualisation-and-analysis-app/ui_mainwindow.py" bodystart="280" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classui__mainwindow_1_1_ui___main_window_1a396df7c1dea1f50a9f52dcca987d9c86" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ui_mainwindow.Ui_MainWindow.setupUi</definition>
+        <argsstring>(self, MainWindow)</argsstring>
+        <name>setupUi</name>
+        <qualifiedname>ui_mainwindow.Ui_MainWindow.setupUi</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>MainWindow</type>
+          <defname>MainWindow</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Katerina/data-visualisation-and-analysis-app/ui_mainwindow.py" line="27" column="1" bodyfile="D:/Katerina/data-visualisation-and-analysis-app/ui_mainwindow.py" bodystart="27" bodyend="284"/>
+      </memberdef>
+      <memberdef kind="function" id="classui__mainwindow_1_1_ui___main_window_1a77f52a3c5bbc2a22e131fabe2a5b4775" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ui_mainwindow.Ui_MainWindow.retranslateUi</definition>
+        <argsstring>(self, MainWindow)</argsstring>
+        <name>retranslateUi</name>
+        <qualifiedname>ui_mainwindow.Ui_MainWindow.retranslateUi</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>MainWindow</type>
+          <defname>MainWindow</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Katerina/data-visualisation-and-analysis-app/ui_mainwindow.py" line="287" column="1" bodyfile="D:/Katerina/data-visualisation-and-analysis-app/ui_mainwindow.py" bodystart="287" bodyend="358"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>mainWindow.MainWindow</label>
+        <link refid="classmain_window_1_1_main_window"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>object</label>
+      </node>
+      <node id="1">
+        <label>ui_mainwindow.Ui_MainWindow</label>
+        <link refid="classui__mainwindow_1_1_ui___main_window"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>object</label>
+      </node>
+      <node id="1">
+        <label>ui_mainwindow.Ui_MainWindow</label>
+        <link refid="classui__mainwindow_1_1_ui___main_window"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Katerina/data-visualisation-and-analysis-app/ui_mainwindow.py" line="26" column="1" bodyfile="D:/Katerina/data-visualisation-and-analysis-app/ui_mainwindow.py" bodystart="26" bodyend="361"/>
+    <listofallmembers>
+      <member refid="classui__mainwindow_1_1_ui___main_window_1a621d7b6d65ea3468ea687c6902e31331" prot="public" virt="non-virtual"><scope>ui_mainwindow::Ui_MainWindow</scope><name>canvas</name></member>
+      <member refid="classui__mainwindow_1_1_ui___main_window_1ae98e7f65edb7c3995f5e5dcb99a70431" prot="public" virt="non-virtual"><scope>ui_mainwindow::Ui_MainWindow</scope><name>centralwidget</name></member>
+      <member refid="classui__mainwindow_1_1_ui___main_window_1a97af4908add12fce8288e1b811c2d31c" prot="public" virt="non-virtual"><scope>ui_mainwindow::Ui_MainWindow</scope><name>comboBox_camera</name></member>
+      <member refid="classui__mainwindow_1_1_ui___main_window_1a7b9e1abd26b756c7fba70179d36ed721" prot="public" virt="non-virtual"><scope>ui_mainwindow::Ui_MainWindow</scope><name>comboBox_method</name></member>
+      <member refid="classui__mainwindow_1_1_ui___main_window_1a421cb8fcc100a2920366efbfc608bc22" prot="public" virt="non-virtual"><scope>ui_mainwindow::Ui_MainWindow</scope><name>comboBox_options</name></member>
+      <member refid="classui__mainwindow_1_1_ui___main_window_1acc3e7c28b791d123af2358459951ee11" prot="public" virt="non-virtual"><scope>ui_mainwindow::Ui_MainWindow</scope><name>comboBox_type</name></member>
+      <member refid="classui__mainwindow_1_1_ui___main_window_1a43ff5d9fa022cf44a4c3c059d40a3279" prot="public" virt="non-virtual"><scope>ui_mainwindow::Ui_MainWindow</scope><name>dateEdit_from</name></member>
+      <member refid="classui__mainwindow_1_1_ui___main_window_1a2dc50dd2c96bad5d4416c1111fa2de08" prot="public" virt="non-virtual"><scope>ui_mainwindow::Ui_MainWindow</scope><name>dateEdit_to</name></member>
+      <member refid="classui__mainwindow_1_1_ui___main_window_1aa1b3c49a9e22a611933e2afc2335461a" prot="public" virt="non-virtual"><scope>ui_mainwindow::Ui_MainWindow</scope><name>figure</name></member>
+      <member refid="classui__mainwindow_1_1_ui___main_window_1ad4eac9c606168c46779531c49a60ab5d" prot="public" virt="non-virtual"><scope>ui_mainwindow::Ui_MainWindow</scope><name>formLayout</name></member>
+      <member refid="classui__mainwindow_1_1_ui___main_window_1a784c6ab0319151e1faee148d2fff2b28" prot="public" virt="non-virtual"><scope>ui_mainwindow::Ui_MainWindow</scope><name>formLayout_2</name></member>
+      <member refid="classui__mainwindow_1_1_ui___main_window_1a93a5b1d1c9ea80b65ce86c9fbda5a6a1" prot="public" virt="non-virtual"><scope>ui_mainwindow::Ui_MainWindow</scope><name>frame</name></member>
+      <member refid="classui__mainwindow_1_1_ui___main_window_1a161f7db8e998687e9deaf5e1764398d7" prot="public" virt="non-virtual"><scope>ui_mainwindow::Ui_MainWindow</scope><name>frame_2</name></member>
+      <member refid="classui__mainwindow_1_1_ui___main_window_1a94f74cd8d490af0ae03924d22309bbbb" prot="public" virt="non-virtual"><scope>ui_mainwindow::Ui_MainWindow</scope><name>frame_3</name></member>
+      <member refid="classui__mainwindow_1_1_ui___main_window_1aa5e53b40c2e850d8da2ee39e9bbc180b" prot="public" virt="non-virtual"><scope>ui_mainwindow::Ui_MainWindow</scope><name>frame_4</name></member>
+      <member refid="classui__mainwindow_1_1_ui___main_window_1ab5b26072d900102a35ed0968414c5578" prot="public" virt="non-virtual"><scope>ui_mainwindow::Ui_MainWindow</scope><name>frame_5</name></member>
+      <member refid="classui__mainwindow_1_1_ui___main_window_1a7d1142673b3cca82939e36c0047a4faa" prot="public" virt="non-virtual"><scope>ui_mainwindow::Ui_MainWindow</scope><name>frame_6</name></member>
+      <member refid="classui__mainwindow_1_1_ui___main_window_1a201dda6fbe672f31e18ba98393468be1" prot="public" virt="non-virtual"><scope>ui_mainwindow::Ui_MainWindow</scope><name>frame_7</name></member>
+      <member refid="classui__mainwindow_1_1_ui___main_window_1a38a6f008ca80257e753fd01812f36854" prot="public" virt="non-virtual"><scope>ui_mainwindow::Ui_MainWindow</scope><name>frame_8</name></member>
+      <member refid="classui__mainwindow_1_1_ui___main_window_1a15a73ec8712b1f2a2bf255304fe378b0" prot="public" virt="non-virtual"><scope>ui_mainwindow::Ui_MainWindow</scope><name>gridLayout</name></member>
+      <member refid="classui__mainwindow_1_1_ui___main_window_1a2ac6ede77745d9b22fded2e206c9fd3e" prot="public" virt="non-virtual"><scope>ui_mainwindow::Ui_MainWindow</scope><name>groupBox_about</name></member>
+      <member refid="classui__mainwindow_1_1_ui___main_window_1a53a03e3d9ff7c7bcd823b94781c0e509" prot="public" virt="non-virtual"><scope>ui_mainwindow::Ui_MainWindow</scope><name>groupBox_about_2</name></member>
+      <member refid="classui__mainwindow_1_1_ui___main_window_1a5bbccbf767b42b0e195d198425ee27a6" prot="public" virt="non-virtual"><scope>ui_mainwindow::Ui_MainWindow</scope><name>groupBox_about_3</name></member>
+      <member refid="classui__mainwindow_1_1_ui___main_window_1a67bab3830da21866588effc7cd88a8f9" prot="public" virt="non-virtual"><scope>ui_mainwindow::Ui_MainWindow</scope><name>groupBox_options</name></member>
+      <member refid="classui__mainwindow_1_1_ui___main_window_1adb984b085ebbc227dcbee2d0479361e1" prot="public" virt="non-virtual"><scope>ui_mainwindow::Ui_MainWindow</scope><name>groupBox_period</name></member>
+      <member refid="classui__mainwindow_1_1_ui___main_window_1ace4bfebe95f52f4917c0882a1df11806" prot="public" virt="non-virtual"><scope>ui_mainwindow::Ui_MainWindow</scope><name>groupBox_selec_camera</name></member>
+      <member refid="classui__mainwindow_1_1_ui___main_window_1a0ed0e486dc9e3052fa1b528ca855cff5" prot="public" virt="non-virtual"><scope>ui_mainwindow::Ui_MainWindow</scope><name>groupBox_select_method</name></member>
+      <member refid="classui__mainwindow_1_1_ui___main_window_1a402741a7d4d9109d6b5064eefa1a7e65" prot="public" virt="non-virtual"><scope>ui_mainwindow::Ui_MainWindow</scope><name>groupBox_select_type</name></member>
+      <member refid="classui__mainwindow_1_1_ui___main_window_1a00f85b97abf944c50f49ca0f53a14e17" prot="public" virt="non-virtual"><scope>ui_mainwindow::Ui_MainWindow</scope><name>horizontalLayout</name></member>
+      <member refid="classui__mainwindow_1_1_ui___main_window_1ad0af872b0f9c072e4193a358f4e19fc5" prot="public" virt="non-virtual"><scope>ui_mainwindow::Ui_MainWindow</scope><name>horizontalLayout_2</name></member>
+      <member refid="classui__mainwindow_1_1_ui___main_window_1a5b0b1f1b6489378de9101a3214bf1ddd" prot="public" virt="non-virtual"><scope>ui_mainwindow::Ui_MainWindow</scope><name>horizontalLayout_4</name></member>
+      <member refid="classui__mainwindow_1_1_ui___main_window_1a42280a9bb649411621ef005de275e746" prot="public" virt="non-virtual"><scope>ui_mainwindow::Ui_MainWindow</scope><name>label_from</name></member>
+      <member refid="classui__mainwindow_1_1_ui___main_window_1a7df63b5c295dabd85bbe1a3f37f29f2e" prot="public" virt="non-virtual"><scope>ui_mainwindow::Ui_MainWindow</scope><name>label_info</name></member>
+      <member refid="classui__mainwindow_1_1_ui___main_window_1a7bece7881b88e701c80384d9b70c1ea9" prot="public" virt="non-virtual"><scope>ui_mainwindow::Ui_MainWindow</scope><name>label_info_option</name></member>
+      <member refid="classui__mainwindow_1_1_ui___main_window_1a76f899bed61651dc771160d5b3670d84" prot="public" virt="non-virtual"><scope>ui_mainwindow::Ui_MainWindow</scope><name>label_label_info_result</name></member>
+      <member refid="classui__mainwindow_1_1_ui___main_window_1a638ce5ca92814fd1441607f5ffd90424" prot="public" virt="non-virtual"><scope>ui_mainwindow::Ui_MainWindow</scope><name>label_to</name></member>
+      <member refid="classui__mainwindow_1_1_ui___main_window_1a0cafd21c7c2e52da4bd13b6c2aefd0d9" prot="public" virt="non-virtual"><scope>ui_mainwindow::Ui_MainWindow</scope><name>menubar</name></member>
+      <member refid="classui__mainwindow_1_1_ui___main_window_1aa20ffb0bb0de6e2c768cdd3aed6d3337" prot="public" virt="non-virtual"><scope>ui_mainwindow::Ui_MainWindow</scope><name>pushButton</name></member>
+      <member refid="classui__mainwindow_1_1_ui___main_window_1a88b29874d5ce73608453e8b2f67520cf" prot="public" virt="non-virtual"><scope>ui_mainwindow::Ui_MainWindow</scope><name>pushButton_Export</name></member>
+      <member refid="classui__mainwindow_1_1_ui___main_window_1a77f52a3c5bbc2a22e131fabe2a5b4775" prot="public" virt="non-virtual"><scope>ui_mainwindow::Ui_MainWindow</scope><name>retranslateUi</name></member>
+      <member refid="classui__mainwindow_1_1_ui___main_window_1a396df7c1dea1f50a9f52dcca987d9c86" prot="public" virt="non-virtual"><scope>ui_mainwindow::Ui_MainWindow</scope><name>setupUi</name></member>
+      <member refid="classui__mainwindow_1_1_ui___main_window_1a0e75b14ce74c9d3d12e8d0ee751e4145" prot="public" virt="non-virtual"><scope>ui_mainwindow::Ui_MainWindow</scope><name>statusbar</name></member>
+      <member refid="classui__mainwindow_1_1_ui___main_window_1a8df90fded31935cdddf584100849944c" prot="public" virt="non-virtual"><scope>ui_mainwindow::Ui_MainWindow</scope><name>toolbar</name></member>
+      <member refid="classui__mainwindow_1_1_ui___main_window_1a34783b6de2a1105eb091601f3d907e84" prot="public" virt="non-virtual"><scope>ui_mainwindow::Ui_MainWindow</scope><name>verticalLayout</name></member>
+      <member refid="classui__mainwindow_1_1_ui___main_window_1a88672e0fc5fd5050c3b3cc964eb423c4" prot="public" virt="non-virtual"><scope>ui_mainwindow::Ui_MainWindow</scope><name>verticalLayout_2</name></member>
+      <member refid="classui__mainwindow_1_1_ui___main_window_1a38c9ed064be7141994e48cb33a5abed1" prot="public" virt="non-virtual"><scope>ui_mainwindow::Ui_MainWindow</scope><name>verticalLayout_3</name></member>
+      <member refid="classui__mainwindow_1_1_ui___main_window_1a2e98ac6c3aafc3cb3e997af4329abd72" prot="public" virt="non-virtual"><scope>ui_mainwindow::Ui_MainWindow</scope><name>verticalLayout_4</name></member>
+      <member refid="classui__mainwindow_1_1_ui___main_window_1a5ac9fe8cd1bc3ed51fdf71541c5e8e58" prot="public" virt="non-virtual"><scope>ui_mainwindow::Ui_MainWindow</scope><name>verticalLayout_5</name></member>
+      <member refid="classui__mainwindow_1_1_ui___main_window_1a9d794c3eca1fa7185e8ebecc0f47b0b0" prot="public" virt="non-virtual"><scope>ui_mainwindow::Ui_MainWindow</scope><name>verticalLayout_6</name></member>
+      <member refid="classui__mainwindow_1_1_ui___main_window_1a867d28a674ec471cfa937e11caf0f084" prot="public" virt="non-virtual"><scope>ui_mainwindow::Ui_MainWindow</scope><name>verticalLayout_7</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

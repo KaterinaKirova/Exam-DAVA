@@ -1,0 +1,176 @@
+.TH "Camera.Camera" 3 "DAVA" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Camera.Camera
+.SH SYNOPSIS
+.br
+.PP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fB__init__\fP (self, title, date_from, date_to)"
+.br
+.ti -1c
+.RI "\fBget_data\fP (self)"
+.br
+.ti -1c
+.RI "\fBfetch_data\fP (self)"
+.br
+.ti -1c
+.RI "\fBget_info\fP (self)"
+.br
+.ti -1c
+.RI "\fBget_info_result\fP (self)"
+.br
+.ti -1c
+.RI "\fBget_info_option\fP (self, option)"
+.br
+.ti -1c
+.RI "\fBget_sorted_types\fP (self)"
+.br
+.ti -1c
+.RI "\fBget_options\fP (self)"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+
+.PP
+.nf
+The Camera class have:
+
+    Attributes:
+        title : Camera name
+        date_from : start date
+        date_to : end date
+        options : what options the camera has
+        data : the camera data
+        selected_camera_data : the selected_camera
+
+    Methods:
+        get_data() : Function that get the data
+        fetch_data() :  Function that fetch the data\&.
+        get_info() : Function that checks if there is data and return info about the camera if there is\&. Otherwise, it returns
+        text that it can't find any data\&.
+        get_info_result() :  Function that show how many accepted, failed, passed or notDone tests have been done\&.
+        get_info_option(option) : Function that checks if there is option and show info about the camera if there is\&. Otherwise, it returns
+        empty text\&.
+        get_sorted_types() : Function that sort the types\&.
+        get_options() : Function that return list of options\&.
+.fi
+.PP
+ 
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "Camera\&.Camera\&.__init__ ( self,  title,  date_from,  date_to)"
+
+.SH "Member Function Documentation"
+.PP 
+.SS "Camera\&.Camera\&.fetch_data ( self)"
+
+.PP
+.nf
+    fetch_data()
+    Function that fetch the data\&.
+
+    Returns:
+        self\&.__selected_camera_data\&.get_data() (DataFrame)
+
+.fi
+.PP
+ 
+.SS "Camera\&.Camera\&.get_data ( self)"
+
+.PP
+.nf
+    get_data()
+    Function that get the data
+
+    Returns:
+        data (DataFrame)
+
+.fi
+.PP
+ 
+.SS "Camera\&.Camera\&.get_info ( self)"
+
+.PP
+.nf
+    get_info()
+    Function that checks if there is data and return info about the camera if there is\&. Otherwise, it returns
+    text that it can't find any data\&.
+
+    Returns:
+        'No results found' (sting)
+        or
+        camera information that includes
+        the camera types and
+        how many tests were accepted or passed with each type (string)
+
+.fi
+.PP
+ 
+.SS "Camera\&.Camera\&.get_info_option ( self,  option)"
+
+.PP
+.nf
+    get_info_option()
+    Function that checks if there is option and show info about the camera if there is\&. Otherwise, it returns
+    empty text\&.
+
+    Args:
+        option (str) : The option that is selected
+
+    Returns:
+        camera information that includes
+        how much is the minimum, maximum and average value of a selected option\&.(string)
+
+.fi
+.PP
+ 
+.SS "Camera\&.Camera\&.get_info_result ( self)"
+
+.PP
+.nf
+    get_info_result()
+    Function that show how many accepted, failed, passed or notDone tests have been done\&.
+
+    Returns:
+        camera information that includes
+        how many accepted, failed, passed or notDone tests (string)
+
+.fi
+.PP
+ 
+.SS "Camera\&.Camera\&.get_options ( self)"
+
+.PP
+.nf
+    get_options()
+    Function that return list of options\&.
+
+    Returns:
+        options (list)
+
+.fi
+.PP
+ 
+.SS "Camera\&.Camera\&.get_sorted_types ( self)"
+
+.PP
+.nf
+    get_sorted_types()
+    Function that sort the types\&.
+
+    Returns:
+        map(str, values) (map object)
+
+.fi
+.PP
+ 
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for DAVA from the source code\&.

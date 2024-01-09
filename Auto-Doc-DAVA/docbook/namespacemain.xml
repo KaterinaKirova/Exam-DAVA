@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_namespacemain" xml:lang="en-US">
+<title>main Namespace Reference</title>
+<indexterm><primary>main</primary></indexterm>
+<simplesect>
+    <title>Variables    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_namespacemain_1a5fa94f0581009434c7a63791944d6ff4">app</link> = QApplication(sys.argv)</para>
+</listitem>
+            <listitem><para><link linkend="_namespacemain_1ae1ea5d7d8ba9156ef06beef9bf8901a8">window</link> = <link linkend="_classmain_window_1_1_main_window">MainWindow</link>()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Variable Documentation</title>
+<anchor xml:id="_namespacemain_1a5fa94f0581009434c7a63791944d6ff4"/><section>
+    <title>app</title>
+<indexterm><primary>app</primary><secondary>main</secondary></indexterm>
+<indexterm><primary>main</primary><secondary>app</secondary></indexterm>
+<para><computeroutput>main.app = QApplication(sys.argv)</computeroutput></para></section>
+<anchor xml:id="_namespacemain_1ae1ea5d7d8ba9156ef06beef9bf8901a8"/><section>
+    <title>window</title>
+<indexterm><primary>window</primary><secondary>main</secondary></indexterm>
+<indexterm><primary>main</primary><secondary>window</secondary></indexterm>
+<para><computeroutput>main.window = <link linkend="_classmain_window_1_1_main_window">MainWindow</link>()</computeroutput></para></section>
+</section>
+</section>

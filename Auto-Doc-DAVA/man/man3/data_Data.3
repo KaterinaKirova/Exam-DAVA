@@ -1,0 +1,94 @@
+.TH "data.Data" 3 "DAVA" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+data.Data
+.SH SYNOPSIS
+.br
+.PP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fB__init__\fP (self, table_name, date_from, date_to)"
+.br
+.ti -1c
+.RI "\fBget_data\fP (self)"
+.br
+.ti -1c
+.RI "\fBget_options\fP (self)"
+.br
+.ti -1c
+.RI "\fBget_complete_test_res\fP (self)"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+
+.PP
+.nf
+The MainWindow class inherits QMainWindow and Ui_MainWindow class and have:
+
+           Attributes:
+               table_name :
+               date_from :
+               date_to :
+
+           Methods:
+              get_data() :  Function that return DataFrame with data for selected camera and selected period of time
+              get_options() : Function that return DataFrame with data for every option with decimal or integer values\&.
+              get_complete_test_res() : Function that return DataFrame with data for all tests, not only the
+              accepted and passed test\&.
+
+.fi
+.PP
+ 
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "data\&.Data\&.__init__ ( self,  table_name,  date_from,  date_to)"
+
+.SH "Member Function Documentation"
+.PP 
+.SS "data\&.Data\&.get_complete_test_res ( self)"
+
+.PP
+.nf
+    get_complete_test_res()
+    Function that return DataFrame with data for all tests, not only the accepted and passed test\&.
+
+    Returns:
+        compete_test_res (DataFrame)
+
+.fi
+.PP
+ 
+.SS "data\&.Data\&.get_data ( self)"
+
+.PP
+.nf
+    get_data()
+    Function that return DataFrame with data for selected camera and selected period of time\&.
+
+    Returns:
+        data_accepted_passed\&.set_index('Date') (DataFrame)
+
+.fi
+.PP
+ 
+.SS "data\&.Data\&.get_options ( self)"
+
+.PP
+.nf
+    get_option()
+    Function that return DataFrame with data for every option with decimal or integer values\&.
+
+    Returns:
+        data_accepted_passed\&.set_index('Date') (DataFrame)
+
+.fi
+.PP
+ 
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for DAVA from the source code\&.

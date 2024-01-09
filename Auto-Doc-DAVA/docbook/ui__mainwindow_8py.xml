@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_ui__mainwindow_8py" xml:lang="en-US">
+<title>D:/Katerina/data-visualisation-and-analysis-app/ui_mainwindow.py File Reference</title>
+<indexterm><primary>D:/Katerina/data-visualisation-and-analysis-app/ui_mainwindow.py</primary></indexterm>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <link linkend="_classui__mainwindow_1_1_ui___main_window">ui_mainwindow.Ui_MainWindow</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Namespaces    </title>
+        <itemizedlist>
+            <listitem><para>namespace <link linkend="_namespaceui__mainwindow">ui_mainwindow</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

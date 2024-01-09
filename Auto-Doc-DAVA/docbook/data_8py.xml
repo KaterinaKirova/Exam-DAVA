@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_data_8py" xml:lang="en-US">
+<title>D:/Katerina/data-visualisation-and-analysis-app/data.py File Reference</title>
+<indexterm><primary>D:/Katerina/data-visualisation-and-analysis-app/data.py</primary></indexterm>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <link linkend="_classdata_1_1_cameras_data">data.CamerasData</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classdata_1_1_data">data.Data</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Namespaces    </title>
+        <itemizedlist>
+            <listitem><para>namespace <link linkend="_namespacedata">data</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Variables    </title>
+        <itemizedlist>
+            <listitem><para>str <link linkend="_namespacedata_1ad2ec3630c607f1d4da0f32410c1c1c8a">data.USER</link> = &apos;sqluser&apos;</para>
+</listitem>
+            <listitem><para>str <link linkend="_namespacedata_1ad1a68d9aa6079776a8bf27d1176b3a2a">data.PASSWORD</link> = &apos;Chroma1.0&apos;</para>
+</listitem>
+            <listitem><para>str <link linkend="_namespacedata_1a87619bf44d5077534d3910d62a8fa977">data.HOST</link> = &apos;192.168.86.12&apos;</para>
+</listitem>
+            <listitem><para>int <link linkend="_namespacedata_1a7a23373f796a82ab3bb563833b27f896">data.PORT</link> = 3306</para>
+</listitem>
+            <listitem><para>str <link linkend="_namespacedata_1ae8043aa2d5a6013927945e5995589f1e">data.DATABASE</link> = &apos;production_data&apos;</para>
+</listitem>
+            <listitem><para><link linkend="_namespacedata_1a59bbca5442328d20a24639ebe3e26f1a">data.CONNECTION</link> = create_engine(url=&quot;mysql+pymysql://{0}:{1}@{2}:{3}/{4}&quot;.format(<link linkend="_namespacedata_1ad2ec3630c607f1d4da0f32410c1c1c8a">USER</link>, <link linkend="_namespacedata_1ad1a68d9aa6079776a8bf27d1176b3a2a">PASSWORD</link>, <link linkend="_namespacedata_1a87619bf44d5077534d3910d62a8fa977">HOST</link>, <link linkend="_namespacedata_1a7a23373f796a82ab3bb563833b27f896">PORT</link>, <link linkend="_namespacedata_1ae8043aa2d5a6013927945e5995589f1e">DATABASE</link>))</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

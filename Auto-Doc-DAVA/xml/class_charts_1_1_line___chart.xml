@@ -1,0 +1,138 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_charts_1_1_line___chart" kind="class" language="Python" prot="public">
+    <compoundname>Charts::Line_Chart</compoundname>
+    <basecompoundref refid="class_charts_1_1_chart" prot="public" virt="non-virtual">Charts.Chart</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_charts_1_1_line___chart_1add4fa1e59f4802a075312ff1a30c789c" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>Charts.Line_Chart::__canvas</definition>
+        <argsstring></argsstring>
+        <name>__canvas</name>
+        <qualifiedname>Charts.Line_Chart.__canvas</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Katerina/data-visualisation-and-analysis-app/Charts.py" line="66" column="1" bodyfile="D:/Katerina/data-visualisation-and-analysis-app/Charts.py" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_charts_1_1_line___chart_1aff8189b51156e2963535bdb207b5b803" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>Charts.Line_Chart::__ax</definition>
+        <argsstring></argsstring>
+        <name>__ax</name>
+        <qualifiedname>Charts.Line_Chart.__ax</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Katerina/data-visualisation-and-analysis-app/Charts.py" line="78" column="1" bodyfile="D:/Katerina/data-visualisation-and-analysis-app/Charts.py" bodystart="78" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_charts_1_1_line___chart_1a43300a553f4b2af680fb2f297071293b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Charts.Line_Chart.__init__</definition>
+        <argsstring>(self, canvas)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>Charts.Line_Chart.__init__</qualifiedname>
+        <reimplements refid="class_charts_1_1_chart_1acfb2b410f014504139151b01769ec340">__init__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>canvas</type>
+          <defname>canvas</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Katerina/data-visualisation-and-analysis-app/Charts.py" line="64" column="1" bodyfile="D:/Katerina/data-visualisation-and-analysis-app/Charts.py" bodystart="64" bodyend="67"/>
+      </memberdef>
+      <memberdef kind="function" id="class_charts_1_1_line___chart_1a4bc87d266f7d173c246e7d61556d52fe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Charts.Line_Chart.to_show</definition>
+        <argsstring>(self, data, concrete_option)</argsstring>
+        <name>to_show</name>
+        <qualifiedname>Charts.Line_Chart.to_show</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>data</type>
+          <defname>data</defname>
+        </param>
+        <param>
+          <type>concrete_option</type>
+          <defname>concrete_option</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>    to_show(data, concrete_option)
+    Function that draws the data on the canvas according to the selected method.
+
+    Args:
+        data (DataFrame) :
+        concrete_option (str) : The option that is selected
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Katerina/data-visualisation-and-analysis-app/Charts.py" line="68" column="1" bodyfile="D:/Katerina/data-visualisation-and-analysis-app/Charts.py" bodystart="68" bodyend="92"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>The Line_Chart class inherits Chart class and have:
+
+    Attributes:
+        canvas : FigureCanvasQTAgg
+
+    Methods:
+       to_show(data, concrete_option) : Function that draws the data on the canvas according to the selected method.
+</verbatim> </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Charts.Line_Chart</label>
+        <link refid="class_charts_1_1_line___chart"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Charts.Chart</label>
+        <link refid="class_charts_1_1_chart"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>Charts.Line_Chart</label>
+        <link refid="class_charts_1_1_line___chart"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Charts.Chart</label>
+        <link refid="class_charts_1_1_chart"/>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Katerina/data-visualisation-and-analysis-app/Charts.py" line="55" column="1" bodyfile="D:/Katerina/data-visualisation-and-analysis-app/Charts.py" bodystart="55" bodyend="92"/>
+    <listofallmembers>
+      <member refid="class_charts_1_1_line___chart_1aff8189b51156e2963535bdb207b5b803" prot="private" virt="non-virtual"><scope>Charts::Line_Chart</scope><name>__ax</name></member>
+      <member refid="class_charts_1_1_line___chart_1add4fa1e59f4802a075312ff1a30c789c" prot="private" virt="non-virtual"><scope>Charts::Line_Chart</scope><name>__canvas</name></member>
+      <member refid="class_charts_1_1_line___chart_1a43300a553f4b2af680fb2f297071293b" prot="public" virt="non-virtual"><scope>Charts::Line_Chart</scope><name>__init__</name></member>
+      <member refid="class_charts_1_1_line___chart_1a4bc87d266f7d173c246e7d61556d52fe" prot="public" virt="non-virtual"><scope>Charts::Line_Chart</scope><name>to_show</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

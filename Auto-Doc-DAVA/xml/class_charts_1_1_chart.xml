@@ -1,0 +1,146 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_charts_1_1_chart" kind="class" language="Python" prot="public">
+    <compoundname>Charts::Chart</compoundname>
+    <derivedcompoundref refid="class_charts_1_1_average___chart" prot="public" virt="non-virtual">Charts.Average_Chart</derivedcompoundref>
+    <derivedcompoundref refid="class_charts_1_1_line___chart" prot="public" virt="non-virtual">Charts.Line_Chart</derivedcompoundref>
+    <derivedcompoundref refid="class_charts_1_1_line___chart__of__specific___type" prot="public" virt="non-virtual">Charts.Line_Chart_of_specific_Type</derivedcompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_charts_1_1_chart_1a3cd59123a32d7a3d008ccfc413ed5e35" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>Charts.Chart::__ax</definition>
+        <argsstring></argsstring>
+        <name>__ax</name>
+        <qualifiedname>Charts.Chart.__ax</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Katerina/data-visualisation-and-analysis-app/Charts.py" line="20" column="1" bodyfile="D:/Katerina/data-visualisation-and-analysis-app/Charts.py" bodystart="20" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_charts_1_1_chart_1acfb2b410f014504139151b01769ec340" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Charts.Chart.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>Charts.Chart.__init__</qualifiedname>
+        <reimplementedby refid="class_charts_1_1_line___chart_1a43300a553f4b2af680fb2f297071293b">__init__</reimplementedby>
+        <reimplementedby refid="class_charts_1_1_average___chart_1a5abbb922ee633c1f4e19337bc1683c44">__init__</reimplementedby>
+        <reimplementedby refid="class_charts_1_1_line___chart__of__specific___type_1a0f5923963dd742686c09f50e5c9236a3">__init__</reimplementedby>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Katerina/data-visualisation-and-analysis-app/Charts.py" line="19" column="1" bodyfile="D:/Katerina/data-visualisation-and-analysis-app/Charts.py" bodystart="19" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="function" id="class_charts_1_1_chart_1a8fcb6e9cdec169b3569668e46b7ec553" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Charts.Chart.show_error_message</definition>
+        <argsstring>(self)</argsstring>
+        <name>show_error_message</name>
+        <qualifiedname>Charts.Chart.show_error_message</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>    show_error_message()
+    Function that makes a new window to show that there is an error.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Katerina/data-visualisation-and-analysis-app/Charts.py" line="22" column="1" bodyfile="D:/Katerina/data-visualisation-and-analysis-app/Charts.py" bodystart="22" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="function" id="class_charts_1_1_chart_1aff942a9e824a634b58385413311c3c46" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Charts.Chart.show_color</definition>
+        <argsstring>(self, concrete_option)</argsstring>
+        <name>show_color</name>
+        <qualifiedname>Charts.Chart.show_color</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>concrete_option</type>
+          <defname>concrete_option</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>    show_color()
+    Function that checks whether the option name has a &apos;G&apos; for green, &apos;R&apos; for red or &apos;B&apos; for blue. If none,
+    still return &apos;b&apos; for blue.
+
+    Arg:
+       concrete_option (str) : The option that is selected
+
+    Returns:
+         &apos;g&apos;, &apos;r&apos;, or &apos;b&apos;(str)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Katerina/data-visualisation-and-analysis-app/Charts.py" line="34" column="1" bodyfile="D:/Katerina/data-visualisation-and-analysis-app/Charts.py" bodystart="34" bodyend="54"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>The Chart class have:
+
+    Attributes:
+        ax :  encapsulates all the elements of an individual (sub-)plot in a figure.
+
+    Methods:
+       show_error_message() : Function that makes a new window to show that there is an error.
+       show_color(concrete_option) : Function that checks whether the option name has a &apos;G&apos; for green, &apos;R&apos; for red
+       or &apos;B&apos; for blue. If none, still return &apos;b&apos; for blue.
+</verbatim> </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Charts.Chart</label>
+        <link refid="class_charts_1_1_chart"/>
+      </node>
+      <node id="2">
+        <label>Charts.Average_Chart</label>
+        <link refid="class_charts_1_1_average___chart"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>Charts.Line_Chart</label>
+        <link refid="class_charts_1_1_line___chart"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>Charts.Line_Chart_of_specific_Type</label>
+        <link refid="class_charts_1_1_line___chart__of__specific___type"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="D:/Katerina/data-visualisation-and-analysis-app/Charts.py" line="8" column="1" bodyfile="D:/Katerina/data-visualisation-and-analysis-app/Charts.py" bodystart="8" bodyend="54"/>
+    <listofallmembers>
+      <member refid="class_charts_1_1_chart_1a3cd59123a32d7a3d008ccfc413ed5e35" prot="private" virt="non-virtual"><scope>Charts::Chart</scope><name>__ax</name></member>
+      <member refid="class_charts_1_1_chart_1acfb2b410f014504139151b01769ec340" prot="public" virt="non-virtual"><scope>Charts::Chart</scope><name>__init__</name></member>
+      <member refid="class_charts_1_1_chart_1aff942a9e824a634b58385413311c3c46" prot="public" virt="non-virtual"><scope>Charts::Chart</scope><name>show_color</name></member>
+      <member refid="class_charts_1_1_chart_1a8fcb6e9cdec169b3569668e46b7ec553" prot="public" virt="non-virtual"><scope>Charts::Chart</scope><name>show_error_message</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

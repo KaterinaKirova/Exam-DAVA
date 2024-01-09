@@ -1,0 +1,82 @@
+\doxysection{data.\+Data Class Reference}
+\hypertarget{classdata_1_1_data}{}\label{classdata_1_1_data}\index{data.Data@{data.Data}}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classdata_1_1_data_a549a925818b17a9a716978d7eb31c761}{\+\_\+\+\_\+init\+\_\+\+\_\+}} (self, table\+\_\+name, date\+\_\+from, date\+\_\+to)
+\item 
+\mbox{\hyperlink{classdata_1_1_data_aa4109d99b68c490e84c93fcf39ba8904}{get\+\_\+data}} (self)
+\item 
+\mbox{\hyperlink{classdata_1_1_data_adde6ba0e4bc74edda0bff00e0b9d9c41}{get\+\_\+options}} (self)
+\item 
+\mbox{\hyperlink{classdata_1_1_data_a6721ace52e4d9d48f8cf9ae17338fb05}{get\+\_\+complete\+\_\+test\+\_\+res}} (self)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\begin{DoxyVerb}The MainWindow class inherits QMainWindow and Ui_MainWindow class and have:
+
+           Attributes:
+               table_name :
+               date_from :
+               date_to :
+
+           Methods:
+              get_data() :  Function that return DataFrame with data for selected camera and selected period of time
+              get_options() : Function that return DataFrame with data for every option with decimal or integer values.
+              get_complete_test_res() : Function that return DataFrame with data for all tests, not only the
+              accepted and passed test.
+\end{DoxyVerb}
+ 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{classdata_1_1_data_a549a925818b17a9a716978d7eb31c761}\label{classdata_1_1_data_a549a925818b17a9a716978d7eb31c761} 
+\index{data.Data@{data.Data}!\_\_init\_\_@{\_\_init\_\_}}
+\index{\_\_init\_\_@{\_\_init\_\_}!data.Data@{data.Data}}
+\doxysubsubsection{\texorpdfstring{\_\_init\_\_()}{\_\_init\_\_()}}
+{\footnotesize\ttfamily data.\+Data.\+\_\+\+\_\+init\+\_\+\+\_\+ (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{table\+\_\+name,  }\item[{}]{date\+\_\+from,  }\item[{}]{date\+\_\+to }\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classdata_1_1_data_a6721ace52e4d9d48f8cf9ae17338fb05}\label{classdata_1_1_data_a6721ace52e4d9d48f8cf9ae17338fb05} 
+\index{data.Data@{data.Data}!get\_complete\_test\_res@{get\_complete\_test\_res}}
+\index{get\_complete\_test\_res@{get\_complete\_test\_res}!data.Data@{data.Data}}
+\doxysubsubsection{\texorpdfstring{get\_complete\_test\_res()}{get\_complete\_test\_res()}}
+{\footnotesize\ttfamily data.\+Data.\+get\+\_\+complete\+\_\+test\+\_\+res (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}    get_complete_test_res()
+    Function that return DataFrame with data for all tests, not only the accepted and passed test.
+
+    Returns:
+        compete_test_res (DataFrame)
+\end{DoxyVerb}
+ \Hypertarget{classdata_1_1_data_aa4109d99b68c490e84c93fcf39ba8904}\label{classdata_1_1_data_aa4109d99b68c490e84c93fcf39ba8904} 
+\index{data.Data@{data.Data}!get\_data@{get\_data}}
+\index{get\_data@{get\_data}!data.Data@{data.Data}}
+\doxysubsubsection{\texorpdfstring{get\_data()}{get\_data()}}
+{\footnotesize\ttfamily data.\+Data.\+get\+\_\+data (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}    get_data()
+    Function that return DataFrame with data for selected camera and selected period of time.
+
+    Returns:
+        data_accepted_passed.set_index('Date') (DataFrame)
+\end{DoxyVerb}
+ \Hypertarget{classdata_1_1_data_adde6ba0e4bc74edda0bff00e0b9d9c41}\label{classdata_1_1_data_adde6ba0e4bc74edda0bff00e0b9d9c41} 
+\index{data.Data@{data.Data}!get\_options@{get\_options}}
+\index{get\_options@{get\_options}!data.Data@{data.Data}}
+\doxysubsubsection{\texorpdfstring{get\_options()}{get\_options()}}
+{\footnotesize\ttfamily data.\+Data.\+get\+\_\+options (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}    get_option()
+    Function that return DataFrame with data for every option with decimal or integer values.
+
+    Returns:
+        data_accepted_passed.set_index('Date') (DataFrame)
+\end{DoxyVerb}
+ 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/\+Katerina/data-\/visualisation-\/and-\/analysis-\/app/\mbox{\hyperlink{data_8py}{data.\+py}}\end{DoxyCompactItemize}

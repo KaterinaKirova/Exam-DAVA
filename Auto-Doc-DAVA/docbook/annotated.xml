@@ -1,0 +1,4 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_annotated" xml:lang="en-US">
+<title>Class List</title>
+Here are the classes, structs, unions and interfaces with brief descriptions:<link linkend="_class_charts_1_1_average___chart">Charts.Average_Chart</link><link linkend="_class_camera_1_1_camera">Camera.Camera</link><link linkend="_classdata_1_1_cameras_data">data.CamerasData</link><link linkend="_class_charts_1_1_chart">Charts.Chart</link><link linkend="_classdata_1_1_data">data.Data</link><link linkend="_class_charts_1_1_line___chart">Charts.Line_Chart</link><link linkend="_class_charts_1_1_line___chart__of__specific___type">Charts.Line_Chart_of_specific_Type</link><link linkend="_classmain_window_1_1_main_window">mainWindow.MainWindow</link><link linkend="_classui__mainwindow_1_1_ui___main_window">ui_mainwindow.Ui_MainWindow</link></section>

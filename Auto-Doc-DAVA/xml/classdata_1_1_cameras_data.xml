@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classdata_1_1_cameras_data" kind="class" language="Python" prot="public">
+    <compoundname>data::CamerasData</compoundname>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classdata_1_1_cameras_data_1aa8a51b28fa55fe4335025056408b27b1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>data.CamerasData.get_cameras_name</definition>
+        <argsstring>(self)</argsstring>
+        <name>get_cameras_name</name>
+        <qualifiedname>data.CamerasData.get_cameras_name</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>    get_cameras_name()
+    Function that return numpy.ndarray with the names of the cameras.
+
+    Returns:
+        cameras_name.values (numpy.ndarray)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Katerina/data-visualisation-and-analysis-app/data.py" line="19" column="1" bodyfile="D:/Katerina/data-visualisation-and-analysis-app/data.py" bodystart="19" bodyend="30"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>The CamerasData class have:
+
+           Methods:
+              get_cameras_name() : Function that return numpy.ndarray with the names of the cameras.</verbatim> </para>
+    </detaileddescription>
+    <location file="D:/Katerina/data-visualisation-and-analysis-app/data.py" line="12" column="1" bodyfile="D:/Katerina/data-visualisation-and-analysis-app/data.py" bodystart="12" bodyend="30"/>
+    <listofallmembers>
+      <member refid="classdata_1_1_cameras_data_1aa8a51b28fa55fe4335025056408b27b1" prot="public" virt="non-virtual"><scope>data::CamerasData</scope><name>get_cameras_name</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="dir_cc26c020712a6ff5d9bf61d933b4e34f" kind="dir">
+    <compoundname>D:/Katerina/data-visualisation-and-analysis-app</compoundname>
+    <innerfile refid="_camera_8py">Camera.py</innerfile>
+    <innerfile refid="_charts_8py">Charts.py</innerfile>
+    <innerfile refid="data_8py">data.py</innerfile>
+    <innerfile refid="main_8py">main.py</innerfile>
+    <innerfile refid="main_window_8py">mainWindow.py</innerfile>
+    <innerfile refid="ui__mainwindow_8py">ui_mainwindow.py</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Katerina/data-visualisation-and-analysis-app/"/>
+  </compounddef>
+</doxygen>

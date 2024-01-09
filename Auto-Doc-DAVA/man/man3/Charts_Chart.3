@@ -1,0 +1,80 @@
+.TH "Charts.Chart" 3 "DAVA" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Charts.Chart
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherited by \fBCharts\&.Average_Chart\fP, \fBCharts\&.Line_Chart\fP, and \fBCharts\&.Line_Chart_of_specific_Type\fP\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fB__init__\fP (self)"
+.br
+.ti -1c
+.RI "\fBshow_error_message\fP (self)"
+.br
+.ti -1c
+.RI "\fBshow_color\fP (self, concrete_option)"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+
+.PP
+.nf
+The Chart class have:
+
+    Attributes:
+        ax :  encapsulates all the elements of an individual (sub-)plot in a figure\&.
+
+    Methods:
+       show_error_message() : Function that makes a new window to show that there is an error\&.
+       show_color(concrete_option) : Function that checks whether the option name has a 'G' for green, 'R' for red
+       or 'B' for blue\&. If none, still return 'b' for blue\&.
+
+.fi
+.PP
+ 
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "Charts\&.Chart\&.__init__ ( self)"
+
+.PP
+Reimplemented in \fBCharts\&.Line_Chart\fP, \fBCharts\&.Average_Chart\fP, and \fBCharts\&.Line_Chart_of_specific_Type\fP\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "Charts\&.Chart\&.show_color ( self,  concrete_option)"
+
+.PP
+.nf
+    show_color()
+    Function that checks whether the option name has a 'G' for green, 'R' for red or 'B' for blue\&. If none,
+    still return 'b' for blue\&.
+
+    Arg:
+       concrete_option (str) : The option that is selected
+
+    Returns:
+         'g', 'r', or 'b'(str)
+
+.fi
+.PP
+ 
+.SS "Charts\&.Chart\&.show_error_message ( self)"
+
+.PP
+.nf
+    show_error_message()
+    Function that makes a new window to show that there is an error\&.
+
+.fi
+.PP
+ 
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for DAVA from the source code\&.

@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classdata_1_1_data" xml:lang="en-US">
+<title>data.Data Class Reference</title>
+<indexterm><primary>data.Data</primary></indexterm>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classdata_1_1_data_1a549a925818b17a9a716978d7eb31c761">__init__</link> (self, table_name, date_from, date_to)</para>
+</listitem>
+            <listitem><para><link linkend="_classdata_1_1_data_1aa4109d99b68c490e84c93fcf39ba8904">get_data</link> (self)</para>
+</listitem>
+            <listitem><para><link linkend="_classdata_1_1_data_1adde6ba0e4bc74edda0bff00e0b9d9c41">get_options</link> (self)</para>
+</listitem>
+            <listitem><para><link linkend="_classdata_1_1_data_1a6721ace52e4d9d48f8cf9ae17338fb05">get_complete_test_res</link> (self)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para><literallayout><computeroutput>The MainWindow class inherits QMainWindow and Ui_MainWindow class and have:
+
+           Attributes:
+               table_name :
+               date_from :
+               date_to :
+
+           Methods:
+              get_data() :  Function that return DataFrame with data for selected camera and selected period of time
+              get_options() : Function that return DataFrame with data for every option with decimal or integer values.
+              get_complete_test_res() : Function that return DataFrame with data for all tests, not only the
+              accepted and passed test.
+</computeroutput></literallayout> </para>
+</section>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_classdata_1_1_data_1a549a925818b17a9a716978d7eb31c761"/><section>
+    <title>__init__()</title>
+<indexterm><primary>__init__</primary><secondary>data.Data</secondary></indexterm>
+<indexterm><primary>data.Data</primary><secondary>__init__</secondary></indexterm>
+<para><computeroutput>data.Data.__init__ ( self,  table_name,  date_from,  date_to)</computeroutput></para></section>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classdata_1_1_data_1a6721ace52e4d9d48f8cf9ae17338fb05"/><section>
+    <title>get_complete_test_res()</title>
+<indexterm><primary>get_complete_test_res</primary><secondary>data.Data</secondary></indexterm>
+<indexterm><primary>data.Data</primary><secondary>get_complete_test_res</secondary></indexterm>
+<para><computeroutput>data.Data.get_complete_test_res ( self)</computeroutput></para>
+<para><literallayout><computeroutput>    get_complete_test_res()
+    Function that return DataFrame with data for all tests, not only the accepted and passed test.
+
+    Returns:
+        compete_test_res (DataFrame)
+</computeroutput></literallayout> </para>
+</section>
+<anchor xml:id="_classdata_1_1_data_1aa4109d99b68c490e84c93fcf39ba8904"/><section>
+    <title>get_data()</title>
+<indexterm><primary>get_data</primary><secondary>data.Data</secondary></indexterm>
+<indexterm><primary>data.Data</primary><secondary>get_data</secondary></indexterm>
+<para><computeroutput>data.Data.get_data ( self)</computeroutput></para>
+<para><literallayout><computeroutput>    get_data()
+    Function that return DataFrame with data for selected camera and selected period of time.
+
+    Returns:
+        data_accepted_passed.set_index(&apos;Date&apos;) (DataFrame)
+</computeroutput></literallayout> </para>
+</section>
+<anchor xml:id="_classdata_1_1_data_1adde6ba0e4bc74edda0bff00e0b9d9c41"/><section>
+    <title>get_options()</title>
+<indexterm><primary>get_options</primary><secondary>data.Data</secondary></indexterm>
+<indexterm><primary>data.Data</primary><secondary>get_options</secondary></indexterm>
+<para><computeroutput>data.Data.get_options ( self)</computeroutput></para>
+<para><literallayout><computeroutput>    get_option()
+    Function that return DataFrame with data for every option with decimal or integer values.
+
+    Returns:
+        data_accepted_passed.set_index(&apos;Date&apos;) (DataFrame)
+</computeroutput></literallayout> </para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+D:/Katerina/data-visualisation-and-analysis-app/<link linkend="_data_8py">data.py</link></section>
+</section>

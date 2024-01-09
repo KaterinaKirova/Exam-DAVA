@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classdata_1_1_cameras_data" xml:lang="en-US">
+<title>data.CamerasData Class Reference</title>
+<indexterm><primary>data.CamerasData</primary></indexterm>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classdata_1_1_cameras_data_1aa8a51b28fa55fe4335025056408b27b1">get_cameras_name</link> (self)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para><literallayout><computeroutput>The CamerasData class have:
+
+           Methods:
+              get_cameras_name() : Function that return numpy.ndarray with the names of the cameras.</computeroutput></literallayout> </para>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classdata_1_1_cameras_data_1aa8a51b28fa55fe4335025056408b27b1"/><section>
+    <title>get_cameras_name()</title>
+<indexterm><primary>get_cameras_name</primary><secondary>data.CamerasData</secondary></indexterm>
+<indexterm><primary>data.CamerasData</primary><secondary>get_cameras_name</secondary></indexterm>
+<para><computeroutput>data.CamerasData.get_cameras_name ( self)</computeroutput></para>
+<para><literallayout><computeroutput>    get_cameras_name()
+    Function that return numpy.ndarray with the names of the cameras.
+
+    Returns:
+        cameras_name.values (numpy.ndarray)
+</computeroutput></literallayout> </para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+D:/Katerina/data-visualisation-and-analysis-app/<link linkend="_data_8py">data.py</link></section>
+</section>

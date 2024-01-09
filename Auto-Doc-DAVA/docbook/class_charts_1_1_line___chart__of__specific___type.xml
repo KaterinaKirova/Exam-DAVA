@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_charts_1_1_line___chart__of__specific___type" xml:lang="en-US">
+<title>Charts.Line_Chart_of_specific_Type Class Reference</title>
+<indexterm><primary>Charts.Line_Chart_of_specific_Type</primary></indexterm>
+<para>Inheritance diagram for Charts.Line_Chart_of_specific_Type:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_charts_1_1_line___chart__of__specific___type.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_class_charts_1_1_line___chart__of__specific___type_1a0f5923963dd742686c09f50e5c9236a3">__init__</link> (self, canvas, method=&apos;Choose which camera type to show&apos;)</para>
+</listitem>
+            <listitem><para><link linkend="_class_charts_1_1_line___chart__of__specific___type_1af8d7d1a2e4fe23cffda8dcc2a4d3ac42">to_show</link> (self, data, camera_type, concrete_option)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+Public Member Functions inherited from <link linkend="_class_charts_1_1_chart">Charts.Chart</link>        <itemizedlist>
+            <listitem><para><link linkend="_class_charts_1_1_chart_1a8fcb6e9cdec169b3569668e46b7ec553">show_error_message</link> (self)</para>
+</listitem>
+            <listitem><para><link linkend="_class_charts_1_1_chart_1aff942a9e824a634b58385413311c3c46">show_color</link> (self, concrete_option)</para>
+</listitem>
+        </itemizedlist>
+<section>
+<title>Detailed Description</title>
+
+<para><literallayout><computeroutput>The Line_Chart class inherits Chart class and have:
+
+       Attributes:
+           method : selected method
+           canvas : FigureCanvasQTAgg
+
+       Methods:
+          to_show(data, concrete_option) : Function that draws the data on the canvas according to the selected method.
+</computeroutput></literallayout> </para>
+</section>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_class_charts_1_1_line___chart__of__specific___type_1a0f5923963dd742686c09f50e5c9236a3"/><section>
+    <title>__init__()</title>
+<indexterm><primary>__init__</primary><secondary>Charts.Line_Chart_of_specific_Type</secondary></indexterm>
+<indexterm><primary>Charts.Line_Chart_of_specific_Type</primary><secondary>__init__</secondary></indexterm>
+<para><computeroutput>Charts.Line_Chart_of_specific_Type.__init__ ( self,  canvas,  method = <computeroutput>&apos;Choose&#160;which&#160;camera&#160;type&#160;to&#160;show&apos;</computeroutput>
+)</computeroutput></para><para>
+Reimplemented from <link linkend="_class_charts_1_1_chart_1acfb2b410f014504139151b01769ec340">Charts.Chart</link>.</para>
+</section>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_charts_1_1_line___chart__of__specific___type_1af8d7d1a2e4fe23cffda8dcc2a4d3ac42"/><section>
+    <title>to_show()</title>
+<indexterm><primary>to_show</primary><secondary>Charts.Line_Chart_of_specific_Type</secondary></indexterm>
+<indexterm><primary>Charts.Line_Chart_of_specific_Type</primary><secondary>to_show</secondary></indexterm>
+<para><computeroutput>Charts.Line_Chart_of_specific_Type.to_show ( self,  data,  camera_type,  concrete_option)</computeroutput></para>
+<para><literallayout><computeroutput>    to_show(data, concrete_option)
+    Function that draws the data on the canvas according to the selected method.
+
+    Args:
+        data (DataFrame) :
+        camera_type (str) : The type that is selected
+        concrete_option (str) : The option that is selected
+</computeroutput></literallayout> </para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+D:/Katerina/data-visualisation-and-analysis-app/<link linkend="__charts_8py">Charts.py</link></section>
+</section>

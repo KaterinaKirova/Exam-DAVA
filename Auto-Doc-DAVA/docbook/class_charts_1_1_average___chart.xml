@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_charts_1_1_average___chart" xml:lang="en-US">
+<title>Charts.Average_Chart Class Reference</title>
+<indexterm><primary>Charts.Average_Chart</primary></indexterm>
+<para>Inheritance diagram for Charts.Average_Chart:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_charts_1_1_average___chart.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_class_charts_1_1_average___chart_1a5abbb922ee633c1f4e19337bc1683c44">__init__</link> (self, canvas)</para>
+</listitem>
+            <listitem><para><link linkend="_class_charts_1_1_average___chart_1a7b1dc727cf00eb629b5aed605bbc83d4">to_show</link> (self, data, concrete_option)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+Public Member Functions inherited from <link linkend="_class_charts_1_1_chart">Charts.Chart</link>        <itemizedlist>
+            <listitem><para><link linkend="_class_charts_1_1_chart_1a8fcb6e9cdec169b3569668e46b7ec553">show_error_message</link> (self)</para>
+</listitem>
+            <listitem><para><link linkend="_class_charts_1_1_chart_1aff942a9e824a634b58385413311c3c46">show_color</link> (self, concrete_option)</para>
+</listitem>
+        </itemizedlist>
+<section>
+<title>Detailed Description</title>
+
+<para><literallayout><computeroutput>The Line_Chart class inherits Chart class and have:
+
+       Attributes:
+           canvas : FigureCanvasQTAgg
+
+       Methods:
+          to_show(data, concrete_option) : Function that draws the data on the canvas according to the selected method.
+</computeroutput></literallayout> </para>
+</section>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_class_charts_1_1_average___chart_1a5abbb922ee633c1f4e19337bc1683c44"/><section>
+    <title>__init__()</title>
+<indexterm><primary>__init__</primary><secondary>Charts.Average_Chart</secondary></indexterm>
+<indexterm><primary>Charts.Average_Chart</primary><secondary>__init__</secondary></indexterm>
+<para><computeroutput>Charts.Average_Chart.__init__ ( self,  canvas)</computeroutput></para><para>
+Reimplemented from <link linkend="_class_charts_1_1_chart_1acfb2b410f014504139151b01769ec340">Charts.Chart</link>.</para>
+</section>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_charts_1_1_average___chart_1a7b1dc727cf00eb629b5aed605bbc83d4"/><section>
+    <title>to_show()</title>
+<indexterm><primary>to_show</primary><secondary>Charts.Average_Chart</secondary></indexterm>
+<indexterm><primary>Charts.Average_Chart</primary><secondary>to_show</secondary></indexterm>
+<para><computeroutput>Charts.Average_Chart.to_show ( self,  data,  concrete_option)</computeroutput></para>
+<para><literallayout><computeroutput>    to_show(data, concrete_option)
+    Function that draws the data on the canvas according to the selected method.
+
+    Args:
+        data (DataFrame) :
+        concrete_option (str) : The option that is selected
+</computeroutput></literallayout> </para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+D:/Katerina/data-visualisation-and-analysis-app/<link linkend="__charts_8py">Charts.py</link></section>
+</section>

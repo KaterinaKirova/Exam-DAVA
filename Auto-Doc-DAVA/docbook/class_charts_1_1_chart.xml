@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_charts_1_1_chart" xml:lang="en-US">
+<title>Charts.Chart Class Reference</title>
+<indexterm><primary>Charts.Chart</primary></indexterm>
+<para>Inheritance diagram for Charts.Chart:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_charts_1_1_chart.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_class_charts_1_1_chart_1acfb2b410f014504139151b01769ec340">__init__</link> (self)</para>
+</listitem>
+            <listitem><para><link linkend="_class_charts_1_1_chart_1a8fcb6e9cdec169b3569668e46b7ec553">show_error_message</link> (self)</para>
+</listitem>
+            <listitem><para><link linkend="_class_charts_1_1_chart_1aff942a9e824a634b58385413311c3c46">show_color</link> (self, concrete_option)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para><literallayout><computeroutput>The Chart class have:
+
+    Attributes:
+        ax :  encapsulates all the elements of an individual (sub-)plot in a figure.
+
+    Methods:
+       show_error_message() : Function that makes a new window to show that there is an error.
+       show_color(concrete_option) : Function that checks whether the option name has a &apos;G&apos; for green, &apos;R&apos; for red
+       or &apos;B&apos; for blue. If none, still return &apos;b&apos; for blue.
+</computeroutput></literallayout> </para>
+</section>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_class_charts_1_1_chart_1acfb2b410f014504139151b01769ec340"/><section>
+    <title>__init__()</title>
+<indexterm><primary>__init__</primary><secondary>Charts.Chart</secondary></indexterm>
+<indexterm><primary>Charts.Chart</primary><secondary>__init__</secondary></indexterm>
+<para><computeroutput>Charts.Chart.__init__ ( self)</computeroutput></para><para>
+Reimplemented in <link linkend="_class_charts_1_1_line___chart_1a43300a553f4b2af680fb2f297071293b">Charts.Line_Chart</link>, <link linkend="_class_charts_1_1_average___chart_1a5abbb922ee633c1f4e19337bc1683c44">Charts.Average_Chart</link>, and <link linkend="_class_charts_1_1_line___chart__of__specific___type_1a0f5923963dd742686c09f50e5c9236a3">Charts.Line_Chart_of_specific_Type</link>.</para>
+</section>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_charts_1_1_chart_1aff942a9e824a634b58385413311c3c46"/><section>
+    <title>show_color()</title>
+<indexterm><primary>show_color</primary><secondary>Charts.Chart</secondary></indexterm>
+<indexterm><primary>Charts.Chart</primary><secondary>show_color</secondary></indexterm>
+<para><computeroutput>Charts.Chart.show_color ( self,  concrete_option)</computeroutput></para>
+<para><literallayout><computeroutput>    show_color()
+    Function that checks whether the option name has a &apos;G&apos; for green, &apos;R&apos; for red or &apos;B&apos; for blue. If none,
+    still return &apos;b&apos; for blue.
+
+    Arg:
+       concrete_option (str) : The option that is selected
+
+    Returns:
+         &apos;g&apos;, &apos;r&apos;, or &apos;b&apos;(str)
+</computeroutput></literallayout> </para>
+</section>
+<anchor xml:id="_class_charts_1_1_chart_1a8fcb6e9cdec169b3569668e46b7ec553"/><section>
+    <title>show_error_message()</title>
+<indexterm><primary>show_error_message</primary><secondary>Charts.Chart</secondary></indexterm>
+<indexterm><primary>Charts.Chart</primary><secondary>show_error_message</secondary></indexterm>
+<para><computeroutput>Charts.Chart.show_error_message ( self)</computeroutput></para>
+<para><literallayout><computeroutput>    show_error_message()
+    Function that makes a new window to show that there is an error.
+</computeroutput></literallayout> </para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+D:/Katerina/data-visualisation-and-analysis-app/<link linkend="__charts_8py">Charts.py</link></section>
+</section>

@@ -1,0 +1,348 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_camera_1_1_camera" kind="class" language="Python" prot="public">
+    <compoundname>Camera::Camera</compoundname>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_camera_1_1_camera_1a1609ee18a5f9637f05a07fca914825bd" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>Camera.Camera::__title</definition>
+        <argsstring></argsstring>
+        <name>__title</name>
+        <qualifiedname>Camera.Camera.__title</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Katerina/data-visualisation-and-analysis-app/Camera.py" line="27" column="1" bodyfile="D:/Katerina/data-visualisation-and-analysis-app/Camera.py" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_camera_1_1_camera_1a58d94bb757beb5a8508c1870d1bfbb5e" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>Camera.Camera::__date_from</definition>
+        <argsstring></argsstring>
+        <name>__date_from</name>
+        <qualifiedname>Camera.Camera.__date_from</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Katerina/data-visualisation-and-analysis-app/Camera.py" line="28" column="1" bodyfile="D:/Katerina/data-visualisation-and-analysis-app/Camera.py" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_camera_1_1_camera_1a119d382a081ec0bcc83a61eca6ab10f1" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>Camera.Camera::__date_to</definition>
+        <argsstring></argsstring>
+        <name>__date_to</name>
+        <qualifiedname>Camera.Camera.__date_to</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Katerina/data-visualisation-and-analysis-app/Camera.py" line="29" column="1" bodyfile="D:/Katerina/data-visualisation-and-analysis-app/Camera.py" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_camera_1_1_camera_1ad8ed6953735883dc05c7e3f26ff4d885" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>Camera.Camera::__options</definition>
+        <argsstring></argsstring>
+        <name>__options</name>
+        <qualifiedname>Camera.Camera.__options</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Katerina/data-visualisation-and-analysis-app/Camera.py" line="31" column="1" bodyfile="D:/Katerina/data-visualisation-and-analysis-app/Camera.py" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_camera_1_1_camera_1a98281dc7fdcd26eaf739be9f5f0496e4" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>Camera.Camera::__data</definition>
+        <argsstring></argsstring>
+        <name>__data</name>
+        <qualifiedname>Camera.Camera.__data</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Katerina/data-visualisation-and-analysis-app/Camera.py" line="32" column="1" bodyfile="D:/Katerina/data-visualisation-and-analysis-app/Camera.py" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_camera_1_1_camera_1a3d17e4c0135a280e04ffa82864f82c8c" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>Camera.Camera::__selected_camera_data</definition>
+        <argsstring></argsstring>
+        <name>__selected_camera_data</name>
+        <qualifiedname>Camera.Camera.__selected_camera_data</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Katerina/data-visualisation-and-analysis-app/Camera.py" line="33" column="1" bodyfile="D:/Katerina/data-visualisation-and-analysis-app/Camera.py" bodystart="33" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_camera_1_1_camera_1ace13c0651990c91a11ab4c769257d9ec" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Camera.Camera.__init__</definition>
+        <argsstring>(self, title, date_from, date_to)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>Camera.Camera.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>title</type>
+          <defname>title</defname>
+        </param>
+        <param>
+          <type>date_from</type>
+          <defname>date_from</defname>
+        </param>
+        <param>
+          <type>date_to</type>
+          <defname>date_to</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Katerina/data-visualisation-and-analysis-app/Camera.py" line="26" column="1" bodyfile="D:/Katerina/data-visualisation-and-analysis-app/Camera.py" bodystart="26" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="function" id="class_camera_1_1_camera_1ae91ab5f8a2b515c5174ed6df1938babc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Camera.Camera.get_data</definition>
+        <argsstring>(self)</argsstring>
+        <name>get_data</name>
+        <qualifiedname>Camera.Camera.get_data</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>    get_data()
+    Function that get the data
+
+    Returns:
+        data (DataFrame)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Katerina/data-visualisation-and-analysis-app/Camera.py" line="35" column="1" bodyfile="D:/Katerina/data-visualisation-and-analysis-app/Camera.py" bodystart="35" bodyend="44"/>
+      </memberdef>
+      <memberdef kind="function" id="class_camera_1_1_camera_1a11c964399305741362b80524f760b315" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Camera.Camera.fetch_data</definition>
+        <argsstring>(self)</argsstring>
+        <name>fetch_data</name>
+        <qualifiedname>Camera.Camera.fetch_data</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>    fetch_data()
+    Function that fetch the data.
+
+    Returns:
+        self.__selected_camera_data.get_data() (DataFrame)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Katerina/data-visualisation-and-analysis-app/Camera.py" line="45" column="1" bodyfile="D:/Katerina/data-visualisation-and-analysis-app/Camera.py" bodystart="45" bodyend="56"/>
+      </memberdef>
+      <memberdef kind="function" id="class_camera_1_1_camera_1ab1829bed4a07d659e4c94e4191d3c23d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Camera.Camera.get_info</definition>
+        <argsstring>(self)</argsstring>
+        <name>get_info</name>
+        <qualifiedname>Camera.Camera.get_info</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>    get_info()
+    Function that checks if there is data and return info about the camera if there is. Otherwise, it returns
+    text that it can&apos;t find any data.
+
+    Returns:
+        &apos;No results found&apos; (sting)
+        or
+        camera information that includes
+        the camera types and
+        how many tests were accepted or passed with each type (string)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Katerina/data-visualisation-and-analysis-app/Camera.py" line="57" column="1" bodyfile="D:/Katerina/data-visualisation-and-analysis-app/Camera.py" bodystart="57" bodyend="75"/>
+      </memberdef>
+      <memberdef kind="function" id="class_camera_1_1_camera_1a5f97627a748c57e8af2c9c37aef51a4f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Camera.Camera.get_info_result</definition>
+        <argsstring>(self)</argsstring>
+        <name>get_info_result</name>
+        <qualifiedname>Camera.Camera.get_info_result</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>    get_info_result()
+    Function that show how many accepted, failed, passed or notDone tests have been done.
+
+    Returns:
+        camera information that includes
+        how many accepted, failed, passed or notDone tests (string)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Katerina/data-visualisation-and-analysis-app/Camera.py" line="76" column="1" bodyfile="D:/Katerina/data-visualisation-and-analysis-app/Camera.py" bodystart="76" bodyend="88"/>
+      </memberdef>
+      <memberdef kind="function" id="class_camera_1_1_camera_1a4a074527c85391bf7a210bdcf3e96df4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Camera.Camera.get_info_option</definition>
+        <argsstring>(self, option)</argsstring>
+        <name>get_info_option</name>
+        <qualifiedname>Camera.Camera.get_info_option</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>option</type>
+          <defname>option</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>    get_info_option()
+    Function that checks if there is option and show info about the camera if there is. Otherwise, it returns
+    empty text.
+
+    Args:
+        option (str) : The option that is selected
+
+    Returns:
+        camera information that includes
+        how much is the minimum, maximum and average value of a selected option.(string)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Katerina/data-visualisation-and-analysis-app/Camera.py" line="89" column="1" bodyfile="D:/Katerina/data-visualisation-and-analysis-app/Camera.py" bodystart="89" bodyend="106"/>
+      </memberdef>
+      <memberdef kind="function" id="class_camera_1_1_camera_1a0c49ce10aa756aed08ddc395e32bd325" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Camera.Camera.get_sorted_types</definition>
+        <argsstring>(self)</argsstring>
+        <name>get_sorted_types</name>
+        <qualifiedname>Camera.Camera.get_sorted_types</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>    get_sorted_types()
+    Function that sort the types.
+
+    Returns:
+        map(str, values) (map object)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Katerina/data-visualisation-and-analysis-app/Camera.py" line="107" column="1" bodyfile="D:/Katerina/data-visualisation-and-analysis-app/Camera.py" bodystart="107" bodyend="127"/>
+      </memberdef>
+      <memberdef kind="function" id="class_camera_1_1_camera_1a2e7861611a1ca003d086f417d18bc7bf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Camera.Camera.get_options</definition>
+        <argsstring>(self)</argsstring>
+        <name>get_options</name>
+        <qualifiedname>Camera.Camera.get_options</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>    get_options()
+    Function that return list of options.
+
+    Returns:
+        options (list)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Katerina/data-visualisation-and-analysis-app/Camera.py" line="128" column="1" bodyfile="D:/Katerina/data-visualisation-and-analysis-app/Camera.py" bodystart="128" bodyend="143"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>The Camera class have:
+
+    Attributes:
+        title : Camera name
+        date_from : start date
+        date_to : end date
+        options : what options the camera has
+        data : the camera data
+        selected_camera_data : the selected_camera
+
+    Methods:
+        get_data() : Function that get the data
+        fetch_data() :  Function that fetch the data.
+        get_info() : Function that checks if there is data and return info about the camera if there is. Otherwise, it returns
+        text that it can&apos;t find any data.
+        get_info_result() :  Function that show how many accepted, failed, passed or notDone tests have been done.
+        get_info_option(option) : Function that checks if there is option and show info about the camera if there is. Otherwise, it returns
+        empty text.
+        get_sorted_types() : Function that sort the types.
+        get_options() : Function that return list of options.</verbatim> </para>
+    </detaileddescription>
+    <location file="D:/Katerina/data-visualisation-and-analysis-app/Camera.py" line="4" column="1" bodyfile="D:/Katerina/data-visualisation-and-analysis-app/Camera.py" bodystart="4" bodyend="143"/>
+    <listofallmembers>
+      <member refid="class_camera_1_1_camera_1a98281dc7fdcd26eaf739be9f5f0496e4" prot="private" virt="non-virtual"><scope>Camera::Camera</scope><name>__data</name></member>
+      <member refid="class_camera_1_1_camera_1a58d94bb757beb5a8508c1870d1bfbb5e" prot="private" virt="non-virtual"><scope>Camera::Camera</scope><name>__date_from</name></member>
+      <member refid="class_camera_1_1_camera_1a119d382a081ec0bcc83a61eca6ab10f1" prot="private" virt="non-virtual"><scope>Camera::Camera</scope><name>__date_to</name></member>
+      <member refid="class_camera_1_1_camera_1ace13c0651990c91a11ab4c769257d9ec" prot="public" virt="non-virtual"><scope>Camera::Camera</scope><name>__init__</name></member>
+      <member refid="class_camera_1_1_camera_1ad8ed6953735883dc05c7e3f26ff4d885" prot="private" virt="non-virtual"><scope>Camera::Camera</scope><name>__options</name></member>
+      <member refid="class_camera_1_1_camera_1a3d17e4c0135a280e04ffa82864f82c8c" prot="private" virt="non-virtual"><scope>Camera::Camera</scope><name>__selected_camera_data</name></member>
+      <member refid="class_camera_1_1_camera_1a1609ee18a5f9637f05a07fca914825bd" prot="private" virt="non-virtual"><scope>Camera::Camera</scope><name>__title</name></member>
+      <member refid="class_camera_1_1_camera_1a11c964399305741362b80524f760b315" prot="public" virt="non-virtual"><scope>Camera::Camera</scope><name>fetch_data</name></member>
+      <member refid="class_camera_1_1_camera_1ae91ab5f8a2b515c5174ed6df1938babc" prot="public" virt="non-virtual"><scope>Camera::Camera</scope><name>get_data</name></member>
+      <member refid="class_camera_1_1_camera_1ab1829bed4a07d659e4c94e4191d3c23d" prot="public" virt="non-virtual"><scope>Camera::Camera</scope><name>get_info</name></member>
+      <member refid="class_camera_1_1_camera_1a4a074527c85391bf7a210bdcf3e96df4" prot="public" virt="non-virtual"><scope>Camera::Camera</scope><name>get_info_option</name></member>
+      <member refid="class_camera_1_1_camera_1a5f97627a748c57e8af2c9c37aef51a4f" prot="public" virt="non-virtual"><scope>Camera::Camera</scope><name>get_info_result</name></member>
+      <member refid="class_camera_1_1_camera_1a2e7861611a1ca003d086f417d18bc7bf" prot="public" virt="non-virtual"><scope>Camera::Camera</scope><name>get_options</name></member>
+      <member refid="class_camera_1_1_camera_1a0c49ce10aa756aed08ddc395e32bd325" prot="public" virt="non-virtual"><scope>Camera::Camera</scope><name>get_sorted_types</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

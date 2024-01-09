@@ -1,0 +1,381 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classui__mainwindow_1_1_ui___main_window" xml:lang="en-US">
+<title>ui_mainwindow.Ui_MainWindow Class Reference</title>
+<indexterm><primary>ui_mainwindow.Ui_MainWindow</primary></indexterm>
+<para>Inheritance diagram for ui_mainwindow.Ui_MainWindow:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classui__mainwindow_1_1_ui___main_window.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classui__mainwindow_1_1_ui___main_window_1a396df7c1dea1f50a9f52dcca987d9c86">setupUi</link> (self, MainWindow)</para>
+</listitem>
+            <listitem><para><link linkend="_classui__mainwindow_1_1_ui___main_window_1a77f52a3c5bbc2a22e131fabe2a5b4775">retranslateUi</link> (self, MainWindow)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classui__mainwindow_1_1_ui___main_window_1ae98e7f65edb7c3995f5e5dcb99a70431">centralwidget</link></para>
+</listitem>
+            <listitem><para><link linkend="_classui__mainwindow_1_1_ui___main_window_1a00f85b97abf944c50f49ca0f53a14e17">horizontalLayout</link></para>
+</listitem>
+            <listitem><para><link linkend="_classui__mainwindow_1_1_ui___main_window_1a201dda6fbe672f31e18ba98393468be1">frame_7</link></para>
+</listitem>
+            <listitem><para><link linkend="_classui__mainwindow_1_1_ui___main_window_1ad0af872b0f9c072e4193a358f4e19fc5">horizontalLayout_2</link></para>
+</listitem>
+            <listitem><para><link linkend="_classui__mainwindow_1_1_ui___main_window_1a161f7db8e998687e9deaf5e1764398d7">frame_2</link></para>
+</listitem>
+            <listitem><para><link linkend="_classui__mainwindow_1_1_ui___main_window_1a88672e0fc5fd5050c3b3cc964eb423c4">verticalLayout_2</link></para>
+</listitem>
+            <listitem><para><link linkend="_classui__mainwindow_1_1_ui___main_window_1a93a5b1d1c9ea80b65ce86c9fbda5a6a1">frame</link></para>
+</listitem>
+            <listitem><para><link linkend="_classui__mainwindow_1_1_ui___main_window_1a784c6ab0319151e1faee148d2fff2b28">formLayout_2</link></para>
+</listitem>
+            <listitem><para><link linkend="_classui__mainwindow_1_1_ui___main_window_1adb984b085ebbc227dcbee2d0479361e1">groupBox_period</link></para>
+</listitem>
+            <listitem><para><link linkend="_classui__mainwindow_1_1_ui___main_window_1ad4eac9c606168c46779531c49a60ab5d">formLayout</link></para>
+</listitem>
+            <listitem><para><link linkend="_classui__mainwindow_1_1_ui___main_window_1a42280a9bb649411621ef005de275e746">label_from</link></para>
+</listitem>
+            <listitem><para><link linkend="_classui__mainwindow_1_1_ui___main_window_1a43ff5d9fa022cf44a4c3c059d40a3279">dateEdit_from</link></para>
+</listitem>
+            <listitem><para><link linkend="_classui__mainwindow_1_1_ui___main_window_1a638ce5ca92814fd1441607f5ffd90424">label_to</link></para>
+</listitem>
+            <listitem><para><link linkend="_classui__mainwindow_1_1_ui___main_window_1a2dc50dd2c96bad5d4416c1111fa2de08">dateEdit_to</link></para>
+</listitem>
+            <listitem><para><link linkend="_classui__mainwindow_1_1_ui___main_window_1a94f74cd8d490af0ae03924d22309bbbb">frame_3</link></para>
+</listitem>
+            <listitem><para><link linkend="_classui__mainwindow_1_1_ui___main_window_1a34783b6de2a1105eb091601f3d907e84">verticalLayout</link></para>
+</listitem>
+            <listitem><para><link linkend="_classui__mainwindow_1_1_ui___main_window_1ace4bfebe95f52f4917c0882a1df11806">groupBox_selec_camera</link></para>
+</listitem>
+            <listitem><para><link linkend="_classui__mainwindow_1_1_ui___main_window_1a38c9ed064be7141994e48cb33a5abed1">verticalLayout_3</link></para>
+</listitem>
+            <listitem><para><link linkend="_classui__mainwindow_1_1_ui___main_window_1a97af4908add12fce8288e1b811c2d31c">comboBox_camera</link></para>
+</listitem>
+            <listitem><para><link linkend="_classui__mainwindow_1_1_ui___main_window_1a67bab3830da21866588effc7cd88a8f9">groupBox_options</link></para>
+</listitem>
+            <listitem><para><link linkend="_classui__mainwindow_1_1_ui___main_window_1a2e98ac6c3aafc3cb3e997af4329abd72">verticalLayout_4</link></para>
+</listitem>
+            <listitem><para><link linkend="_classui__mainwindow_1_1_ui___main_window_1a421cb8fcc100a2920366efbfc608bc22">comboBox_options</link></para>
+</listitem>
+            <listitem><para><link linkend="_classui__mainwindow_1_1_ui___main_window_1a0ed0e486dc9e3052fa1b528ca855cff5">groupBox_select_method</link></para>
+</listitem>
+            <listitem><para><link linkend="_classui__mainwindow_1_1_ui___main_window_1a5ac9fe8cd1bc3ed51fdf71541c5e8e58">verticalLayout_5</link></para>
+</listitem>
+            <listitem><para><link linkend="_classui__mainwindow_1_1_ui___main_window_1a7b9e1abd26b756c7fba70179d36ed721">comboBox_method</link></para>
+</listitem>
+            <listitem><para><link linkend="_classui__mainwindow_1_1_ui___main_window_1a402741a7d4d9109d6b5064eefa1a7e65">groupBox_select_type</link></para>
+</listitem>
+            <listitem><para><link linkend="_classui__mainwindow_1_1_ui___main_window_1a9d794c3eca1fa7185e8ebecc0f47b0b0">verticalLayout_6</link></para>
+</listitem>
+            <listitem><para><link linkend="_classui__mainwindow_1_1_ui___main_window_1acc3e7c28b791d123af2358459951ee11">comboBox_type</link></para>
+</listitem>
+            <listitem><para><link linkend="_classui__mainwindow_1_1_ui___main_window_1a7d1142673b3cca82939e36c0047a4faa">frame_6</link></para>
+</listitem>
+            <listitem><para><link linkend="_classui__mainwindow_1_1_ui___main_window_1a15a73ec8712b1f2a2bf255304fe378b0">gridLayout</link></para>
+</listitem>
+            <listitem><para><link linkend="_classui__mainwindow_1_1_ui___main_window_1aa20ffb0bb0de6e2c768cdd3aed6d3337">pushButton</link></para>
+</listitem>
+            <listitem><para><link linkend="_classui__mainwindow_1_1_ui___main_window_1a88b29874d5ce73608453e8b2f67520cf">pushButton_Export</link></para>
+</listitem>
+            <listitem><para><link linkend="_classui__mainwindow_1_1_ui___main_window_1aa5e53b40c2e850d8da2ee39e9bbc180b">frame_4</link></para>
+</listitem>
+            <listitem><para><link linkend="_classui__mainwindow_1_1_ui___main_window_1a5b0b1f1b6489378de9101a3214bf1ddd">horizontalLayout_4</link></para>
+</listitem>
+            <listitem><para><link linkend="_classui__mainwindow_1_1_ui___main_window_1a2ac6ede77745d9b22fded2e206c9fd3e">groupBox_about</link></para>
+</listitem>
+            <listitem><para><link linkend="_classui__mainwindow_1_1_ui___main_window_1a7df63b5c295dabd85bbe1a3f37f29f2e">label_info</link></para>
+</listitem>
+            <listitem><para><link linkend="_classui__mainwindow_1_1_ui___main_window_1a5bbccbf767b42b0e195d198425ee27a6">groupBox_about_3</link></para>
+</listitem>
+            <listitem><para><link linkend="_classui__mainwindow_1_1_ui___main_window_1a76f899bed61651dc771160d5b3670d84">label_label_info_result</link></para>
+</listitem>
+            <listitem><para><link linkend="_classui__mainwindow_1_1_ui___main_window_1ab5b26072d900102a35ed0968414c5578">frame_5</link></para>
+</listitem>
+            <listitem><para><link linkend="_classui__mainwindow_1_1_ui___main_window_1a53a03e3d9ff7c7bcd823b94781c0e509">groupBox_about_2</link></para>
+</listitem>
+            <listitem><para><link linkend="_classui__mainwindow_1_1_ui___main_window_1a7bece7881b88e701c80384d9b70c1ea9">label_info_option</link></para>
+</listitem>
+            <listitem><para><link linkend="_classui__mainwindow_1_1_ui___main_window_1a38a6f008ca80257e753fd01812f36854">frame_8</link></para>
+</listitem>
+            <listitem><para><link linkend="_classui__mainwindow_1_1_ui___main_window_1a867d28a674ec471cfa937e11caf0f084">verticalLayout_7</link></para>
+</listitem>
+            <listitem><para><link linkend="_classui__mainwindow_1_1_ui___main_window_1a0cafd21c7c2e52da4bd13b6c2aefd0d9">menubar</link></para>
+</listitem>
+            <listitem><para><link linkend="_classui__mainwindow_1_1_ui___main_window_1a0e75b14ce74c9d3d12e8d0ee751e4145">statusbar</link></para>
+</listitem>
+            <listitem><para><link linkend="_classui__mainwindow_1_1_ui___main_window_1aa1b3c49a9e22a611933e2afc2335461a">figure</link></para>
+</listitem>
+            <listitem><para><link linkend="_classui__mainwindow_1_1_ui___main_window_1a621d7b6d65ea3468ea687c6902e31331">canvas</link></para>
+</listitem>
+            <listitem><para><link linkend="_classui__mainwindow_1_1_ui___main_window_1a8df90fded31935cdddf584100849944c">toolbar</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classui__mainwindow_1_1_ui___main_window_1a77f52a3c5bbc2a22e131fabe2a5b4775"/><section>
+    <title>retranslateUi()</title>
+<indexterm><primary>retranslateUi</primary><secondary>ui_mainwindow.Ui_MainWindow</secondary></indexterm>
+<indexterm><primary>ui_mainwindow.Ui_MainWindow</primary><secondary>retranslateUi</secondary></indexterm>
+<para><computeroutput>ui_mainwindow.Ui_MainWindow.retranslateUi ( self,  MainWindow)</computeroutput></para></section>
+<anchor xml:id="_classui__mainwindow_1_1_ui___main_window_1a396df7c1dea1f50a9f52dcca987d9c86"/><section>
+    <title>setupUi()</title>
+<indexterm><primary>setupUi</primary><secondary>ui_mainwindow.Ui_MainWindow</secondary></indexterm>
+<indexterm><primary>ui_mainwindow.Ui_MainWindow</primary><secondary>setupUi</secondary></indexterm>
+<para><computeroutput>ui_mainwindow.Ui_MainWindow.setupUi ( self,  MainWindow)</computeroutput></para></section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classui__mainwindow_1_1_ui___main_window_1a621d7b6d65ea3468ea687c6902e31331"/><section>
+    <title>canvas</title>
+<indexterm><primary>canvas</primary><secondary>ui_mainwindow.Ui_MainWindow</secondary></indexterm>
+<indexterm><primary>ui_mainwindow.Ui_MainWindow</primary><secondary>canvas</secondary></indexterm>
+<para><computeroutput>ui_mainwindow.Ui_MainWindow.canvas</computeroutput></para></section>
+<anchor xml:id="_classui__mainwindow_1_1_ui___main_window_1ae98e7f65edb7c3995f5e5dcb99a70431"/><section>
+    <title>centralwidget</title>
+<indexterm><primary>centralwidget</primary><secondary>ui_mainwindow.Ui_MainWindow</secondary></indexterm>
+<indexterm><primary>ui_mainwindow.Ui_MainWindow</primary><secondary>centralwidget</secondary></indexterm>
+<para><computeroutput>ui_mainwindow.Ui_MainWindow.centralwidget</computeroutput></para></section>
+<anchor xml:id="_classui__mainwindow_1_1_ui___main_window_1a97af4908add12fce8288e1b811c2d31c"/><section>
+    <title>comboBox_camera</title>
+<indexterm><primary>comboBox_camera</primary><secondary>ui_mainwindow.Ui_MainWindow</secondary></indexterm>
+<indexterm><primary>ui_mainwindow.Ui_MainWindow</primary><secondary>comboBox_camera</secondary></indexterm>
+<para><computeroutput>ui_mainwindow.Ui_MainWindow.comboBox_camera</computeroutput></para></section>
+<anchor xml:id="_classui__mainwindow_1_1_ui___main_window_1a7b9e1abd26b756c7fba70179d36ed721"/><section>
+    <title>comboBox_method</title>
+<indexterm><primary>comboBox_method</primary><secondary>ui_mainwindow.Ui_MainWindow</secondary></indexterm>
+<indexterm><primary>ui_mainwindow.Ui_MainWindow</primary><secondary>comboBox_method</secondary></indexterm>
+<para><computeroutput>ui_mainwindow.Ui_MainWindow.comboBox_method</computeroutput></para></section>
+<anchor xml:id="_classui__mainwindow_1_1_ui___main_window_1a421cb8fcc100a2920366efbfc608bc22"/><section>
+    <title>comboBox_options</title>
+<indexterm><primary>comboBox_options</primary><secondary>ui_mainwindow.Ui_MainWindow</secondary></indexterm>
+<indexterm><primary>ui_mainwindow.Ui_MainWindow</primary><secondary>comboBox_options</secondary></indexterm>
+<para><computeroutput>ui_mainwindow.Ui_MainWindow.comboBox_options</computeroutput></para></section>
+<anchor xml:id="_classui__mainwindow_1_1_ui___main_window_1acc3e7c28b791d123af2358459951ee11"/><section>
+    <title>comboBox_type</title>
+<indexterm><primary>comboBox_type</primary><secondary>ui_mainwindow.Ui_MainWindow</secondary></indexterm>
+<indexterm><primary>ui_mainwindow.Ui_MainWindow</primary><secondary>comboBox_type</secondary></indexterm>
+<para><computeroutput>ui_mainwindow.Ui_MainWindow.comboBox_type</computeroutput></para></section>
+<anchor xml:id="_classui__mainwindow_1_1_ui___main_window_1a43ff5d9fa022cf44a4c3c059d40a3279"/><section>
+    <title>dateEdit_from</title>
+<indexterm><primary>dateEdit_from</primary><secondary>ui_mainwindow.Ui_MainWindow</secondary></indexterm>
+<indexterm><primary>ui_mainwindow.Ui_MainWindow</primary><secondary>dateEdit_from</secondary></indexterm>
+<para><computeroutput>ui_mainwindow.Ui_MainWindow.dateEdit_from</computeroutput></para></section>
+<anchor xml:id="_classui__mainwindow_1_1_ui___main_window_1a2dc50dd2c96bad5d4416c1111fa2de08"/><section>
+    <title>dateEdit_to</title>
+<indexterm><primary>dateEdit_to</primary><secondary>ui_mainwindow.Ui_MainWindow</secondary></indexterm>
+<indexterm><primary>ui_mainwindow.Ui_MainWindow</primary><secondary>dateEdit_to</secondary></indexterm>
+<para><computeroutput>ui_mainwindow.Ui_MainWindow.dateEdit_to</computeroutput></para></section>
+<anchor xml:id="_classui__mainwindow_1_1_ui___main_window_1aa1b3c49a9e22a611933e2afc2335461a"/><section>
+    <title>figure</title>
+<indexterm><primary>figure</primary><secondary>ui_mainwindow.Ui_MainWindow</secondary></indexterm>
+<indexterm><primary>ui_mainwindow.Ui_MainWindow</primary><secondary>figure</secondary></indexterm>
+<para><computeroutput>ui_mainwindow.Ui_MainWindow.figure</computeroutput></para></section>
+<anchor xml:id="_classui__mainwindow_1_1_ui___main_window_1ad4eac9c606168c46779531c49a60ab5d"/><section>
+    <title>formLayout</title>
+<indexterm><primary>formLayout</primary><secondary>ui_mainwindow.Ui_MainWindow</secondary></indexterm>
+<indexterm><primary>ui_mainwindow.Ui_MainWindow</primary><secondary>formLayout</secondary></indexterm>
+<para><computeroutput>ui_mainwindow.Ui_MainWindow.formLayout</computeroutput></para></section>
+<anchor xml:id="_classui__mainwindow_1_1_ui___main_window_1a784c6ab0319151e1faee148d2fff2b28"/><section>
+    <title>formLayout_2</title>
+<indexterm><primary>formLayout_2</primary><secondary>ui_mainwindow.Ui_MainWindow</secondary></indexterm>
+<indexterm><primary>ui_mainwindow.Ui_MainWindow</primary><secondary>formLayout_2</secondary></indexterm>
+<para><computeroutput>ui_mainwindow.Ui_MainWindow.formLayout_2</computeroutput></para></section>
+<anchor xml:id="_classui__mainwindow_1_1_ui___main_window_1a93a5b1d1c9ea80b65ce86c9fbda5a6a1"/><section>
+    <title>frame</title>
+<indexterm><primary>frame</primary><secondary>ui_mainwindow.Ui_MainWindow</secondary></indexterm>
+<indexterm><primary>ui_mainwindow.Ui_MainWindow</primary><secondary>frame</secondary></indexterm>
+<para><computeroutput>ui_mainwindow.Ui_MainWindow.frame</computeroutput></para></section>
+<anchor xml:id="_classui__mainwindow_1_1_ui___main_window_1a161f7db8e998687e9deaf5e1764398d7"/><section>
+    <title>frame_2</title>
+<indexterm><primary>frame_2</primary><secondary>ui_mainwindow.Ui_MainWindow</secondary></indexterm>
+<indexterm><primary>ui_mainwindow.Ui_MainWindow</primary><secondary>frame_2</secondary></indexterm>
+<para><computeroutput>ui_mainwindow.Ui_MainWindow.frame_2</computeroutput></para></section>
+<anchor xml:id="_classui__mainwindow_1_1_ui___main_window_1a94f74cd8d490af0ae03924d22309bbbb"/><section>
+    <title>frame_3</title>
+<indexterm><primary>frame_3</primary><secondary>ui_mainwindow.Ui_MainWindow</secondary></indexterm>
+<indexterm><primary>ui_mainwindow.Ui_MainWindow</primary><secondary>frame_3</secondary></indexterm>
+<para><computeroutput>ui_mainwindow.Ui_MainWindow.frame_3</computeroutput></para></section>
+<anchor xml:id="_classui__mainwindow_1_1_ui___main_window_1aa5e53b40c2e850d8da2ee39e9bbc180b"/><section>
+    <title>frame_4</title>
+<indexterm><primary>frame_4</primary><secondary>ui_mainwindow.Ui_MainWindow</secondary></indexterm>
+<indexterm><primary>ui_mainwindow.Ui_MainWindow</primary><secondary>frame_4</secondary></indexterm>
+<para><computeroutput>ui_mainwindow.Ui_MainWindow.frame_4</computeroutput></para></section>
+<anchor xml:id="_classui__mainwindow_1_1_ui___main_window_1ab5b26072d900102a35ed0968414c5578"/><section>
+    <title>frame_5</title>
+<indexterm><primary>frame_5</primary><secondary>ui_mainwindow.Ui_MainWindow</secondary></indexterm>
+<indexterm><primary>ui_mainwindow.Ui_MainWindow</primary><secondary>frame_5</secondary></indexterm>
+<para><computeroutput>ui_mainwindow.Ui_MainWindow.frame_5</computeroutput></para></section>
+<anchor xml:id="_classui__mainwindow_1_1_ui___main_window_1a7d1142673b3cca82939e36c0047a4faa"/><section>
+    <title>frame_6</title>
+<indexterm><primary>frame_6</primary><secondary>ui_mainwindow.Ui_MainWindow</secondary></indexterm>
+<indexterm><primary>ui_mainwindow.Ui_MainWindow</primary><secondary>frame_6</secondary></indexterm>
+<para><computeroutput>ui_mainwindow.Ui_MainWindow.frame_6</computeroutput></para></section>
+<anchor xml:id="_classui__mainwindow_1_1_ui___main_window_1a201dda6fbe672f31e18ba98393468be1"/><section>
+    <title>frame_7</title>
+<indexterm><primary>frame_7</primary><secondary>ui_mainwindow.Ui_MainWindow</secondary></indexterm>
+<indexterm><primary>ui_mainwindow.Ui_MainWindow</primary><secondary>frame_7</secondary></indexterm>
+<para><computeroutput>ui_mainwindow.Ui_MainWindow.frame_7</computeroutput></para></section>
+<anchor xml:id="_classui__mainwindow_1_1_ui___main_window_1a38a6f008ca80257e753fd01812f36854"/><section>
+    <title>frame_8</title>
+<indexterm><primary>frame_8</primary><secondary>ui_mainwindow.Ui_MainWindow</secondary></indexterm>
+<indexterm><primary>ui_mainwindow.Ui_MainWindow</primary><secondary>frame_8</secondary></indexterm>
+<para><computeroutput>ui_mainwindow.Ui_MainWindow.frame_8</computeroutput></para></section>
+<anchor xml:id="_classui__mainwindow_1_1_ui___main_window_1a15a73ec8712b1f2a2bf255304fe378b0"/><section>
+    <title>gridLayout</title>
+<indexterm><primary>gridLayout</primary><secondary>ui_mainwindow.Ui_MainWindow</secondary></indexterm>
+<indexterm><primary>ui_mainwindow.Ui_MainWindow</primary><secondary>gridLayout</secondary></indexterm>
+<para><computeroutput>ui_mainwindow.Ui_MainWindow.gridLayout</computeroutput></para></section>
+<anchor xml:id="_classui__mainwindow_1_1_ui___main_window_1a2ac6ede77745d9b22fded2e206c9fd3e"/><section>
+    <title>groupBox_about</title>
+<indexterm><primary>groupBox_about</primary><secondary>ui_mainwindow.Ui_MainWindow</secondary></indexterm>
+<indexterm><primary>ui_mainwindow.Ui_MainWindow</primary><secondary>groupBox_about</secondary></indexterm>
+<para><computeroutput>ui_mainwindow.Ui_MainWindow.groupBox_about</computeroutput></para></section>
+<anchor xml:id="_classui__mainwindow_1_1_ui___main_window_1a53a03e3d9ff7c7bcd823b94781c0e509"/><section>
+    <title>groupBox_about_2</title>
+<indexterm><primary>groupBox_about_2</primary><secondary>ui_mainwindow.Ui_MainWindow</secondary></indexterm>
+<indexterm><primary>ui_mainwindow.Ui_MainWindow</primary><secondary>groupBox_about_2</secondary></indexterm>
+<para><computeroutput>ui_mainwindow.Ui_MainWindow.groupBox_about_2</computeroutput></para></section>
+<anchor xml:id="_classui__mainwindow_1_1_ui___main_window_1a5bbccbf767b42b0e195d198425ee27a6"/><section>
+    <title>groupBox_about_3</title>
+<indexterm><primary>groupBox_about_3</primary><secondary>ui_mainwindow.Ui_MainWindow</secondary></indexterm>
+<indexterm><primary>ui_mainwindow.Ui_MainWindow</primary><secondary>groupBox_about_3</secondary></indexterm>
+<para><computeroutput>ui_mainwindow.Ui_MainWindow.groupBox_about_3</computeroutput></para></section>
+<anchor xml:id="_classui__mainwindow_1_1_ui___main_window_1a67bab3830da21866588effc7cd88a8f9"/><section>
+    <title>groupBox_options</title>
+<indexterm><primary>groupBox_options</primary><secondary>ui_mainwindow.Ui_MainWindow</secondary></indexterm>
+<indexterm><primary>ui_mainwindow.Ui_MainWindow</primary><secondary>groupBox_options</secondary></indexterm>
+<para><computeroutput>ui_mainwindow.Ui_MainWindow.groupBox_options</computeroutput></para></section>
+<anchor xml:id="_classui__mainwindow_1_1_ui___main_window_1adb984b085ebbc227dcbee2d0479361e1"/><section>
+    <title>groupBox_period</title>
+<indexterm><primary>groupBox_period</primary><secondary>ui_mainwindow.Ui_MainWindow</secondary></indexterm>
+<indexterm><primary>ui_mainwindow.Ui_MainWindow</primary><secondary>groupBox_period</secondary></indexterm>
+<para><computeroutput>ui_mainwindow.Ui_MainWindow.groupBox_period</computeroutput></para></section>
+<anchor xml:id="_classui__mainwindow_1_1_ui___main_window_1ace4bfebe95f52f4917c0882a1df11806"/><section>
+    <title>groupBox_selec_camera</title>
+<indexterm><primary>groupBox_selec_camera</primary><secondary>ui_mainwindow.Ui_MainWindow</secondary></indexterm>
+<indexterm><primary>ui_mainwindow.Ui_MainWindow</primary><secondary>groupBox_selec_camera</secondary></indexterm>
+<para><computeroutput>ui_mainwindow.Ui_MainWindow.groupBox_selec_camera</computeroutput></para></section>
+<anchor xml:id="_classui__mainwindow_1_1_ui___main_window_1a0ed0e486dc9e3052fa1b528ca855cff5"/><section>
+    <title>groupBox_select_method</title>
+<indexterm><primary>groupBox_select_method</primary><secondary>ui_mainwindow.Ui_MainWindow</secondary></indexterm>
+<indexterm><primary>ui_mainwindow.Ui_MainWindow</primary><secondary>groupBox_select_method</secondary></indexterm>
+<para><computeroutput>ui_mainwindow.Ui_MainWindow.groupBox_select_method</computeroutput></para></section>
+<anchor xml:id="_classui__mainwindow_1_1_ui___main_window_1a402741a7d4d9109d6b5064eefa1a7e65"/><section>
+    <title>groupBox_select_type</title>
+<indexterm><primary>groupBox_select_type</primary><secondary>ui_mainwindow.Ui_MainWindow</secondary></indexterm>
+<indexterm><primary>ui_mainwindow.Ui_MainWindow</primary><secondary>groupBox_select_type</secondary></indexterm>
+<para><computeroutput>ui_mainwindow.Ui_MainWindow.groupBox_select_type</computeroutput></para></section>
+<anchor xml:id="_classui__mainwindow_1_1_ui___main_window_1a00f85b97abf944c50f49ca0f53a14e17"/><section>
+    <title>horizontalLayout</title>
+<indexterm><primary>horizontalLayout</primary><secondary>ui_mainwindow.Ui_MainWindow</secondary></indexterm>
+<indexterm><primary>ui_mainwindow.Ui_MainWindow</primary><secondary>horizontalLayout</secondary></indexterm>
+<para><computeroutput>ui_mainwindow.Ui_MainWindow.horizontalLayout</computeroutput></para></section>
+<anchor xml:id="_classui__mainwindow_1_1_ui___main_window_1ad0af872b0f9c072e4193a358f4e19fc5"/><section>
+    <title>horizontalLayout_2</title>
+<indexterm><primary>horizontalLayout_2</primary><secondary>ui_mainwindow.Ui_MainWindow</secondary></indexterm>
+<indexterm><primary>ui_mainwindow.Ui_MainWindow</primary><secondary>horizontalLayout_2</secondary></indexterm>
+<para><computeroutput>ui_mainwindow.Ui_MainWindow.horizontalLayout_2</computeroutput></para></section>
+<anchor xml:id="_classui__mainwindow_1_1_ui___main_window_1a5b0b1f1b6489378de9101a3214bf1ddd"/><section>
+    <title>horizontalLayout_4</title>
+<indexterm><primary>horizontalLayout_4</primary><secondary>ui_mainwindow.Ui_MainWindow</secondary></indexterm>
+<indexterm><primary>ui_mainwindow.Ui_MainWindow</primary><secondary>horizontalLayout_4</secondary></indexterm>
+<para><computeroutput>ui_mainwindow.Ui_MainWindow.horizontalLayout_4</computeroutput></para></section>
+<anchor xml:id="_classui__mainwindow_1_1_ui___main_window_1a42280a9bb649411621ef005de275e746"/><section>
+    <title>label_from</title>
+<indexterm><primary>label_from</primary><secondary>ui_mainwindow.Ui_MainWindow</secondary></indexterm>
+<indexterm><primary>ui_mainwindow.Ui_MainWindow</primary><secondary>label_from</secondary></indexterm>
+<para><computeroutput>ui_mainwindow.Ui_MainWindow.label_from</computeroutput></para></section>
+<anchor xml:id="_classui__mainwindow_1_1_ui___main_window_1a7df63b5c295dabd85bbe1a3f37f29f2e"/><section>
+    <title>label_info</title>
+<indexterm><primary>label_info</primary><secondary>ui_mainwindow.Ui_MainWindow</secondary></indexterm>
+<indexterm><primary>ui_mainwindow.Ui_MainWindow</primary><secondary>label_info</secondary></indexterm>
+<para><computeroutput>ui_mainwindow.Ui_MainWindow.label_info</computeroutput></para></section>
+<anchor xml:id="_classui__mainwindow_1_1_ui___main_window_1a7bece7881b88e701c80384d9b70c1ea9"/><section>
+    <title>label_info_option</title>
+<indexterm><primary>label_info_option</primary><secondary>ui_mainwindow.Ui_MainWindow</secondary></indexterm>
+<indexterm><primary>ui_mainwindow.Ui_MainWindow</primary><secondary>label_info_option</secondary></indexterm>
+<para><computeroutput>ui_mainwindow.Ui_MainWindow.label_info_option</computeroutput></para></section>
+<anchor xml:id="_classui__mainwindow_1_1_ui___main_window_1a76f899bed61651dc771160d5b3670d84"/><section>
+    <title>label_label_info_result</title>
+<indexterm><primary>label_label_info_result</primary><secondary>ui_mainwindow.Ui_MainWindow</secondary></indexterm>
+<indexterm><primary>ui_mainwindow.Ui_MainWindow</primary><secondary>label_label_info_result</secondary></indexterm>
+<para><computeroutput>ui_mainwindow.Ui_MainWindow.label_label_info_result</computeroutput></para></section>
+<anchor xml:id="_classui__mainwindow_1_1_ui___main_window_1a638ce5ca92814fd1441607f5ffd90424"/><section>
+    <title>label_to</title>
+<indexterm><primary>label_to</primary><secondary>ui_mainwindow.Ui_MainWindow</secondary></indexterm>
+<indexterm><primary>ui_mainwindow.Ui_MainWindow</primary><secondary>label_to</secondary></indexterm>
+<para><computeroutput>ui_mainwindow.Ui_MainWindow.label_to</computeroutput></para></section>
+<anchor xml:id="_classui__mainwindow_1_1_ui___main_window_1a0cafd21c7c2e52da4bd13b6c2aefd0d9"/><section>
+    <title>menubar</title>
+<indexterm><primary>menubar</primary><secondary>ui_mainwindow.Ui_MainWindow</secondary></indexterm>
+<indexterm><primary>ui_mainwindow.Ui_MainWindow</primary><secondary>menubar</secondary></indexterm>
+<para><computeroutput>ui_mainwindow.Ui_MainWindow.menubar</computeroutput></para></section>
+<anchor xml:id="_classui__mainwindow_1_1_ui___main_window_1aa20ffb0bb0de6e2c768cdd3aed6d3337"/><section>
+    <title>pushButton</title>
+<indexterm><primary>pushButton</primary><secondary>ui_mainwindow.Ui_MainWindow</secondary></indexterm>
+<indexterm><primary>ui_mainwindow.Ui_MainWindow</primary><secondary>pushButton</secondary></indexterm>
+<para><computeroutput>ui_mainwindow.Ui_MainWindow.pushButton</computeroutput></para></section>
+<anchor xml:id="_classui__mainwindow_1_1_ui___main_window_1a88b29874d5ce73608453e8b2f67520cf"/><section>
+    <title>pushButton_Export</title>
+<indexterm><primary>pushButton_Export</primary><secondary>ui_mainwindow.Ui_MainWindow</secondary></indexterm>
+<indexterm><primary>ui_mainwindow.Ui_MainWindow</primary><secondary>pushButton_Export</secondary></indexterm>
+<para><computeroutput>ui_mainwindow.Ui_MainWindow.pushButton_Export</computeroutput></para></section>
+<anchor xml:id="_classui__mainwindow_1_1_ui___main_window_1a0e75b14ce74c9d3d12e8d0ee751e4145"/><section>
+    <title>statusbar</title>
+<indexterm><primary>statusbar</primary><secondary>ui_mainwindow.Ui_MainWindow</secondary></indexterm>
+<indexterm><primary>ui_mainwindow.Ui_MainWindow</primary><secondary>statusbar</secondary></indexterm>
+<para><computeroutput>ui_mainwindow.Ui_MainWindow.statusbar</computeroutput></para></section>
+<anchor xml:id="_classui__mainwindow_1_1_ui___main_window_1a8df90fded31935cdddf584100849944c"/><section>
+    <title>toolbar</title>
+<indexterm><primary>toolbar</primary><secondary>ui_mainwindow.Ui_MainWindow</secondary></indexterm>
+<indexterm><primary>ui_mainwindow.Ui_MainWindow</primary><secondary>toolbar</secondary></indexterm>
+<para><computeroutput>ui_mainwindow.Ui_MainWindow.toolbar</computeroutput></para></section>
+<anchor xml:id="_classui__mainwindow_1_1_ui___main_window_1a34783b6de2a1105eb091601f3d907e84"/><section>
+    <title>verticalLayout</title>
+<indexterm><primary>verticalLayout</primary><secondary>ui_mainwindow.Ui_MainWindow</secondary></indexterm>
+<indexterm><primary>ui_mainwindow.Ui_MainWindow</primary><secondary>verticalLayout</secondary></indexterm>
+<para><computeroutput>ui_mainwindow.Ui_MainWindow.verticalLayout</computeroutput></para></section>
+<anchor xml:id="_classui__mainwindow_1_1_ui___main_window_1a88672e0fc5fd5050c3b3cc964eb423c4"/><section>
+    <title>verticalLayout_2</title>
+<indexterm><primary>verticalLayout_2</primary><secondary>ui_mainwindow.Ui_MainWindow</secondary></indexterm>
+<indexterm><primary>ui_mainwindow.Ui_MainWindow</primary><secondary>verticalLayout_2</secondary></indexterm>
+<para><computeroutput>ui_mainwindow.Ui_MainWindow.verticalLayout_2</computeroutput></para></section>
+<anchor xml:id="_classui__mainwindow_1_1_ui___main_window_1a38c9ed064be7141994e48cb33a5abed1"/><section>
+    <title>verticalLayout_3</title>
+<indexterm><primary>verticalLayout_3</primary><secondary>ui_mainwindow.Ui_MainWindow</secondary></indexterm>
+<indexterm><primary>ui_mainwindow.Ui_MainWindow</primary><secondary>verticalLayout_3</secondary></indexterm>
+<para><computeroutput>ui_mainwindow.Ui_MainWindow.verticalLayout_3</computeroutput></para></section>
+<anchor xml:id="_classui__mainwindow_1_1_ui___main_window_1a2e98ac6c3aafc3cb3e997af4329abd72"/><section>
+    <title>verticalLayout_4</title>
+<indexterm><primary>verticalLayout_4</primary><secondary>ui_mainwindow.Ui_MainWindow</secondary></indexterm>
+<indexterm><primary>ui_mainwindow.Ui_MainWindow</primary><secondary>verticalLayout_4</secondary></indexterm>
+<para><computeroutput>ui_mainwindow.Ui_MainWindow.verticalLayout_4</computeroutput></para></section>
+<anchor xml:id="_classui__mainwindow_1_1_ui___main_window_1a5ac9fe8cd1bc3ed51fdf71541c5e8e58"/><section>
+    <title>verticalLayout_5</title>
+<indexterm><primary>verticalLayout_5</primary><secondary>ui_mainwindow.Ui_MainWindow</secondary></indexterm>
+<indexterm><primary>ui_mainwindow.Ui_MainWindow</primary><secondary>verticalLayout_5</secondary></indexterm>
+<para><computeroutput>ui_mainwindow.Ui_MainWindow.verticalLayout_5</computeroutput></para></section>
+<anchor xml:id="_classui__mainwindow_1_1_ui___main_window_1a9d794c3eca1fa7185e8ebecc0f47b0b0"/><section>
+    <title>verticalLayout_6</title>
+<indexterm><primary>verticalLayout_6</primary><secondary>ui_mainwindow.Ui_MainWindow</secondary></indexterm>
+<indexterm><primary>ui_mainwindow.Ui_MainWindow</primary><secondary>verticalLayout_6</secondary></indexterm>
+<para><computeroutput>ui_mainwindow.Ui_MainWindow.verticalLayout_6</computeroutput></para></section>
+<anchor xml:id="_classui__mainwindow_1_1_ui___main_window_1a867d28a674ec471cfa937e11caf0f084"/><section>
+    <title>verticalLayout_7</title>
+<indexterm><primary>verticalLayout_7</primary><secondary>ui_mainwindow.Ui_MainWindow</secondary></indexterm>
+<indexterm><primary>ui_mainwindow.Ui_MainWindow</primary><secondary>verticalLayout_7</secondary></indexterm>
+<para><computeroutput>ui_mainwindow.Ui_MainWindow.verticalLayout_7</computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+D:/Katerina/data-visualisation-and-analysis-app/<link linkend="_ui__mainwindow_8py">ui_mainwindow.py</link></section>
+</section>

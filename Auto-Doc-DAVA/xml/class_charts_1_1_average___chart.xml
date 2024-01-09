@@ -1,0 +1,138 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_charts_1_1_average___chart" kind="class" language="Python" prot="public">
+    <compoundname>Charts::Average_Chart</compoundname>
+    <basecompoundref refid="class_charts_1_1_chart" prot="public" virt="non-virtual">Charts.Chart</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_charts_1_1_average___chart_1a04d35c7daf69caf0fa5f377d4869011b" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>Charts.Average_Chart::__canvas</definition>
+        <argsstring></argsstring>
+        <name>__canvas</name>
+        <qualifiedname>Charts.Average_Chart.__canvas</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Katerina/data-visualisation-and-analysis-app/Charts.py" line="104" column="1" bodyfile="D:/Katerina/data-visualisation-and-analysis-app/Charts.py" bodystart="104" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_charts_1_1_average___chart_1adf4ec8891e1236e6b8f5e0a3b0c53159" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>Charts.Average_Chart::__ax</definition>
+        <argsstring></argsstring>
+        <name>__ax</name>
+        <qualifiedname>Charts.Average_Chart.__ax</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Katerina/data-visualisation-and-analysis-app/Charts.py" line="116" column="1" bodyfile="D:/Katerina/data-visualisation-and-analysis-app/Charts.py" bodystart="116" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_charts_1_1_average___chart_1a5abbb922ee633c1f4e19337bc1683c44" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Charts.Average_Chart.__init__</definition>
+        <argsstring>(self, canvas)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>Charts.Average_Chart.__init__</qualifiedname>
+        <reimplements refid="class_charts_1_1_chart_1acfb2b410f014504139151b01769ec340">__init__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>canvas</type>
+          <defname>canvas</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Katerina/data-visualisation-and-analysis-app/Charts.py" line="102" column="1" bodyfile="D:/Katerina/data-visualisation-and-analysis-app/Charts.py" bodystart="102" bodyend="105"/>
+      </memberdef>
+      <memberdef kind="function" id="class_charts_1_1_average___chart_1a7b1dc727cf00eb629b5aed605bbc83d4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Charts.Average_Chart.to_show</definition>
+        <argsstring>(self, data, concrete_option)</argsstring>
+        <name>to_show</name>
+        <qualifiedname>Charts.Average_Chart.to_show</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>data</type>
+          <defname>data</defname>
+        </param>
+        <param>
+          <type>concrete_option</type>
+          <defname>concrete_option</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>    to_show(data, concrete_option)
+    Function that draws the data on the canvas according to the selected method.
+
+    Args:
+        data (DataFrame) :
+        concrete_option (str) : The option that is selected
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Katerina/data-visualisation-and-analysis-app/Charts.py" line="106" column="1" bodyfile="D:/Katerina/data-visualisation-and-analysis-app/Charts.py" bodystart="106" bodyend="129"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>The Line_Chart class inherits Chart class and have:
+
+       Attributes:
+           canvas : FigureCanvasQTAgg
+
+       Methods:
+          to_show(data, concrete_option) : Function that draws the data on the canvas according to the selected method.
+</verbatim> </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Charts.Average_Chart</label>
+        <link refid="class_charts_1_1_average___chart"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Charts.Chart</label>
+        <link refid="class_charts_1_1_chart"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>Charts.Average_Chart</label>
+        <link refid="class_charts_1_1_average___chart"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Charts.Chart</label>
+        <link refid="class_charts_1_1_chart"/>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Katerina/data-visualisation-and-analysis-app/Charts.py" line="93" column="1" bodyfile="D:/Katerina/data-visualisation-and-analysis-app/Charts.py" bodystart="93" bodyend="129"/>
+    <listofallmembers>
+      <member refid="class_charts_1_1_average___chart_1adf4ec8891e1236e6b8f5e0a3b0c53159" prot="private" virt="non-virtual"><scope>Charts::Average_Chart</scope><name>__ax</name></member>
+      <member refid="class_charts_1_1_average___chart_1a04d35c7daf69caf0fa5f377d4869011b" prot="private" virt="non-virtual"><scope>Charts::Average_Chart</scope><name>__canvas</name></member>
+      <member refid="class_charts_1_1_average___chart_1a5abbb922ee633c1f4e19337bc1683c44" prot="public" virt="non-virtual"><scope>Charts::Average_Chart</scope><name>__init__</name></member>
+      <member refid="class_charts_1_1_average___chart_1a7b1dc727cf00eb629b5aed605bbc83d4" prot="public" virt="non-virtual"><scope>Charts::Average_Chart</scope><name>to_show</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

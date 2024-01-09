@@ -1,0 +1,37 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyPep8Inspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="E722" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="main.mysql" />
+          <option value="str.get_info" />
+          <option value="str.get_sorted_types" />
+          <option value="str.get_options" />
+          <option value="str.get_info_option" />
+          <option value="str.fetch_data" />
+          <option value="str.to_show" />
+          <option value="str.unique" />
+          <option value="str.data" />
+          <option value="str.get_info_result" />
+          <option value="str.get_complete_test_res" />
+          <option value="str.get_data" />
+          <option value="concrete_method" />
+          <option value="ui" />
+          <option value="selected_camera" />
+          <option value="concrete_type" />
+          <option value="selected_option" />
+          <option value="cameras_data" />
+          <option value="cameras_name" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>

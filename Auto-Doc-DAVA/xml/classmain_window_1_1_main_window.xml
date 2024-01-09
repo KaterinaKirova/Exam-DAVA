@@ -1,0 +1,620 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classmain_window_1_1_main_window" kind="class" language="Python" prot="public">
+    <compoundname>mainWindow::MainWindow</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">QMainWindow</basecompoundref>
+    <basecompoundref refid="classui__mainwindow_1_1_ui___main_window" prot="public" virt="non-virtual">ui_mainwindow.Ui_MainWindow</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classmain_window_1_1_main_window_1a2a53e25bb5f36b8cf73d003cba0ada0f" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>mainWindow.MainWindow::__ui</definition>
+        <argsstring></argsstring>
+        <name>__ui</name>
+        <qualifiedname>mainWindow.MainWindow.__ui</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Katerina/data-visualisation-and-analysis-app/mainWindow.py" line="39" column="1" bodyfile="D:/Katerina/data-visualisation-and-analysis-app/mainWindow.py" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmain_window_1_1_main_window_1a1d93e153b689c0f93427b7230962a48e" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>mainWindow.MainWindow::__concrete_method</definition>
+        <argsstring></argsstring>
+        <name>__concrete_method</name>
+        <qualifiedname>mainWindow.MainWindow.__concrete_method</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Katerina/data-visualisation-and-analysis-app/mainWindow.py" line="42" column="1" bodyfile="D:/Katerina/data-visualisation-and-analysis-app/mainWindow.py" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmain_window_1_1_main_window_1abef5ffb306d6d2672e2ca9c39b39e792" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>mainWindow.MainWindow::__selected_camera</definition>
+        <argsstring></argsstring>
+        <name>__selected_camera</name>
+        <qualifiedname>mainWindow.MainWindow.__selected_camera</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Katerina/data-visualisation-and-analysis-app/mainWindow.py" line="43" column="1" bodyfile="D:/Katerina/data-visualisation-and-analysis-app/mainWindow.py" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmain_window_1_1_main_window_1a94384e733fcb7c6b7ef5bc8fb6f6d440" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>mainWindow.MainWindow::__concrete_type</definition>
+        <argsstring></argsstring>
+        <name>__concrete_type</name>
+        <qualifiedname>mainWindow.MainWindow.__concrete_type</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Katerina/data-visualisation-and-analysis-app/mainWindow.py" line="44" column="1" bodyfile="D:/Katerina/data-visualisation-and-analysis-app/mainWindow.py" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmain_window_1_1_main_window_1aa1333fa64ce817df4a28bd529314017b" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>mainWindow.MainWindow::__selected_option</definition>
+        <argsstring></argsstring>
+        <name>__selected_option</name>
+        <qualifiedname>mainWindow.MainWindow.__selected_option</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Katerina/data-visualisation-and-analysis-app/mainWindow.py" line="45" column="1" bodyfile="D:/Katerina/data-visualisation-and-analysis-app/mainWindow.py" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmain_window_1_1_main_window_1a2d9cf0becc79da6b58cece5fd3435433" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>mainWindow.MainWindow::__cameras_data</definition>
+        <argsstring></argsstring>
+        <name>__cameras_data</name>
+        <qualifiedname>mainWindow.MainWindow.__cameras_data</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Katerina/data-visualisation-and-analysis-app/mainWindow.py" line="48" column="1" bodyfile="D:/Katerina/data-visualisation-and-analysis-app/mainWindow.py" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmain_window_1_1_main_window_1acd17830dff16971c4d8c05ea5a62f940" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>mainWindow.MainWindow::__cameras_name</definition>
+        <argsstring></argsstring>
+        <name>__cameras_name</name>
+        <qualifiedname>mainWindow.MainWindow.__cameras_name</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Katerina/data-visualisation-and-analysis-app/mainWindow.py" line="49" column="1" bodyfile="D:/Katerina/data-visualisation-and-analysis-app/mainWindow.py" bodystart="49" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classmain_window_1_1_main_window_1a5edb3405e6dddd0ee4fb645ba9b3968e" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>mainWindow.MainWindow::set_info</definition>
+        <argsstring></argsstring>
+        <name>set_info</name>
+        <qualifiedname>mainWindow.MainWindow.set_info</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Katerina/data-visualisation-and-analysis-app/mainWindow.py" line="57" column="1" bodyfile="D:/Katerina/data-visualisation-and-analysis-app/mainWindow.py" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmain_window_1_1_main_window_1af100d13aeb41de4313507a45bb1368aa" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>mainWindow.MainWindow::set_option</definition>
+        <argsstring></argsstring>
+        <name>set_option</name>
+        <qualifiedname>mainWindow.MainWindow.set_option</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Katerina/data-visualisation-and-analysis-app/mainWindow.py" line="58" column="1" bodyfile="D:/Katerina/data-visualisation-and-analysis-app/mainWindow.py" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmain_window_1_1_main_window_1abd1c9b49fe80974a285374cff034ba2b" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>mainWindow.MainWindow::create_chart</definition>
+        <argsstring></argsstring>
+        <name>create_chart</name>
+        <qualifiedname>mainWindow.MainWindow.create_chart</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Katerina/data-visualisation-and-analysis-app/mainWindow.py" line="64" column="1" bodyfile="D:/Katerina/data-visualisation-and-analysis-app/mainWindow.py" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmain_window_1_1_main_window_1a322d3cf953b27a71d9378b38ff7455cd" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>mainWindow.MainWindow::set_concrete_type</definition>
+        <argsstring></argsstring>
+        <name>set_concrete_type</name>
+        <qualifiedname>mainWindow.MainWindow.set_concrete_type</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Katerina/data-visualisation-and-analysis-app/mainWindow.py" line="66" column="1" bodyfile="D:/Katerina/data-visualisation-and-analysis-app/mainWindow.py" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmain_window_1_1_main_window_1a76df2277ac2b0eb5db772f8d6a4ad8e2" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>mainWindow.MainWindow::button_clicked</definition>
+        <argsstring></argsstring>
+        <name>button_clicked</name>
+        <qualifiedname>mainWindow.MainWindow.button_clicked</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Katerina/data-visualisation-and-analysis-app/mainWindow.py" line="72" column="1" bodyfile="D:/Katerina/data-visualisation-and-analysis-app/mainWindow.py" bodystart="72" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmain_window_1_1_main_window_1a8a83e3ca33ec7a3427d02c2f3e1d3ede" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>mainWindow.MainWindow::button_export_clicked</definition>
+        <argsstring></argsstring>
+        <name>button_export_clicked</name>
+        <qualifiedname>mainWindow.MainWindow.button_export_clicked</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Katerina/data-visualisation-and-analysis-app/mainWindow.py" line="73" column="1" bodyfile="D:/Katerina/data-visualisation-and-analysis-app/mainWindow.py" bodystart="73" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmain_window_1_1_main_window_1a267fc91ebb2be4516f71dd7a48a3b67a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>mainWindow.MainWindow.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mainWindow.MainWindow.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Katerina/data-visualisation-and-analysis-app/mainWindow.py" line="37" column="1" bodyfile="D:/Katerina/data-visualisation-and-analysis-app/mainWindow.py" bodystart="37" bodyend="74"/>
+      </memberdef>
+      <memberdef kind="function" id="classmain_window_1_1_main_window_1ad8100445ac82abd0fc912ac3cf667414" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>mainWindow.MainWindow.set_cameras_name</definition>
+        <argsstring>(self, cameras_name)</argsstring>
+        <name>set_cameras_name</name>
+        <qualifiedname>mainWindow.MainWindow.set_cameras_name</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>cameras_name</type>
+          <defname>cameras_name</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>    set_cameras_name(self, cameras_name)
+    Function that set cameras name to comboBox from cameras_name array.
+
+    Args:
+        cameras_name (numpy.ndarray)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Katerina/data-visualisation-and-analysis-app/mainWindow.py" line="75" column="1" bodyfile="D:/Katerina/data-visualisation-and-analysis-app/mainWindow.py" bodystart="75" bodyend="85"/>
+      </memberdef>
+      <memberdef kind="function" id="classmain_window_1_1_main_window_1a7b1e3c2704de0a744d7730a33c20073f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>mainWindow.MainWindow.create_selected_camera</definition>
+        <argsstring>(self, camera_name)</argsstring>
+        <name>create_selected_camera</name>
+        <qualifiedname>mainWindow.MainWindow.create_selected_camera</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>camera_name</type>
+          <defname>camera_name</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>    get_selected_camera(self, camera_name)
+    Function that creates an object of class Camera.
+
+    Args:
+        camera_name(str) : this is the name of the camera
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Katerina/data-visualisation-and-analysis-app/mainWindow.py" line="86" column="1" bodyfile="D:/Katerina/data-visualisation-and-analysis-app/mainWindow.py" bodystart="86" bodyend="98"/>
+      </memberdef>
+      <memberdef kind="function" id="classmain_window_1_1_main_window_1abe470e87142a405ac66b04871d447690" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>mainWindow.MainWindow.get_date_to</definition>
+        <argsstring>(self)</argsstring>
+        <name>get_date_to</name>
+        <qualifiedname>mainWindow.MainWindow.get_date_to</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>    get_date_to()
+    Function that get an end date.
+
+    Returns:
+        date_to (str)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Katerina/data-visualisation-and-analysis-app/mainWindow.py" line="99" column="1" bodyfile="D:/Katerina/data-visualisation-and-analysis-app/mainWindow.py" bodystart="99" bodyend="111"/>
+      </memberdef>
+      <memberdef kind="function" id="classmain_window_1_1_main_window_1a8e5bda4ee74bf42d2260981cdd83d191" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>mainWindow.MainWindow.get_date_from</definition>
+        <argsstring>(self)</argsstring>
+        <name>get_date_from</name>
+        <qualifiedname>mainWindow.MainWindow.get_date_from</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>    get_date_from()
+    Function that get the date from which it starts
+
+    Returns:
+        date_from (str)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Katerina/data-visualisation-and-analysis-app/mainWindow.py" line="112" column="1" bodyfile="D:/Katerina/data-visualisation-and-analysis-app/mainWindow.py" bodystart="112" bodyend="124"/>
+      </memberdef>
+      <memberdef kind="function" id="classmain_window_1_1_main_window_1ab9d02b23cc93aa4c00d2cba3191e3c63" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>mainWindow.MainWindow.set_info</definition>
+        <argsstring>(self, camera_name)</argsstring>
+        <name>set_info</name>
+        <qualifiedname>mainWindow.MainWindow.set_info</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>camera_name</type>
+          <defname>camera_name</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>    set_info(camera_name)
+    Function that set information on label_info
+
+    Args:
+        camera_name (str) : this is the name of the camera
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Katerina/data-visualisation-and-analysis-app/mainWindow.py" line="125" column="1" bodyfile="D:/Katerina/data-visualisation-and-analysis-app/mainWindow.py" bodystart="125" bodyend="141"/>
+      </memberdef>
+      <memberdef kind="function" id="classmain_window_1_1_main_window_1aca7d7be4401ede004c7489cc0e9b3b1c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>mainWindow.MainWindow.set_types</definition>
+        <argsstring>(self)</argsstring>
+        <name>set_types</name>
+        <qualifiedname>mainWindow.MainWindow.set_types</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>    set_types()
+    Function that set sorted types on combobox_type
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Katerina/data-visualisation-and-analysis-app/mainWindow.py" line="142" column="1" bodyfile="D:/Katerina/data-visualisation-and-analysis-app/mainWindow.py" bodystart="142" bodyend="152"/>
+      </memberdef>
+      <memberdef kind="function" id="classmain_window_1_1_main_window_1a112bace5a4d96b449ca273af560ce51c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>mainWindow.MainWindow.set_options</definition>
+        <argsstring>(self)</argsstring>
+        <name>set_options</name>
+        <qualifiedname>mainWindow.MainWindow.set_options</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>    set_options()
+    Function that set options on combobox_type from DB
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Katerina/data-visualisation-and-analysis-app/mainWindow.py" line="153" column="1" bodyfile="D:/Katerina/data-visualisation-and-analysis-app/mainWindow.py" bodystart="153" bodyend="163"/>
+      </memberdef>
+      <memberdef kind="function" id="classmain_window_1_1_main_window_1a070d151bfacc708334452587a5c02e46" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>mainWindow.MainWindow.set_option</definition>
+        <argsstring>(self, option)</argsstring>
+        <name>set_option</name>
+        <qualifiedname>mainWindow.MainWindow.set_option</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>option</type>
+          <defname>option</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>    set(self, option)
+    Function that set the option information on label_info_2
+
+    Args:
+        option (str) : The option that is selected
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Katerina/data-visualisation-and-analysis-app/mainWindow.py" line="164" column="1" bodyfile="D:/Katerina/data-visualisation-and-analysis-app/mainWindow.py" bodystart="164" bodyend="176"/>
+      </memberdef>
+      <memberdef kind="function" id="classmain_window_1_1_main_window_1a78fe2c53626613dba77a440a4e4430d0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>mainWindow.MainWindow.create_chart</definition>
+        <argsstring>(self, method)</argsstring>
+        <name>create_chart</name>
+        <qualifiedname>mainWindow.MainWindow.create_chart</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>method</type>
+          <defname>method</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>    create_chart(method)
+    Function that create Chart object. Depending on what method is chosen, the function makes a different object
+    Line_Chart, Average_Chart or Line_Chart_of_specific_Type.
+
+    Args:
+        method (str) :The method that is selected
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Katerina/data-visualisation-and-analysis-app/mainWindow.py" line="177" column="1" bodyfile="D:/Katerina/data-visualisation-and-analysis-app/mainWindow.py" bodystart="177" bodyend="195"/>
+      </memberdef>
+      <memberdef kind="function" id="classmain_window_1_1_main_window_1ad67b2a154b488607140bc3923035873c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>mainWindow.MainWindow.set_concrete_type</definition>
+        <argsstring>(self, concrete_type)</argsstring>
+        <name>set_concrete_type</name>
+        <qualifiedname>mainWindow.MainWindow.set_concrete_type</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>concrete_type</type>
+          <defname>concrete_type</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>    get_concrete_type(concrete_type)
+    Function that set concrete_type
+
+    Args:
+        concrete_type (str) : The type that is selected
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Katerina/data-visualisation-and-analysis-app/mainWindow.py" line="196" column="1" bodyfile="D:/Katerina/data-visualisation-and-analysis-app/mainWindow.py" bodystart="196" bodyend="205"/>
+      </memberdef>
+      <memberdef kind="function" id="classmain_window_1_1_main_window_1a9b901063c2be86600207c0161fcf9030" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>mainWindow.MainWindow.button_clicked</definition>
+        <argsstring>(self)</argsstring>
+        <name>button_clicked</name>
+        <qualifiedname>mainWindow.MainWindow.button_clicked</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>    button_clicked()
+    Function that, when the button is pressed, checks which method(which charts class) is selected and displays
+    the result.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Katerina/data-visualisation-and-analysis-app/mainWindow.py" line="206" column="1" bodyfile="D:/Katerina/data-visualisation-and-analysis-app/mainWindow.py" bodystart="206" bodyend="217"/>
+      </memberdef>
+      <memberdef kind="function" id="classmain_window_1_1_main_window_1a09a8cd77f18ced8b03d1c057ea06256d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>mainWindow.MainWindow.button_export_clicked</definition>
+        <argsstring>(self)</argsstring>
+        <name>button_export_clicked</name>
+        <qualifiedname>mainWindow.MainWindow.button_export_clicked</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>    button_export_clicked()
+    Function that, when the button is pressed, export the information into CSV.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Katerina/data-visualisation-and-analysis-app/mainWindow.py" line="218" column="1" bodyfile="D:/Katerina/data-visualisation-and-analysis-app/mainWindow.py" bodystart="218" bodyend="235"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>The MainWindow class inherits QMainWindow and Ui_MainWindow class and have:
+
+           Attributes:
+               ui : Ui_MainWindow()
+               concrete_method : chosen method
+               selected_camera : chosen camera
+               concrete_type : chosen type
+               selected_option : chosen option
+               cameras_data : CamerasData()
+               cameras_name : The names of all cameras that we have in DB
+
+           Methods:
+              set_cameras_name(cameras_name) : Function that set cameras name to comboBox from cameras_name array.
+              create_selected_camera(camera_name) :  Function that creates an object of class Camera.
+              get_date_to() : Function that get an end date.
+              get_date_from() : Function that get the date from which it starts
+              set_info(camera_name) : Function that set information on label_info
+              set_types() : Function that set sorted types on combobox_type
+              set_options() : Function that set options on combobox_type from DB
+              set_option(option) : Function that set the option information on label_info_2
+              create_chart(method) : Function that create Chart object. Depending on what method is chosen, the
+              function makes a different object Line_Chart, Average_Chart or Line_Chart_of_specific_Type.
+              set_concrete_type(concrete_type) : Function that set concrete_type
+              button_click() : Function that, when the button is pressed, checks which method(which charts class) is
+              selected and displays the result.
+              button_export_clicked() :  Function that, when the button is pressed, export the information into CSV.
+</verbatim> </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>QMainWindow</label>
+      </node>
+      <node id="1">
+        <label>mainWindow.MainWindow</label>
+        <link refid="classmain_window_1_1_main_window"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>object</label>
+      </node>
+      <node id="3">
+        <label>ui_mainwindow.Ui_MainWindow</label>
+        <link refid="classui__mainwindow_1_1_ui___main_window"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>QMainWindow</label>
+      </node>
+      <node id="1">
+        <label>mainWindow.MainWindow</label>
+        <link refid="classmain_window_1_1_main_window"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>object</label>
+      </node>
+      <node id="3">
+        <label>ui_mainwindow.Ui_MainWindow</label>
+        <link refid="classui__mainwindow_1_1_ui___main_window"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Katerina/data-visualisation-and-analysis-app/mainWindow.py" line="8" column="1" bodyfile="D:/Katerina/data-visualisation-and-analysis-app/mainWindow.py" bodystart="8" bodyend="235"/>
+    <listofallmembers>
+      <member refid="classmain_window_1_1_main_window_1a2d9cf0becc79da6b58cece5fd3435433" prot="private" virt="non-virtual"><scope>mainWindow::MainWindow</scope><name>__cameras_data</name></member>
+      <member refid="classmain_window_1_1_main_window_1acd17830dff16971c4d8c05ea5a62f940" prot="private" virt="non-virtual"><scope>mainWindow::MainWindow</scope><name>__cameras_name</name></member>
+      <member refid="classmain_window_1_1_main_window_1a1d93e153b689c0f93427b7230962a48e" prot="private" virt="non-virtual"><scope>mainWindow::MainWindow</scope><name>__concrete_method</name></member>
+      <member refid="classmain_window_1_1_main_window_1a94384e733fcb7c6b7ef5bc8fb6f6d440" prot="private" virt="non-virtual"><scope>mainWindow::MainWindow</scope><name>__concrete_type</name></member>
+      <member refid="classmain_window_1_1_main_window_1a267fc91ebb2be4516f71dd7a48a3b67a" prot="public" virt="non-virtual"><scope>mainWindow::MainWindow</scope><name>__init__</name></member>
+      <member refid="classmain_window_1_1_main_window_1abef5ffb306d6d2672e2ca9c39b39e792" prot="private" virt="non-virtual"><scope>mainWindow::MainWindow</scope><name>__selected_camera</name></member>
+      <member refid="classmain_window_1_1_main_window_1aa1333fa64ce817df4a28bd529314017b" prot="private" virt="non-virtual"><scope>mainWindow::MainWindow</scope><name>__selected_option</name></member>
+      <member refid="classmain_window_1_1_main_window_1a2a53e25bb5f36b8cf73d003cba0ada0f" prot="private" virt="non-virtual"><scope>mainWindow::MainWindow</scope><name>__ui</name></member>
+      <member refid="classmain_window_1_1_main_window_1a76df2277ac2b0eb5db772f8d6a4ad8e2" prot="public" virt="non-virtual"><scope>mainWindow::MainWindow</scope><name>button_clicked</name></member>
+      <member refid="classmain_window_1_1_main_window_1a9b901063c2be86600207c0161fcf9030" prot="public" virt="non-virtual"><scope>mainWindow::MainWindow</scope><name>button_clicked</name></member>
+      <member refid="classmain_window_1_1_main_window_1a8a83e3ca33ec7a3427d02c2f3e1d3ede" prot="public" virt="non-virtual"><scope>mainWindow::MainWindow</scope><name>button_export_clicked</name></member>
+      <member refid="classmain_window_1_1_main_window_1a09a8cd77f18ced8b03d1c057ea06256d" prot="public" virt="non-virtual"><scope>mainWindow::MainWindow</scope><name>button_export_clicked</name></member>
+      <member refid="classmain_window_1_1_main_window_1abd1c9b49fe80974a285374cff034ba2b" prot="public" virt="non-virtual"><scope>mainWindow::MainWindow</scope><name>create_chart</name></member>
+      <member refid="classmain_window_1_1_main_window_1a78fe2c53626613dba77a440a4e4430d0" prot="public" virt="non-virtual"><scope>mainWindow::MainWindow</scope><name>create_chart</name></member>
+      <member refid="classmain_window_1_1_main_window_1a7b1e3c2704de0a744d7730a33c20073f" prot="public" virt="non-virtual"><scope>mainWindow::MainWindow</scope><name>create_selected_camera</name></member>
+      <member refid="classmain_window_1_1_main_window_1a8e5bda4ee74bf42d2260981cdd83d191" prot="public" virt="non-virtual"><scope>mainWindow::MainWindow</scope><name>get_date_from</name></member>
+      <member refid="classmain_window_1_1_main_window_1abe470e87142a405ac66b04871d447690" prot="public" virt="non-virtual"><scope>mainWindow::MainWindow</scope><name>get_date_to</name></member>
+      <member refid="classmain_window_1_1_main_window_1ad8100445ac82abd0fc912ac3cf667414" prot="public" virt="non-virtual"><scope>mainWindow::MainWindow</scope><name>set_cameras_name</name></member>
+      <member refid="classmain_window_1_1_main_window_1a322d3cf953b27a71d9378b38ff7455cd" prot="public" virt="non-virtual"><scope>mainWindow::MainWindow</scope><name>set_concrete_type</name></member>
+      <member refid="classmain_window_1_1_main_window_1ad67b2a154b488607140bc3923035873c" prot="public" virt="non-virtual"><scope>mainWindow::MainWindow</scope><name>set_concrete_type</name></member>
+      <member refid="classmain_window_1_1_main_window_1a5edb3405e6dddd0ee4fb645ba9b3968e" prot="public" virt="non-virtual"><scope>mainWindow::MainWindow</scope><name>set_info</name></member>
+      <member refid="classmain_window_1_1_main_window_1ab9d02b23cc93aa4c00d2cba3191e3c63" prot="public" virt="non-virtual"><scope>mainWindow::MainWindow</scope><name>set_info</name></member>
+      <member refid="classmain_window_1_1_main_window_1af100d13aeb41de4313507a45bb1368aa" prot="public" virt="non-virtual"><scope>mainWindow::MainWindow</scope><name>set_option</name></member>
+      <member refid="classmain_window_1_1_main_window_1a070d151bfacc708334452587a5c02e46" prot="public" virt="non-virtual"><scope>mainWindow::MainWindow</scope><name>set_option</name></member>
+      <member refid="classmain_window_1_1_main_window_1a112bace5a4d96b449ca273af560ce51c" prot="public" virt="non-virtual"><scope>mainWindow::MainWindow</scope><name>set_options</name></member>
+      <member refid="classmain_window_1_1_main_window_1aca7d7be4401ede004c7489cc0e9b3b1c" prot="public" virt="non-virtual"><scope>mainWindow::MainWindow</scope><name>set_types</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

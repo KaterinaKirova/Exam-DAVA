@@ -1,0 +1,164 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_charts_1_1_line___chart__of__specific___type" kind="class" language="Python" prot="public">
+    <compoundname>Charts::Line_Chart_of_specific_Type</compoundname>
+    <basecompoundref refid="class_charts_1_1_chart" prot="public" virt="non-virtual">Charts.Chart</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_charts_1_1_line___chart__of__specific___type_1a0a44497b46c34e2541b7df0cedd64e11" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>Charts.Line_Chart_of_specific_Type::__method</definition>
+        <argsstring></argsstring>
+        <name>__method</name>
+        <qualifiedname>Charts.Line_Chart_of_specific_Type.__method</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Katerina/data-visualisation-and-analysis-app/Charts.py" line="142" column="1" bodyfile="D:/Katerina/data-visualisation-and-analysis-app/Charts.py" bodystart="142" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_charts_1_1_line___chart__of__specific___type_1ac5529d54dde92c33e2fc2706c3bb8f1d" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>Charts.Line_Chart_of_specific_Type::__canvas</definition>
+        <argsstring></argsstring>
+        <name>__canvas</name>
+        <qualifiedname>Charts.Line_Chart_of_specific_Type.__canvas</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Katerina/data-visualisation-and-analysis-app/Charts.py" line="143" column="1" bodyfile="D:/Katerina/data-visualisation-and-analysis-app/Charts.py" bodystart="143" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_charts_1_1_line___chart__of__specific___type_1a12a76b320ea5bf7b37b4d9f7c0aa36f1" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>Charts.Line_Chart_of_specific_Type::__ax</definition>
+        <argsstring></argsstring>
+        <name>__ax</name>
+        <qualifiedname>Charts.Line_Chart_of_specific_Type.__ax</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Katerina/data-visualisation-and-analysis-app/Charts.py" line="156" column="1" bodyfile="D:/Katerina/data-visualisation-and-analysis-app/Charts.py" bodystart="156" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_charts_1_1_line___chart__of__specific___type_1a0f5923963dd742686c09f50e5c9236a3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Charts.Line_Chart_of_specific_Type.__init__</definition>
+        <argsstring>(self, canvas, method=&apos;Choose which camera type to show&apos;)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>Charts.Line_Chart_of_specific_Type.__init__</qualifiedname>
+        <reimplements refid="class_charts_1_1_chart_1acfb2b410f014504139151b01769ec340">__init__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>canvas</type>
+          <defname>canvas</defname>
+        </param>
+        <param>
+          <type>method</type>
+          <defname>method</defname>
+          <defval>&apos;Choose which camera type to show&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Katerina/data-visualisation-and-analysis-app/Charts.py" line="140" column="1" bodyfile="D:/Katerina/data-visualisation-and-analysis-app/Charts.py" bodystart="140" bodyend="144"/>
+      </memberdef>
+      <memberdef kind="function" id="class_charts_1_1_line___chart__of__specific___type_1af8d7d1a2e4fe23cffda8dcc2a4d3ac42" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Charts.Line_Chart_of_specific_Type.to_show</definition>
+        <argsstring>(self, data, camera_type, concrete_option)</argsstring>
+        <name>to_show</name>
+        <qualifiedname>Charts.Line_Chart_of_specific_Type.to_show</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>data</type>
+          <defname>data</defname>
+        </param>
+        <param>
+          <type>camera_type</type>
+          <defname>camera_type</defname>
+        </param>
+        <param>
+          <type>concrete_option</type>
+          <defname>concrete_option</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>    to_show(data, concrete_option)
+    Function that draws the data on the canvas according to the selected method.
+
+    Args:
+        data (DataFrame) :
+        camera_type (str) : The type that is selected
+        concrete_option (str) : The option that is selected
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Katerina/data-visualisation-and-analysis-app/Charts.py" line="145" column="1" bodyfile="D:/Katerina/data-visualisation-and-analysis-app/Charts.py" bodystart="145" bodyend="168"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>The Line_Chart class inherits Chart class and have:
+
+       Attributes:
+           method : selected method
+           canvas : FigureCanvasQTAgg
+
+       Methods:
+          to_show(data, concrete_option) : Function that draws the data on the canvas according to the selected method.
+</verbatim> </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Charts.Line_Chart_of_specific_Type</label>
+        <link refid="class_charts_1_1_line___chart__of__specific___type"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Charts.Chart</label>
+        <link refid="class_charts_1_1_chart"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>Charts.Line_Chart_of_specific_Type</label>
+        <link refid="class_charts_1_1_line___chart__of__specific___type"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Charts.Chart</label>
+        <link refid="class_charts_1_1_chart"/>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Katerina/data-visualisation-and-analysis-app/Charts.py" line="130" column="1" bodyfile="D:/Katerina/data-visualisation-and-analysis-app/Charts.py" bodystart="130" bodyend="168"/>
+    <listofallmembers>
+      <member refid="class_charts_1_1_line___chart__of__specific___type_1a12a76b320ea5bf7b37b4d9f7c0aa36f1" prot="private" virt="non-virtual"><scope>Charts::Line_Chart_of_specific_Type</scope><name>__ax</name></member>
+      <member refid="class_charts_1_1_line___chart__of__specific___type_1ac5529d54dde92c33e2fc2706c3bb8f1d" prot="private" virt="non-virtual"><scope>Charts::Line_Chart_of_specific_Type</scope><name>__canvas</name></member>
+      <member refid="class_charts_1_1_line___chart__of__specific___type_1a0f5923963dd742686c09f50e5c9236a3" prot="public" virt="non-virtual"><scope>Charts::Line_Chart_of_specific_Type</scope><name>__init__</name></member>
+      <member refid="class_charts_1_1_line___chart__of__specific___type_1a0a44497b46c34e2541b7df0cedd64e11" prot="private" virt="non-virtual"><scope>Charts::Line_Chart_of_specific_Type</scope><name>__method</name></member>
+      <member refid="class_charts_1_1_line___chart__of__specific___type_1af8d7d1a2e4fe23cffda8dcc2a4d3ac42" prot="public" virt="non-virtual"><scope>Charts::Line_Chart_of_specific_Type</scope><name>to_show</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

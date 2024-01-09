@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_main_8py" xml:lang="en-US">
+<title>D:/Katerina/data-visualisation-and-analysis-app/main.py File Reference</title>
+<indexterm><primary>D:/Katerina/data-visualisation-and-analysis-app/main.py</primary></indexterm>
+<simplesect>
+    <title>Namespaces    </title>
+        <itemizedlist>
+            <listitem><para>namespace <link linkend="_namespacemain">main</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Variables    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_namespacemain_1a5fa94f0581009434c7a63791944d6ff4">main.app</link> = QApplication(sys.argv)</para>
+</listitem>
+            <listitem><para><link linkend="_namespacemain_1ae1ea5d7d8ba9156ef06beef9bf8901a8">main.window</link> = <link linkend="_classmain_window_1_1_main_window">MainWindow</link>()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

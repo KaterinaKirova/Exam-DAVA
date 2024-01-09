@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="namespace_charts" kind="namespace" language="Python">
+    <compoundname>Charts</compoundname>
+    <innerclass refid="class_charts_1_1_average___chart" prot="public">Charts::Average_Chart</innerclass>
+    <innerclass refid="class_charts_1_1_chart" prot="public">Charts::Chart</innerclass>
+    <innerclass refid="class_charts_1_1_line___chart" prot="public">Charts::Line_Chart</innerclass>
+    <innerclass refid="class_charts_1_1_line___chart__of__specific___type" prot="public">Charts::Line_Chart_of_specific_Type</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Katerina/data-visualisation-and-analysis-app/Charts.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

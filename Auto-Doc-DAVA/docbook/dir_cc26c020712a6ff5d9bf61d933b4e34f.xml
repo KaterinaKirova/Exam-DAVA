@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_dir_cc26c020712a6ff5d9bf61d933b4e34f" xml:lang="en-US">
+<title>D:/Katerina/data-visualisation-and-analysis-app Directory Reference</title>
+<indexterm><primary>D:/Katerina/data-visualisation-and-analysis-app Directory Reference</primary></indexterm>
+<simplesect>
+    <title>Files    </title>
+        <itemizedlist>
+            <listitem><para>file <link linkend="__camera_8py">Camera.py</link></para>
+</listitem>
+            <listitem><para>file <link linkend="__charts_8py">Charts.py</link></para>
+</listitem>
+            <listitem><para>file <link linkend="_data_8py">data.py</link></para>
+</listitem>
+            <listitem><para>file <link linkend="_main_8py">main.py</link></para>
+</listitem>
+            <listitem><para>file <link linkend="_main_window_8py">mainWindow.py</link></para>
+</listitem>
+            <listitem><para>file <link linkend="_ui__mainwindow_8py">ui_mainwindow.py</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

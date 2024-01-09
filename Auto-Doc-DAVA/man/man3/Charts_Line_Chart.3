@@ -1,0 +1,72 @@
+.TH "Charts.Line_Chart" 3 "DAVA" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Charts.Line_Chart
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits \fBCharts\&.Chart\fP\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fB__init__\fP (self, canvas)"
+.br
+.ti -1c
+.RI "\fBto_show\fP (self, data, concrete_option)"
+.br
+.in -1c
+
+Public Member Functions inherited from \fBCharts\&.Chart\fP
+.in +1c
+.ti -1c
+.RI "\fBshow_error_message\fP (self)"
+.br
+.ti -1c
+.RI "\fBshow_color\fP (self, concrete_option)"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+
+.PP
+.nf
+The Line_Chart class inherits Chart class and have:
+
+    Attributes:
+        canvas : FigureCanvasQTAgg
+
+    Methods:
+       to_show(data, concrete_option) : Function that draws the data on the canvas according to the selected method\&.
+
+.fi
+.PP
+ 
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "Charts\&.Line_Chart\&.__init__ ( self,  canvas)"
+
+.PP
+Reimplemented from \fBCharts\&.Chart\fP\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "Charts\&.Line_Chart\&.to_show ( self,  data,  concrete_option)"
+
+.PP
+.nf
+    to_show(data, concrete_option)
+    Function that draws the data on the canvas according to the selected method\&.
+
+    Args:
+        data (DataFrame) :
+        concrete_option (str) : The option that is selected
+
+.fi
+.PP
+ 
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for DAVA from the source code\&.

@@ -6,6 +6,14 @@ PASSWORD = 'Chroma1.0'
 HOST = '192.168.86.12'
 PORT = 3306
 DATABASE = 'production_data'
+
+'''
+USER = 'root'
+PASSWORD = 'user'
+HOST = '127.0.0.1'
+PORT = 3306
+DATABASE = 'production_data'
+'''
 CONNECTION = create_engine(url="mysql+pymysql://{0}:{1}@{2}:{3}/{4}".format(USER, PASSWORD, HOST, PORT, DATABASE))
 
 

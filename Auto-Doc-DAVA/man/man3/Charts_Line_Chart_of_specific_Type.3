@@ -1,0 +1,74 @@
+.TH "Charts.Line_Chart_of_specific_Type" 3 "DAVA" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Charts.Line_Chart_of_specific_Type
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits \fBCharts\&.Chart\fP\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fB__init__\fP (self, canvas, method='Choose which camera type to show')"
+.br
+.ti -1c
+.RI "\fBto_show\fP (self, data, camera_type, concrete_option)"
+.br
+.in -1c
+
+Public Member Functions inherited from \fBCharts\&.Chart\fP
+.in +1c
+.ti -1c
+.RI "\fBshow_error_message\fP (self)"
+.br
+.ti -1c
+.RI "\fBshow_color\fP (self, concrete_option)"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+
+.PP
+.nf
+The Line_Chart class inherits Chart class and have:
+
+       Attributes:
+           method : selected method
+           canvas : FigureCanvasQTAgg
+
+       Methods:
+          to_show(data, concrete_option) : Function that draws the data on the canvas according to the selected method\&.
+
+.fi
+.PP
+ 
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "Charts\&.Line_Chart_of_specific_Type\&.__init__ ( self,  canvas,  method = \fC'Choose which camera type to show'\fP)"
+
+.PP
+Reimplemented from \fBCharts\&.Chart\fP\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "Charts\&.Line_Chart_of_specific_Type\&.to_show ( self,  data,  camera_type,  concrete_option)"
+
+.PP
+.nf
+    to_show(data, concrete_option)
+    Function that draws the data on the canvas according to the selected method\&.
+
+    Args:
+        data (DataFrame) :
+        camera_type (str) : The type that is selected
+        concrete_option (str) : The option that is selected
+
+.fi
+.PP
+ 
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for DAVA from the source code\&.

@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="namespaceui__mainwindow" kind="namespace" language="Python">
+    <compoundname>ui_mainwindow</compoundname>
+    <innerclass refid="classui__mainwindow_1_1_ui___main_window" prot="public">ui_mainwindow::Ui_MainWindow</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Katerina/data-visualisation-and-analysis-app/ui_mainwindow.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

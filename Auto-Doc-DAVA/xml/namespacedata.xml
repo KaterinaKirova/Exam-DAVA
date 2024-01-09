@@ -1,0 +1,105 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="namespacedata" kind="namespace" language="Python">
+    <compoundname>data</compoundname>
+    <innerclass refid="classdata_1_1_cameras_data" prot="public">data::CamerasData</innerclass>
+    <innerclass refid="classdata_1_1_data" prot="public">data::Data</innerclass>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="namespacedata_1ad2ec3630c607f1d4da0f32410c1c1c8a" prot="public" static="no" mutable="no">
+        <type>str</type>
+        <definition>str data.USER</definition>
+        <argsstring></argsstring>
+        <name>USER</name>
+        <qualifiedname>data.USER</qualifiedname>
+        <initializer>=  &apos;sqluser&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Katerina/data-visualisation-and-analysis-app/data.py" line="4" column="1" bodyfile="D:/Katerina/data-visualisation-and-analysis-app/data.py" bodystart="4" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacedata_1ad1a68d9aa6079776a8bf27d1176b3a2a" prot="public" static="no" mutable="no">
+        <type>str</type>
+        <definition>str data.PASSWORD</definition>
+        <argsstring></argsstring>
+        <name>PASSWORD</name>
+        <qualifiedname>data.PASSWORD</qualifiedname>
+        <initializer>=  &apos;Chroma1.0&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Katerina/data-visualisation-and-analysis-app/data.py" line="5" column="1" bodyfile="D:/Katerina/data-visualisation-and-analysis-app/data.py" bodystart="5" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacedata_1a87619bf44d5077534d3910d62a8fa977" prot="public" static="no" mutable="no">
+        <type>str</type>
+        <definition>str data.HOST</definition>
+        <argsstring></argsstring>
+        <name>HOST</name>
+        <qualifiedname>data.HOST</qualifiedname>
+        <initializer>=  &apos;192.168.86.12&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Katerina/data-visualisation-and-analysis-app/data.py" line="6" column="1" bodyfile="D:/Katerina/data-visualisation-and-analysis-app/data.py" bodystart="6" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacedata_1a7a23373f796a82ab3bb563833b27f896" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int data.PORT</definition>
+        <argsstring></argsstring>
+        <name>PORT</name>
+        <qualifiedname>data.PORT</qualifiedname>
+        <initializer>=  3306</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Katerina/data-visualisation-and-analysis-app/data.py" line="7" column="1" bodyfile="D:/Katerina/data-visualisation-and-analysis-app/data.py" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacedata_1ae8043aa2d5a6013927945e5995589f1e" prot="public" static="no" mutable="no">
+        <type>str</type>
+        <definition>str data.DATABASE</definition>
+        <argsstring></argsstring>
+        <name>DATABASE</name>
+        <qualifiedname>data.DATABASE</qualifiedname>
+        <initializer>=  &apos;production_data&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Katerina/data-visualisation-and-analysis-app/data.py" line="8" column="1" bodyfile="D:/Katerina/data-visualisation-and-analysis-app/data.py" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacedata_1a59bbca5442328d20a24639ebe3e26f1a" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>data.CONNECTION</definition>
+        <argsstring></argsstring>
+        <name>CONNECTION</name>
+        <qualifiedname>data.CONNECTION</qualifiedname>
+        <initializer>=  create_engine(url=&quot;mysql+pymysql://{0}:{1}@{2}:{3}/{4}&quot;.format(<ref refid="namespacedata_1ad2ec3630c607f1d4da0f32410c1c1c8a" kindref="member">USER</ref>, <ref refid="namespacedata_1ad1a68d9aa6079776a8bf27d1176b3a2a" kindref="member">PASSWORD</ref>, <ref refid="namespacedata_1a87619bf44d5077534d3910d62a8fa977" kindref="member">HOST</ref>, <ref refid="namespacedata_1a7a23373f796a82ab3bb563833b27f896" kindref="member">PORT</ref>, <ref refid="namespacedata_1ae8043aa2d5a6013927945e5995589f1e" kindref="member">DATABASE</ref>))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Katerina/data-visualisation-and-analysis-app/data.py" line="9" column="1" bodyfile="D:/Katerina/data-visualisation-and-analysis-app/data.py" bodystart="9" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Katerina/data-visualisation-and-analysis-app/data.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,438 @@
+.TH "mainWindow.MainWindow" 3 "DAVA" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+mainWindow.MainWindow
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits QMainWindow, and \fBui_mainwindow\&.Ui_MainWindow\fP\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fB__init__\fP (self)"
+.br
+.ti -1c
+.RI "\fBset_cameras_name\fP (self, cameras_name)"
+.br
+.ti -1c
+.RI "\fBcreate_selected_camera\fP (self, camera_name)"
+.br
+.ti -1c
+.RI "\fBget_date_to\fP (self)"
+.br
+.ti -1c
+.RI "\fBget_date_from\fP (self)"
+.br
+.ti -1c
+.RI "\fBset_info\fP (self, camera_name)"
+.br
+.ti -1c
+.RI "\fBset_types\fP (self)"
+.br
+.ti -1c
+.RI "\fBset_options\fP (self)"
+.br
+.ti -1c
+.RI "\fBset_option\fP (self, option)"
+.br
+.ti -1c
+.RI "\fBcreate_chart\fP (self, method)"
+.br
+.ti -1c
+.RI "\fBset_concrete_type\fP (self, concrete_type)"
+.br
+.ti -1c
+.RI "\fBbutton_clicked\fP (self)"
+.br
+.ti -1c
+.RI "\fBbutton_export_clicked\fP (self)"
+.br
+.in -1c
+
+Public Member Functions inherited from \fBui_mainwindow\&.Ui_MainWindow\fP
+.in +1c
+.ti -1c
+.RI "\fBsetupUi\fP (self, MainWindow)"
+.br
+.ti -1c
+.RI "\fBretranslateUi\fP (self, MainWindow)"
+.br
+.in -1c
+.SS "Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "\fBset_info\fP"
+.br
+.ti -1c
+.RI "\fBset_option\fP"
+.br
+.ti -1c
+.RI "\fBcreate_chart\fP"
+.br
+.ti -1c
+.RI "\fBset_concrete_type\fP"
+.br
+.ti -1c
+.RI "\fBbutton_clicked\fP"
+.br
+.ti -1c
+.RI "\fBbutton_export_clicked\fP"
+.br
+.in -1c
+
+Public Attributes inherited from \fBui_mainwindow\&.Ui_MainWindow\fP
+.in +1c
+.ti -1c
+.RI "\fBcentralwidget\fP"
+.br
+.ti -1c
+.RI "\fBhorizontalLayout\fP"
+.br
+.ti -1c
+.RI "\fBframe_7\fP"
+.br
+.ti -1c
+.RI "\fBhorizontalLayout_2\fP"
+.br
+.ti -1c
+.RI "\fBframe_2\fP"
+.br
+.ti -1c
+.RI "\fBverticalLayout_2\fP"
+.br
+.ti -1c
+.RI "\fBframe\fP"
+.br
+.ti -1c
+.RI "\fBformLayout_2\fP"
+.br
+.ti -1c
+.RI "\fBgroupBox_period\fP"
+.br
+.ti -1c
+.RI "\fBformLayout\fP"
+.br
+.ti -1c
+.RI "\fBlabel_from\fP"
+.br
+.ti -1c
+.RI "\fBdateEdit_from\fP"
+.br
+.ti -1c
+.RI "\fBlabel_to\fP"
+.br
+.ti -1c
+.RI "\fBdateEdit_to\fP"
+.br
+.ti -1c
+.RI "\fBframe_3\fP"
+.br
+.ti -1c
+.RI "\fBverticalLayout\fP"
+.br
+.ti -1c
+.RI "\fBgroupBox_selec_camera\fP"
+.br
+.ti -1c
+.RI "\fBverticalLayout_3\fP"
+.br
+.ti -1c
+.RI "\fBcomboBox_camera\fP"
+.br
+.ti -1c
+.RI "\fBgroupBox_options\fP"
+.br
+.ti -1c
+.RI "\fBverticalLayout_4\fP"
+.br
+.ti -1c
+.RI "\fBcomboBox_options\fP"
+.br
+.ti -1c
+.RI "\fBgroupBox_select_method\fP"
+.br
+.ti -1c
+.RI "\fBverticalLayout_5\fP"
+.br
+.ti -1c
+.RI "\fBcomboBox_method\fP"
+.br
+.ti -1c
+.RI "\fBgroupBox_select_type\fP"
+.br
+.ti -1c
+.RI "\fBverticalLayout_6\fP"
+.br
+.ti -1c
+.RI "\fBcomboBox_type\fP"
+.br
+.ti -1c
+.RI "\fBframe_6\fP"
+.br
+.ti -1c
+.RI "\fBgridLayout\fP"
+.br
+.ti -1c
+.RI "\fBpushButton\fP"
+.br
+.ti -1c
+.RI "\fBpushButton_Export\fP"
+.br
+.ti -1c
+.RI "\fBframe_4\fP"
+.br
+.ti -1c
+.RI "\fBhorizontalLayout_4\fP"
+.br
+.ti -1c
+.RI "\fBgroupBox_about\fP"
+.br
+.ti -1c
+.RI "\fBlabel_info\fP"
+.br
+.ti -1c
+.RI "\fBgroupBox_about_3\fP"
+.br
+.ti -1c
+.RI "\fBlabel_label_info_result\fP"
+.br
+.ti -1c
+.RI "\fBframe_5\fP"
+.br
+.ti -1c
+.RI "\fBgroupBox_about_2\fP"
+.br
+.ti -1c
+.RI "\fBlabel_info_option\fP"
+.br
+.ti -1c
+.RI "\fBframe_8\fP"
+.br
+.ti -1c
+.RI "\fBverticalLayout_7\fP"
+.br
+.ti -1c
+.RI "\fBmenubar\fP"
+.br
+.ti -1c
+.RI "\fBstatusbar\fP"
+.br
+.ti -1c
+.RI "\fBfigure\fP"
+.br
+.ti -1c
+.RI "\fBcanvas\fP"
+.br
+.ti -1c
+.RI "\fBtoolbar\fP"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+
+.PP
+.nf
+The MainWindow class inherits QMainWindow and Ui_MainWindow class and have:
+
+           Attributes:
+               ui : Ui_MainWindow()
+               concrete_method : chosen method
+               selected_camera : chosen camera
+               concrete_type : chosen type
+               selected_option : chosen option
+               cameras_data : CamerasData()
+               cameras_name : The names of all cameras that we have in DB
+
+           Methods:
+              set_cameras_name(cameras_name) : Function that set cameras name to comboBox from cameras_name array\&.
+              create_selected_camera(camera_name) :  Function that creates an object of class Camera\&.
+              get_date_to() : Function that get an end date\&.
+              get_date_from() : Function that get the date from which it starts
+              set_info(camera_name) : Function that set information on label_info
+              set_types() : Function that set sorted types on combobox_type
+              set_options() : Function that set options on combobox_type from DB
+              set_option(option) : Function that set the option information on label_info_2
+              create_chart(method) : Function that create Chart object\&. Depending on what method is chosen, the
+              function makes a different object Line_Chart, Average_Chart or Line_Chart_of_specific_Type\&.
+              set_concrete_type(concrete_type) : Function that set concrete_type
+              button_click() : Function that, when the button is pressed, checks which method(which charts class) is
+              selected and displays the result\&.
+              button_export_clicked() :  Function that, when the button is pressed, export the information into CSV\&.
+
+.fi
+.PP
+ 
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "mainWindow\&.MainWindow\&.__init__ ( self)"
+
+.SH "Member Function Documentation"
+.PP 
+.SS "mainWindow\&.MainWindow\&.button_clicked ( self)"
+
+.PP
+.nf
+    button_clicked()
+    Function that, when the button is pressed, checks which method(which charts class) is selected and displays
+    the result\&.
+
+.fi
+.PP
+ 
+.SS "mainWindow\&.MainWindow\&.button_export_clicked ( self)"
+
+.PP
+.nf
+    button_export_clicked()
+    Function that, when the button is pressed, export the information into CSV\&.
+
+.fi
+.PP
+ 
+.SS "mainWindow\&.MainWindow\&.create_chart ( self,  method)"
+
+.PP
+.nf
+    create_chart(method)
+    Function that create Chart object\&. Depending on what method is chosen, the function makes a different object
+    Line_Chart, Average_Chart or Line_Chart_of_specific_Type\&.
+
+    Args:
+        method (str) :The method that is selected
+
+.fi
+.PP
+ 
+.SS "mainWindow\&.MainWindow\&.create_selected_camera ( self,  camera_name)"
+
+.PP
+.nf
+    get_selected_camera(self, camera_name)
+    Function that creates an object of class Camera\&.
+
+    Args:
+        camera_name(str) : this is the name of the camera
+
+.fi
+.PP
+ 
+.SS "mainWindow\&.MainWindow\&.get_date_from ( self)"
+
+.PP
+.nf
+    get_date_from()
+    Function that get the date from which it starts
+
+    Returns:
+        date_from (str)
+
+.fi
+.PP
+ 
+.SS "mainWindow\&.MainWindow\&.get_date_to ( self)"
+
+.PP
+.nf
+    get_date_to()
+    Function that get an end date\&.
+
+    Returns:
+        date_to (str)
+
+.fi
+.PP
+ 
+.SS "mainWindow\&.MainWindow\&.set_cameras_name ( self,  cameras_name)"
+
+.PP
+.nf
+    set_cameras_name(self, cameras_name)
+    Function that set cameras name to comboBox from cameras_name array\&.
+
+    Args:
+        cameras_name (numpy\&.ndarray)
+
+.fi
+.PP
+ 
+.SS "mainWindow\&.MainWindow\&.set_concrete_type ( self,  concrete_type)"
+
+.PP
+.nf
+    get_concrete_type(concrete_type)
+    Function that set concrete_type
+
+    Args:
+        concrete_type (str) : The type that is selected
+
+.fi
+.PP
+ 
+.SS "mainWindow\&.MainWindow\&.set_info ( self,  camera_name)"
+
+.PP
+.nf
+    set_info(camera_name)
+    Function that set information on label_info
+
+    Args:
+        camera_name (str) : this is the name of the camera
+
+.fi
+.PP
+ 
+.SS "mainWindow\&.MainWindow\&.set_option ( self,  option)"
+
+.PP
+.nf
+    set(self, option)
+    Function that set the option information on label_info_2
+
+    Args:
+        option (str) : The option that is selected
+
+.fi
+.PP
+ 
+.SS "mainWindow\&.MainWindow\&.set_options ( self)"
+
+.PP
+.nf
+    set_options()
+    Function that set options on combobox_type from DB
+
+.fi
+.PP
+ 
+.SS "mainWindow\&.MainWindow\&.set_types ( self)"
+
+.PP
+.nf
+    set_types()
+    Function that set sorted types on combobox_type
+
+.fi
+.PP
+ 
+.SH "Member Data Documentation"
+.PP 
+.SS "mainWindow\&.MainWindow\&.button_clicked"
+
+.SS "mainWindow\&.MainWindow\&.button_export_clicked"
+
+.SS "mainWindow\&.MainWindow\&.create_chart"
+
+.SS "mainWindow\&.MainWindow\&.set_concrete_type"
+
+.SS "mainWindow\&.MainWindow\&.set_info"
+
+.SS "mainWindow\&.MainWindow\&.set_option"
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for DAVA from the source code\&.

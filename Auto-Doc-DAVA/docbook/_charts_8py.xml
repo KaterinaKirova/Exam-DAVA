@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="__charts_8py" xml:lang="en-US">
+<title>D:/Katerina/data-visualisation-and-analysis-app/Charts.py File Reference</title>
+<indexterm><primary>D:/Katerina/data-visualisation-and-analysis-app/Charts.py</primary></indexterm>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <link linkend="_class_charts_1_1_chart">Charts.Chart</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_class_charts_1_1_line___chart">Charts.Line_Chart</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_class_charts_1_1_average___chart">Charts.Average_Chart</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_class_charts_1_1_line___chart__of__specific___type">Charts.Line_Chart_of_specific_Type</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Namespaces    </title>
+        <itemizedlist>
+            <listitem><para>namespace <link linkend="_namespace_charts">Charts</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

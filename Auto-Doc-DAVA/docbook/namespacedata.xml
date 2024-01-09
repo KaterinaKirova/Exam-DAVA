@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_namespacedata" xml:lang="en-US">
+<title>data Namespace Reference</title>
+<indexterm><primary>data</primary></indexterm>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <link linkend="_classdata_1_1_cameras_data">CamerasData</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classdata_1_1_data">Data</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Variables    </title>
+        <itemizedlist>
+            <listitem><para>str <link linkend="_namespacedata_1ad2ec3630c607f1d4da0f32410c1c1c8a">USER</link> = &apos;sqluser&apos;</para>
+</listitem>
+            <listitem><para>str <link linkend="_namespacedata_1ad1a68d9aa6079776a8bf27d1176b3a2a">PASSWORD</link> = &apos;Chroma1.0&apos;</para>
+</listitem>
+            <listitem><para>str <link linkend="_namespacedata_1a87619bf44d5077534d3910d62a8fa977">HOST</link> = &apos;192.168.86.12&apos;</para>
+</listitem>
+            <listitem><para>int <link linkend="_namespacedata_1a7a23373f796a82ab3bb563833b27f896">PORT</link> = 3306</para>
+</listitem>
+            <listitem><para>str <link linkend="_namespacedata_1ae8043aa2d5a6013927945e5995589f1e">DATABASE</link> = &apos;production_data&apos;</para>
+</listitem>
+            <listitem><para><link linkend="_namespacedata_1a59bbca5442328d20a24639ebe3e26f1a">CONNECTION</link> = create_engine(url=&quot;mysql+pymysql://{0}:{1}@{2}:{3}/{4}&quot;.format(<link linkend="_namespacedata_1ad2ec3630c607f1d4da0f32410c1c1c8a">USER</link>, <link linkend="_namespacedata_1ad1a68d9aa6079776a8bf27d1176b3a2a">PASSWORD</link>, <link linkend="_namespacedata_1a87619bf44d5077534d3910d62a8fa977">HOST</link>, <link linkend="_namespacedata_1a7a23373f796a82ab3bb563833b27f896">PORT</link>, <link linkend="_namespacedata_1ae8043aa2d5a6013927945e5995589f1e">DATABASE</link>))</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Variable Documentation</title>
+<anchor xml:id="_namespacedata_1a59bbca5442328d20a24639ebe3e26f1a"/><section>
+    <title>CONNECTION</title>
+<indexterm><primary>CONNECTION</primary><secondary>data</secondary></indexterm>
+<indexterm><primary>data</primary><secondary>CONNECTION</secondary></indexterm>
+<para><computeroutput>data.CONNECTION = create_engine(url=&quot;mysql+pymysql://{0}:{1}@{2}:{3}/{4}&quot;.format(<link linkend="_namespacedata_1ad2ec3630c607f1d4da0f32410c1c1c8a">USER</link>, <link linkend="_namespacedata_1ad1a68d9aa6079776a8bf27d1176b3a2a">PASSWORD</link>, <link linkend="_namespacedata_1a87619bf44d5077534d3910d62a8fa977">HOST</link>, <link linkend="_namespacedata_1a7a23373f796a82ab3bb563833b27f896">PORT</link>, <link linkend="_namespacedata_1ae8043aa2d5a6013927945e5995589f1e">DATABASE</link>))</computeroutput></para></section>
+<anchor xml:id="_namespacedata_1ae8043aa2d5a6013927945e5995589f1e"/><section>
+    <title>DATABASE</title>
+<indexterm><primary>DATABASE</primary><secondary>data</secondary></indexterm>
+<indexterm><primary>data</primary><secondary>DATABASE</secondary></indexterm>
+<para><computeroutput>str data.DATABASE = &apos;production_data&apos;</computeroutput></para></section>
+<anchor xml:id="_namespacedata_1a87619bf44d5077534d3910d62a8fa977"/><section>
+    <title>HOST</title>
+<indexterm><primary>HOST</primary><secondary>data</secondary></indexterm>
+<indexterm><primary>data</primary><secondary>HOST</secondary></indexterm>
+<para><computeroutput>str data.HOST = &apos;192.168.86.12&apos;</computeroutput></para></section>
+<anchor xml:id="_namespacedata_1ad1a68d9aa6079776a8bf27d1176b3a2a"/><section>
+    <title>PASSWORD</title>
+<indexterm><primary>PASSWORD</primary><secondary>data</secondary></indexterm>
+<indexterm><primary>data</primary><secondary>PASSWORD</secondary></indexterm>
+<para><computeroutput>str data.PASSWORD = &apos;Chroma1.0&apos;</computeroutput></para></section>
+<anchor xml:id="_namespacedata_1a7a23373f796a82ab3bb563833b27f896"/><section>
+    <title>PORT</title>
+<indexterm><primary>PORT</primary><secondary>data</secondary></indexterm>
+<indexterm><primary>data</primary><secondary>PORT</secondary></indexterm>
+<para><computeroutput>int data.PORT = 3306</computeroutput></para></section>
+<anchor xml:id="_namespacedata_1ad2ec3630c607f1d4da0f32410c1c1c8a"/><section>
+    <title>USER</title>
+<indexterm><primary>USER</primary><secondary>data</secondary></indexterm>
+<indexterm><primary>data</primary><secondary>USER</secondary></indexterm>
+<para><computeroutput>str data.USER = &apos;sqluser&apos;</computeroutput></para></section>
+</section>
+</section>

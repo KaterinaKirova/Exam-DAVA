@@ -1,0 +1,174 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.9.8" xml:lang="en-US">
+  <compound refid="class_charts_1_1_average___chart" kind="class"><name>Charts::Average_Chart</name>
+    <member refid="class_charts_1_1_average___chart_1a04d35c7daf69caf0fa5f377d4869011b" kind="variable"><name>__canvas</name></member>
+    <member refid="class_charts_1_1_average___chart_1adf4ec8891e1236e6b8f5e0a3b0c53159" kind="variable"><name>__ax</name></member>
+    <member refid="class_charts_1_1_average___chart_1a5abbb922ee633c1f4e19337bc1683c44" kind="function"><name>__init__</name></member>
+    <member refid="class_charts_1_1_average___chart_1a7b1dc727cf00eb629b5aed605bbc83d4" kind="function"><name>to_show</name></member>
+  </compound>
+  <compound refid="class_camera_1_1_camera" kind="class"><name>Camera::Camera</name>
+    <member refid="class_camera_1_1_camera_1a1609ee18a5f9637f05a07fca914825bd" kind="variable"><name>__title</name></member>
+    <member refid="class_camera_1_1_camera_1a58d94bb757beb5a8508c1870d1bfbb5e" kind="variable"><name>__date_from</name></member>
+    <member refid="class_camera_1_1_camera_1a119d382a081ec0bcc83a61eca6ab10f1" kind="variable"><name>__date_to</name></member>
+    <member refid="class_camera_1_1_camera_1ad8ed6953735883dc05c7e3f26ff4d885" kind="variable"><name>__options</name></member>
+    <member refid="class_camera_1_1_camera_1a98281dc7fdcd26eaf739be9f5f0496e4" kind="variable"><name>__data</name></member>
+    <member refid="class_camera_1_1_camera_1a3d17e4c0135a280e04ffa82864f82c8c" kind="variable"><name>__selected_camera_data</name></member>
+    <member refid="class_camera_1_1_camera_1ace13c0651990c91a11ab4c769257d9ec" kind="function"><name>__init__</name></member>
+    <member refid="class_camera_1_1_camera_1ae91ab5f8a2b515c5174ed6df1938babc" kind="function"><name>get_data</name></member>
+    <member refid="class_camera_1_1_camera_1a11c964399305741362b80524f760b315" kind="function"><name>fetch_data</name></member>
+    <member refid="class_camera_1_1_camera_1ab1829bed4a07d659e4c94e4191d3c23d" kind="function"><name>get_info</name></member>
+    <member refid="class_camera_1_1_camera_1a5f97627a748c57e8af2c9c37aef51a4f" kind="function"><name>get_info_result</name></member>
+    <member refid="class_camera_1_1_camera_1a4a074527c85391bf7a210bdcf3e96df4" kind="function"><name>get_info_option</name></member>
+    <member refid="class_camera_1_1_camera_1a0c49ce10aa756aed08ddc395e32bd325" kind="function"><name>get_sorted_types</name></member>
+    <member refid="class_camera_1_1_camera_1a2e7861611a1ca003d086f417d18bc7bf" kind="function"><name>get_options</name></member>
+  </compound>
+  <compound refid="classdata_1_1_cameras_data" kind="class"><name>data::CamerasData</name>
+    <member refid="classdata_1_1_cameras_data_1aa8a51b28fa55fe4335025056408b27b1" kind="function"><name>get_cameras_name</name></member>
+  </compound>
+  <compound refid="class_charts_1_1_chart" kind="class"><name>Charts::Chart</name>
+    <member refid="class_charts_1_1_chart_1a3cd59123a32d7a3d008ccfc413ed5e35" kind="variable"><name>__ax</name></member>
+    <member refid="class_charts_1_1_chart_1acfb2b410f014504139151b01769ec340" kind="function"><name>__init__</name></member>
+    <member refid="class_charts_1_1_chart_1a8fcb6e9cdec169b3569668e46b7ec553" kind="function"><name>show_error_message</name></member>
+    <member refid="class_charts_1_1_chart_1aff942a9e824a634b58385413311c3c46" kind="function"><name>show_color</name></member>
+  </compound>
+  <compound refid="classdata_1_1_data" kind="class"><name>data::Data</name>
+    <member refid="classdata_1_1_data_1a2fedf45c3db7de36ccb9ddd5f03ce4e5" kind="variable"><name>__table_name</name></member>
+    <member refid="classdata_1_1_data_1a1cfb90efb91a4775b7c87283130412ab" kind="variable"><name>__date_from</name></member>
+    <member refid="classdata_1_1_data_1a3d1dd673f2d5e8b7ea049fb5bfccee34" kind="variable"><name>__date_to</name></member>
+    <member refid="classdata_1_1_data_1a549a925818b17a9a716978d7eb31c761" kind="function"><name>__init__</name></member>
+    <member refid="classdata_1_1_data_1aa4109d99b68c490e84c93fcf39ba8904" kind="function"><name>get_data</name></member>
+    <member refid="classdata_1_1_data_1adde6ba0e4bc74edda0bff00e0b9d9c41" kind="function"><name>get_options</name></member>
+    <member refid="classdata_1_1_data_1a6721ace52e4d9d48f8cf9ae17338fb05" kind="function"><name>get_complete_test_res</name></member>
+  </compound>
+  <compound refid="class_charts_1_1_line___chart" kind="class"><name>Charts::Line_Chart</name>
+    <member refid="class_charts_1_1_line___chart_1add4fa1e59f4802a075312ff1a30c789c" kind="variable"><name>__canvas</name></member>
+    <member refid="class_charts_1_1_line___chart_1aff8189b51156e2963535bdb207b5b803" kind="variable"><name>__ax</name></member>
+    <member refid="class_charts_1_1_line___chart_1a43300a553f4b2af680fb2f297071293b" kind="function"><name>__init__</name></member>
+    <member refid="class_charts_1_1_line___chart_1a4bc87d266f7d173c246e7d61556d52fe" kind="function"><name>to_show</name></member>
+  </compound>
+  <compound refid="class_charts_1_1_line___chart__of__specific___type" kind="class"><name>Charts::Line_Chart_of_specific_Type</name>
+    <member refid="class_charts_1_1_line___chart__of__specific___type_1a0a44497b46c34e2541b7df0cedd64e11" kind="variable"><name>__method</name></member>
+    <member refid="class_charts_1_1_line___chart__of__specific___type_1ac5529d54dde92c33e2fc2706c3bb8f1d" kind="variable"><name>__canvas</name></member>
+    <member refid="class_charts_1_1_line___chart__of__specific___type_1a12a76b320ea5bf7b37b4d9f7c0aa36f1" kind="variable"><name>__ax</name></member>
+    <member refid="class_charts_1_1_line___chart__of__specific___type_1a0f5923963dd742686c09f50e5c9236a3" kind="function"><name>__init__</name></member>
+    <member refid="class_charts_1_1_line___chart__of__specific___type_1af8d7d1a2e4fe23cffda8dcc2a4d3ac42" kind="function"><name>to_show</name></member>
+  </compound>
+  <compound refid="classmain_window_1_1_main_window" kind="class"><name>mainWindow::MainWindow</name>
+    <member refid="classmain_window_1_1_main_window_1a2a53e25bb5f36b8cf73d003cba0ada0f" kind="variable"><name>__ui</name></member>
+    <member refid="classmain_window_1_1_main_window_1a1d93e153b689c0f93427b7230962a48e" kind="variable"><name>__concrete_method</name></member>
+    <member refid="classmain_window_1_1_main_window_1abef5ffb306d6d2672e2ca9c39b39e792" kind="variable"><name>__selected_camera</name></member>
+    <member refid="classmain_window_1_1_main_window_1a94384e733fcb7c6b7ef5bc8fb6f6d440" kind="variable"><name>__concrete_type</name></member>
+    <member refid="classmain_window_1_1_main_window_1aa1333fa64ce817df4a28bd529314017b" kind="variable"><name>__selected_option</name></member>
+    <member refid="classmain_window_1_1_main_window_1a2d9cf0becc79da6b58cece5fd3435433" kind="variable"><name>__cameras_data</name></member>
+    <member refid="classmain_window_1_1_main_window_1acd17830dff16971c4d8c05ea5a62f940" kind="variable"><name>__cameras_name</name></member>
+    <member refid="classmain_window_1_1_main_window_1a5edb3405e6dddd0ee4fb645ba9b3968e" kind="variable"><name>set_info</name></member>
+    <member refid="classmain_window_1_1_main_window_1af100d13aeb41de4313507a45bb1368aa" kind="variable"><name>set_option</name></member>
+    <member refid="classmain_window_1_1_main_window_1abd1c9b49fe80974a285374cff034ba2b" kind="variable"><name>create_chart</name></member>
+    <member refid="classmain_window_1_1_main_window_1a322d3cf953b27a71d9378b38ff7455cd" kind="variable"><name>set_concrete_type</name></member>
+    <member refid="classmain_window_1_1_main_window_1a76df2277ac2b0eb5db772f8d6a4ad8e2" kind="variable"><name>button_clicked</name></member>
+    <member refid="classmain_window_1_1_main_window_1a8a83e3ca33ec7a3427d02c2f3e1d3ede" kind="variable"><name>button_export_clicked</name></member>
+    <member refid="classmain_window_1_1_main_window_1a267fc91ebb2be4516f71dd7a48a3b67a" kind="function"><name>__init__</name></member>
+    <member refid="classmain_window_1_1_main_window_1ad8100445ac82abd0fc912ac3cf667414" kind="function"><name>set_cameras_name</name></member>
+    <member refid="classmain_window_1_1_main_window_1a7b1e3c2704de0a744d7730a33c20073f" kind="function"><name>create_selected_camera</name></member>
+    <member refid="classmain_window_1_1_main_window_1abe470e87142a405ac66b04871d447690" kind="function"><name>get_date_to</name></member>
+    <member refid="classmain_window_1_1_main_window_1a8e5bda4ee74bf42d2260981cdd83d191" kind="function"><name>get_date_from</name></member>
+    <member refid="classmain_window_1_1_main_window_1ab9d02b23cc93aa4c00d2cba3191e3c63" kind="function"><name>set_info</name></member>
+    <member refid="classmain_window_1_1_main_window_1aca7d7be4401ede004c7489cc0e9b3b1c" kind="function"><name>set_types</name></member>
+    <member refid="classmain_window_1_1_main_window_1a112bace5a4d96b449ca273af560ce51c" kind="function"><name>set_options</name></member>
+    <member refid="classmain_window_1_1_main_window_1a070d151bfacc708334452587a5c02e46" kind="function"><name>set_option</name></member>
+    <member refid="classmain_window_1_1_main_window_1a78fe2c53626613dba77a440a4e4430d0" kind="function"><name>create_chart</name></member>
+    <member refid="classmain_window_1_1_main_window_1ad67b2a154b488607140bc3923035873c" kind="function"><name>set_concrete_type</name></member>
+    <member refid="classmain_window_1_1_main_window_1a9b901063c2be86600207c0161fcf9030" kind="function"><name>button_clicked</name></member>
+    <member refid="classmain_window_1_1_main_window_1a09a8cd77f18ced8b03d1c057ea06256d" kind="function"><name>button_export_clicked</name></member>
+  </compound>
+  <compound refid="classui__mainwindow_1_1_ui___main_window" kind="class"><name>ui_mainwindow::Ui_MainWindow</name>
+    <member refid="classui__mainwindow_1_1_ui___main_window_1ae98e7f65edb7c3995f5e5dcb99a70431" kind="variable"><name>centralwidget</name></member>
+    <member refid="classui__mainwindow_1_1_ui___main_window_1a00f85b97abf944c50f49ca0f53a14e17" kind="variable"><name>horizontalLayout</name></member>
+    <member refid="classui__mainwindow_1_1_ui___main_window_1a201dda6fbe672f31e18ba98393468be1" kind="variable"><name>frame_7</name></member>
+    <member refid="classui__mainwindow_1_1_ui___main_window_1ad0af872b0f9c072e4193a358f4e19fc5" kind="variable"><name>horizontalLayout_2</name></member>
+    <member refid="classui__mainwindow_1_1_ui___main_window_1a161f7db8e998687e9deaf5e1764398d7" kind="variable"><name>frame_2</name></member>
+    <member refid="classui__mainwindow_1_1_ui___main_window_1a88672e0fc5fd5050c3b3cc964eb423c4" kind="variable"><name>verticalLayout_2</name></member>
+    <member refid="classui__mainwindow_1_1_ui___main_window_1a93a5b1d1c9ea80b65ce86c9fbda5a6a1" kind="variable"><name>frame</name></member>
+    <member refid="classui__mainwindow_1_1_ui___main_window_1a784c6ab0319151e1faee148d2fff2b28" kind="variable"><name>formLayout_2</name></member>
+    <member refid="classui__mainwindow_1_1_ui___main_window_1adb984b085ebbc227dcbee2d0479361e1" kind="variable"><name>groupBox_period</name></member>
+    <member refid="classui__mainwindow_1_1_ui___main_window_1ad4eac9c606168c46779531c49a60ab5d" kind="variable"><name>formLayout</name></member>
+    <member refid="classui__mainwindow_1_1_ui___main_window_1a42280a9bb649411621ef005de275e746" kind="variable"><name>label_from</name></member>
+    <member refid="classui__mainwindow_1_1_ui___main_window_1a43ff5d9fa022cf44a4c3c059d40a3279" kind="variable"><name>dateEdit_from</name></member>
+    <member refid="classui__mainwindow_1_1_ui___main_window_1a638ce5ca92814fd1441607f5ffd90424" kind="variable"><name>label_to</name></member>
+    <member refid="classui__mainwindow_1_1_ui___main_window_1a2dc50dd2c96bad5d4416c1111fa2de08" kind="variable"><name>dateEdit_to</name></member>
+    <member refid="classui__mainwindow_1_1_ui___main_window_1a94f74cd8d490af0ae03924d22309bbbb" kind="variable"><name>frame_3</name></member>
+    <member refid="classui__mainwindow_1_1_ui___main_window_1a34783b6de2a1105eb091601f3d907e84" kind="variable"><name>verticalLayout</name></member>
+    <member refid="classui__mainwindow_1_1_ui___main_window_1ace4bfebe95f52f4917c0882a1df11806" kind="variable"><name>groupBox_selec_camera</name></member>
+    <member refid="classui__mainwindow_1_1_ui___main_window_1a38c9ed064be7141994e48cb33a5abed1" kind="variable"><name>verticalLayout_3</name></member>
+    <member refid="classui__mainwindow_1_1_ui___main_window_1a97af4908add12fce8288e1b811c2d31c" kind="variable"><name>comboBox_camera</name></member>
+    <member refid="classui__mainwindow_1_1_ui___main_window_1a67bab3830da21866588effc7cd88a8f9" kind="variable"><name>groupBox_options</name></member>
+    <member refid="classui__mainwindow_1_1_ui___main_window_1a2e98ac6c3aafc3cb3e997af4329abd72" kind="variable"><name>verticalLayout_4</name></member>
+    <member refid="classui__mainwindow_1_1_ui___main_window_1a421cb8fcc100a2920366efbfc608bc22" kind="variable"><name>comboBox_options</name></member>
+    <member refid="classui__mainwindow_1_1_ui___main_window_1a0ed0e486dc9e3052fa1b528ca855cff5" kind="variable"><name>groupBox_select_method</name></member>
+    <member refid="classui__mainwindow_1_1_ui___main_window_1a5ac9fe8cd1bc3ed51fdf71541c5e8e58" kind="variable"><name>verticalLayout_5</name></member>
+    <member refid="classui__mainwindow_1_1_ui___main_window_1a7b9e1abd26b756c7fba70179d36ed721" kind="variable"><name>comboBox_method</name></member>
+    <member refid="classui__mainwindow_1_1_ui___main_window_1a402741a7d4d9109d6b5064eefa1a7e65" kind="variable"><name>groupBox_select_type</name></member>
+    <member refid="classui__mainwindow_1_1_ui___main_window_1a9d794c3eca1fa7185e8ebecc0f47b0b0" kind="variable"><name>verticalLayout_6</name></member>
+    <member refid="classui__mainwindow_1_1_ui___main_window_1acc3e7c28b791d123af2358459951ee11" kind="variable"><name>comboBox_type</name></member>
+    <member refid="classui__mainwindow_1_1_ui___main_window_1a7d1142673b3cca82939e36c0047a4faa" kind="variable"><name>frame_6</name></member>
+    <member refid="classui__mainwindow_1_1_ui___main_window_1a15a73ec8712b1f2a2bf255304fe378b0" kind="variable"><name>gridLayout</name></member>
+    <member refid="classui__mainwindow_1_1_ui___main_window_1aa20ffb0bb0de6e2c768cdd3aed6d3337" kind="variable"><name>pushButton</name></member>
+    <member refid="classui__mainwindow_1_1_ui___main_window_1a88b29874d5ce73608453e8b2f67520cf" kind="variable"><name>pushButton_Export</name></member>
+    <member refid="classui__mainwindow_1_1_ui___main_window_1aa5e53b40c2e850d8da2ee39e9bbc180b" kind="variable"><name>frame_4</name></member>
+    <member refid="classui__mainwindow_1_1_ui___main_window_1a5b0b1f1b6489378de9101a3214bf1ddd" kind="variable"><name>horizontalLayout_4</name></member>
+    <member refid="classui__mainwindow_1_1_ui___main_window_1a2ac6ede77745d9b22fded2e206c9fd3e" kind="variable"><name>groupBox_about</name></member>
+    <member refid="classui__mainwindow_1_1_ui___main_window_1a7df63b5c295dabd85bbe1a3f37f29f2e" kind="variable"><name>label_info</name></member>
+    <member refid="classui__mainwindow_1_1_ui___main_window_1a5bbccbf767b42b0e195d198425ee27a6" kind="variable"><name>groupBox_about_3</name></member>
+    <member refid="classui__mainwindow_1_1_ui___main_window_1a76f899bed61651dc771160d5b3670d84" kind="variable"><name>label_label_info_result</name></member>
+    <member refid="classui__mainwindow_1_1_ui___main_window_1ab5b26072d900102a35ed0968414c5578" kind="variable"><name>frame_5</name></member>
+    <member refid="classui__mainwindow_1_1_ui___main_window_1a53a03e3d9ff7c7bcd823b94781c0e509" kind="variable"><name>groupBox_about_2</name></member>
+    <member refid="classui__mainwindow_1_1_ui___main_window_1a7bece7881b88e701c80384d9b70c1ea9" kind="variable"><name>label_info_option</name></member>
+    <member refid="classui__mainwindow_1_1_ui___main_window_1a38a6f008ca80257e753fd01812f36854" kind="variable"><name>frame_8</name></member>
+    <member refid="classui__mainwindow_1_1_ui___main_window_1a867d28a674ec471cfa937e11caf0f084" kind="variable"><name>verticalLayout_7</name></member>
+    <member refid="classui__mainwindow_1_1_ui___main_window_1a0cafd21c7c2e52da4bd13b6c2aefd0d9" kind="variable"><name>menubar</name></member>
+    <member refid="classui__mainwindow_1_1_ui___main_window_1a0e75b14ce74c9d3d12e8d0ee751e4145" kind="variable"><name>statusbar</name></member>
+    <member refid="classui__mainwindow_1_1_ui___main_window_1aa1b3c49a9e22a611933e2afc2335461a" kind="variable"><name>figure</name></member>
+    <member refid="classui__mainwindow_1_1_ui___main_window_1a621d7b6d65ea3468ea687c6902e31331" kind="variable"><name>canvas</name></member>
+    <member refid="classui__mainwindow_1_1_ui___main_window_1a8df90fded31935cdddf584100849944c" kind="variable"><name>toolbar</name></member>
+    <member refid="classui__mainwindow_1_1_ui___main_window_1a396df7c1dea1f50a9f52dcca987d9c86" kind="function"><name>setupUi</name></member>
+    <member refid="classui__mainwindow_1_1_ui___main_window_1a77f52a3c5bbc2a22e131fabe2a5b4775" kind="function"><name>retranslateUi</name></member>
+  </compound>
+  <compound refid="namespace_camera" kind="namespace"><name>Camera</name>
+  </compound>
+  <compound refid="namespace_charts" kind="namespace"><name>Charts</name>
+  </compound>
+  <compound refid="namespacedata" kind="namespace"><name>data</name>
+    <member refid="namespacedata_1ad2ec3630c607f1d4da0f32410c1c1c8a" kind="variable"><name>USER</name></member>
+    <member refid="namespacedata_1ad1a68d9aa6079776a8bf27d1176b3a2a" kind="variable"><name>PASSWORD</name></member>
+    <member refid="namespacedata_1a87619bf44d5077534d3910d62a8fa977" kind="variable"><name>HOST</name></member>
+    <member refid="namespacedata_1a7a23373f796a82ab3bb563833b27f896" kind="variable"><name>PORT</name></member>
+    <member refid="namespacedata_1ae8043aa2d5a6013927945e5995589f1e" kind="variable"><name>DATABASE</name></member>
+    <member refid="namespacedata_1a59bbca5442328d20a24639ebe3e26f1a" kind="variable"><name>CONNECTION</name></member>
+  </compound>
+  <compound refid="namespacemain" kind="namespace"><name>main</name>
+    <member refid="namespacemain_1a5fa94f0581009434c7a63791944d6ff4" kind="variable"><name>app</name></member>
+    <member refid="namespacemain_1ae1ea5d7d8ba9156ef06beef9bf8901a8" kind="variable"><name>window</name></member>
+  </compound>
+  <compound refid="namespacemain_window" kind="namespace"><name>mainWindow</name>
+  </compound>
+  <compound refid="namespaceui__mainwindow" kind="namespace"><name>ui_mainwindow</name>
+  </compound>
+  <compound refid="_camera_8py" kind="file"><name>Camera.py</name>
+  </compound>
+  <compound refid="_charts_8py" kind="file"><name>Charts.py</name>
+  </compound>
+  <compound refid="data_8py" kind="file"><name>data.py</name>
+  </compound>
+  <compound refid="main_8py" kind="file"><name>main.py</name>
+  </compound>
+  <compound refid="main_window_8py" kind="file"><name>mainWindow.py</name>
+  </compound>
+  <compound refid="ui__mainwindow_8py" kind="file"><name>ui_mainwindow.py</name>
+  </compound>
+  <compound refid="dir_275089585c7fc1b5fd5d7d42c69cb1da" kind="dir"><name>D:</name>
+  </compound>
+  <compound refid="dir_cc26c020712a6ff5d9bf61d933b4e34f" kind="dir"><name>D:/Katerina/data-visualisation-and-analysis-app</name>
+  </compound>
+  <compound refid="dir_f4ad19c11edb09a60416779a1937e612" kind="dir"><name>D:/Katerina</name>
+  </compound>
+</doxygenindex>

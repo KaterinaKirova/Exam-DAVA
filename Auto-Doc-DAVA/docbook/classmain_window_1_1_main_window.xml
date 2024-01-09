@@ -1,0 +1,376 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classmain_window_1_1_main_window" xml:lang="en-US">
+<title>mainWindow.MainWindow Class Reference</title>
+<indexterm><primary>mainWindow.MainWindow</primary></indexterm>
+<para>Inheritance diagram for mainWindow.MainWindow:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classmain_window_1_1_main_window.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classmain_window_1_1_main_window_1a267fc91ebb2be4516f71dd7a48a3b67a">__init__</link> (self)</para>
+</listitem>
+            <listitem><para><link linkend="_classmain_window_1_1_main_window_1ad8100445ac82abd0fc912ac3cf667414">set_cameras_name</link> (self, cameras_name)</para>
+</listitem>
+            <listitem><para><link linkend="_classmain_window_1_1_main_window_1a7b1e3c2704de0a744d7730a33c20073f">create_selected_camera</link> (self, camera_name)</para>
+</listitem>
+            <listitem><para><link linkend="_classmain_window_1_1_main_window_1abe470e87142a405ac66b04871d447690">get_date_to</link> (self)</para>
+</listitem>
+            <listitem><para><link linkend="_classmain_window_1_1_main_window_1a8e5bda4ee74bf42d2260981cdd83d191">get_date_from</link> (self)</para>
+</listitem>
+            <listitem><para><link linkend="_classmain_window_1_1_main_window_1ab9d02b23cc93aa4c00d2cba3191e3c63">set_info</link> (self, camera_name)</para>
+</listitem>
+            <listitem><para><link linkend="_classmain_window_1_1_main_window_1aca7d7be4401ede004c7489cc0e9b3b1c">set_types</link> (self)</para>
+</listitem>
+            <listitem><para><link linkend="_classmain_window_1_1_main_window_1a112bace5a4d96b449ca273af560ce51c">set_options</link> (self)</para>
+</listitem>
+            <listitem><para><link linkend="_classmain_window_1_1_main_window_1a070d151bfacc708334452587a5c02e46">set_option</link> (self, option)</para>
+</listitem>
+            <listitem><para><link linkend="_classmain_window_1_1_main_window_1a78fe2c53626613dba77a440a4e4430d0">create_chart</link> (self, method)</para>
+</listitem>
+            <listitem><para><link linkend="_classmain_window_1_1_main_window_1ad67b2a154b488607140bc3923035873c">set_concrete_type</link> (self, concrete_type)</para>
+</listitem>
+            <listitem><para><link linkend="_classmain_window_1_1_main_window_1a9b901063c2be86600207c0161fcf9030">button_clicked</link> (self)</para>
+</listitem>
+            <listitem><para><link linkend="_classmain_window_1_1_main_window_1a09a8cd77f18ced8b03d1c057ea06256d">button_export_clicked</link> (self)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+Public Member Functions inherited from <link linkend="_classui__mainwindow_1_1_ui___main_window">ui_mainwindow.Ui_MainWindow</link>        <itemizedlist>
+            <listitem><para><link linkend="_classui__mainwindow_1_1_ui___main_window_1a396df7c1dea1f50a9f52dcca987d9c86">setupUi</link> (self, MainWindow)</para>
+</listitem>
+            <listitem><para><link linkend="_classui__mainwindow_1_1_ui___main_window_1a77f52a3c5bbc2a22e131fabe2a5b4775">retranslateUi</link> (self, MainWindow)</para>
+</listitem>
+        </itemizedlist>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classmain_window_1_1_main_window_1a5edb3405e6dddd0ee4fb645ba9b3968e">set_info</link></para>
+</listitem>
+            <listitem><para><link linkend="_classmain_window_1_1_main_window_1af100d13aeb41de4313507a45bb1368aa">set_option</link></para>
+</listitem>
+            <listitem><para><link linkend="_classmain_window_1_1_main_window_1abd1c9b49fe80974a285374cff034ba2b">create_chart</link></para>
+</listitem>
+            <listitem><para><link linkend="_classmain_window_1_1_main_window_1a322d3cf953b27a71d9378b38ff7455cd">set_concrete_type</link></para>
+</listitem>
+            <listitem><para><link linkend="_classmain_window_1_1_main_window_1a76df2277ac2b0eb5db772f8d6a4ad8e2">button_clicked</link></para>
+</listitem>
+            <listitem><para><link linkend="_classmain_window_1_1_main_window_1a8a83e3ca33ec7a3427d02c2f3e1d3ede">button_export_clicked</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+Public Attributes inherited from <link linkend="_classui__mainwindow_1_1_ui___main_window">ui_mainwindow.Ui_MainWindow</link>        <itemizedlist>
+            <listitem><para><link linkend="_classui__mainwindow_1_1_ui___main_window_1ae98e7f65edb7c3995f5e5dcb99a70431">centralwidget</link></para>
+</listitem>
+            <listitem><para><link linkend="_classui__mainwindow_1_1_ui___main_window_1a00f85b97abf944c50f49ca0f53a14e17">horizontalLayout</link></para>
+</listitem>
+            <listitem><para><link linkend="_classui__mainwindow_1_1_ui___main_window_1a201dda6fbe672f31e18ba98393468be1">frame_7</link></para>
+</listitem>
+            <listitem><para><link linkend="_classui__mainwindow_1_1_ui___main_window_1ad0af872b0f9c072e4193a358f4e19fc5">horizontalLayout_2</link></para>
+</listitem>
+            <listitem><para><link linkend="_classui__mainwindow_1_1_ui___main_window_1a161f7db8e998687e9deaf5e1764398d7">frame_2</link></para>
+</listitem>
+            <listitem><para><link linkend="_classui__mainwindow_1_1_ui___main_window_1a88672e0fc5fd5050c3b3cc964eb423c4">verticalLayout_2</link></para>
+</listitem>
+            <listitem><para><link linkend="_classui__mainwindow_1_1_ui___main_window_1a93a5b1d1c9ea80b65ce86c9fbda5a6a1">frame</link></para>
+</listitem>
+            <listitem><para><link linkend="_classui__mainwindow_1_1_ui___main_window_1a784c6ab0319151e1faee148d2fff2b28">formLayout_2</link></para>
+</listitem>
+            <listitem><para><link linkend="_classui__mainwindow_1_1_ui___main_window_1adb984b085ebbc227dcbee2d0479361e1">groupBox_period</link></para>
+</listitem>
+            <listitem><para><link linkend="_classui__mainwindow_1_1_ui___main_window_1ad4eac9c606168c46779531c49a60ab5d">formLayout</link></para>
+</listitem>
+            <listitem><para><link linkend="_classui__mainwindow_1_1_ui___main_window_1a42280a9bb649411621ef005de275e746">label_from</link></para>
+</listitem>
+            <listitem><para><link linkend="_classui__mainwindow_1_1_ui___main_window_1a43ff5d9fa022cf44a4c3c059d40a3279">dateEdit_from</link></para>
+</listitem>
+            <listitem><para><link linkend="_classui__mainwindow_1_1_ui___main_window_1a638ce5ca92814fd1441607f5ffd90424">label_to</link></para>
+</listitem>
+            <listitem><para><link linkend="_classui__mainwindow_1_1_ui___main_window_1a2dc50dd2c96bad5d4416c1111fa2de08">dateEdit_to</link></para>
+</listitem>
+            <listitem><para><link linkend="_classui__mainwindow_1_1_ui___main_window_1a94f74cd8d490af0ae03924d22309bbbb">frame_3</link></para>
+</listitem>
+            <listitem><para><link linkend="_classui__mainwindow_1_1_ui___main_window_1a34783b6de2a1105eb091601f3d907e84">verticalLayout</link></para>
+</listitem>
+            <listitem><para><link linkend="_classui__mainwindow_1_1_ui___main_window_1ace4bfebe95f52f4917c0882a1df11806">groupBox_selec_camera</link></para>
+</listitem>
+            <listitem><para><link linkend="_classui__mainwindow_1_1_ui___main_window_1a38c9ed064be7141994e48cb33a5abed1">verticalLayout_3</link></para>
+</listitem>
+            <listitem><para><link linkend="_classui__mainwindow_1_1_ui___main_window_1a97af4908add12fce8288e1b811c2d31c">comboBox_camera</link></para>
+</listitem>
+            <listitem><para><link linkend="_classui__mainwindow_1_1_ui___main_window_1a67bab3830da21866588effc7cd88a8f9">groupBox_options</link></para>
+</listitem>
+            <listitem><para><link linkend="_classui__mainwindow_1_1_ui___main_window_1a2e98ac6c3aafc3cb3e997af4329abd72">verticalLayout_4</link></para>
+</listitem>
+            <listitem><para><link linkend="_classui__mainwindow_1_1_ui___main_window_1a421cb8fcc100a2920366efbfc608bc22">comboBox_options</link></para>
+</listitem>
+            <listitem><para><link linkend="_classui__mainwindow_1_1_ui___main_window_1a0ed0e486dc9e3052fa1b528ca855cff5">groupBox_select_method</link></para>
+</listitem>
+            <listitem><para><link linkend="_classui__mainwindow_1_1_ui___main_window_1a5ac9fe8cd1bc3ed51fdf71541c5e8e58">verticalLayout_5</link></para>
+</listitem>
+            <listitem><para><link linkend="_classui__mainwindow_1_1_ui___main_window_1a7b9e1abd26b756c7fba70179d36ed721">comboBox_method</link></para>
+</listitem>
+            <listitem><para><link linkend="_classui__mainwindow_1_1_ui___main_window_1a402741a7d4d9109d6b5064eefa1a7e65">groupBox_select_type</link></para>
+</listitem>
+            <listitem><para><link linkend="_classui__mainwindow_1_1_ui___main_window_1a9d794c3eca1fa7185e8ebecc0f47b0b0">verticalLayout_6</link></para>
+</listitem>
+            <listitem><para><link linkend="_classui__mainwindow_1_1_ui___main_window_1acc3e7c28b791d123af2358459951ee11">comboBox_type</link></para>
+</listitem>
+            <listitem><para><link linkend="_classui__mainwindow_1_1_ui___main_window_1a7d1142673b3cca82939e36c0047a4faa">frame_6</link></para>
+</listitem>
+            <listitem><para><link linkend="_classui__mainwindow_1_1_ui___main_window_1a15a73ec8712b1f2a2bf255304fe378b0">gridLayout</link></para>
+</listitem>
+            <listitem><para><link linkend="_classui__mainwindow_1_1_ui___main_window_1aa20ffb0bb0de6e2c768cdd3aed6d3337">pushButton</link></para>
+</listitem>
+            <listitem><para><link linkend="_classui__mainwindow_1_1_ui___main_window_1a88b29874d5ce73608453e8b2f67520cf">pushButton_Export</link></para>
+</listitem>
+            <listitem><para><link linkend="_classui__mainwindow_1_1_ui___main_window_1aa5e53b40c2e850d8da2ee39e9bbc180b">frame_4</link></para>
+</listitem>
+            <listitem><para><link linkend="_classui__mainwindow_1_1_ui___main_window_1a5b0b1f1b6489378de9101a3214bf1ddd">horizontalLayout_4</link></para>
+</listitem>
+            <listitem><para><link linkend="_classui__mainwindow_1_1_ui___main_window_1a2ac6ede77745d9b22fded2e206c9fd3e">groupBox_about</link></para>
+</listitem>
+            <listitem><para><link linkend="_classui__mainwindow_1_1_ui___main_window_1a7df63b5c295dabd85bbe1a3f37f29f2e">label_info</link></para>
+</listitem>
+            <listitem><para><link linkend="_classui__mainwindow_1_1_ui___main_window_1a5bbccbf767b42b0e195d198425ee27a6">groupBox_about_3</link></para>
+</listitem>
+            <listitem><para><link linkend="_classui__mainwindow_1_1_ui___main_window_1a76f899bed61651dc771160d5b3670d84">label_label_info_result</link></para>
+</listitem>
+            <listitem><para><link linkend="_classui__mainwindow_1_1_ui___main_window_1ab5b26072d900102a35ed0968414c5578">frame_5</link></para>
+</listitem>
+            <listitem><para><link linkend="_classui__mainwindow_1_1_ui___main_window_1a53a03e3d9ff7c7bcd823b94781c0e509">groupBox_about_2</link></para>
+</listitem>
+            <listitem><para><link linkend="_classui__mainwindow_1_1_ui___main_window_1a7bece7881b88e701c80384d9b70c1ea9">label_info_option</link></para>
+</listitem>
+            <listitem><para><link linkend="_classui__mainwindow_1_1_ui___main_window_1a38a6f008ca80257e753fd01812f36854">frame_8</link></para>
+</listitem>
+            <listitem><para><link linkend="_classui__mainwindow_1_1_ui___main_window_1a867d28a674ec471cfa937e11caf0f084">verticalLayout_7</link></para>
+</listitem>
+            <listitem><para><link linkend="_classui__mainwindow_1_1_ui___main_window_1a0cafd21c7c2e52da4bd13b6c2aefd0d9">menubar</link></para>
+</listitem>
+            <listitem><para><link linkend="_classui__mainwindow_1_1_ui___main_window_1a0e75b14ce74c9d3d12e8d0ee751e4145">statusbar</link></para>
+</listitem>
+            <listitem><para><link linkend="_classui__mainwindow_1_1_ui___main_window_1aa1b3c49a9e22a611933e2afc2335461a">figure</link></para>
+</listitem>
+            <listitem><para><link linkend="_classui__mainwindow_1_1_ui___main_window_1a621d7b6d65ea3468ea687c6902e31331">canvas</link></para>
+</listitem>
+            <listitem><para><link linkend="_classui__mainwindow_1_1_ui___main_window_1a8df90fded31935cdddf584100849944c">toolbar</link></para>
+</listitem>
+        </itemizedlist>
+<section>
+<title>Detailed Description</title>
+
+<para><literallayout><computeroutput>The MainWindow class inherits QMainWindow and Ui_MainWindow class and have:
+
+           Attributes:
+               ui : Ui_MainWindow()
+               concrete_method : chosen method
+               selected_camera : chosen camera
+               concrete_type : chosen type
+               selected_option : chosen option
+               cameras_data : CamerasData()
+               cameras_name : The names of all cameras that we have in DB
+
+           Methods:
+              set_cameras_name(cameras_name) : Function that set cameras name to comboBox from cameras_name array.
+              create_selected_camera(camera_name) :  Function that creates an object of class Camera.
+              get_date_to() : Function that get an end date.
+              get_date_from() : Function that get the date from which it starts
+              set_info(camera_name) : Function that set information on label_info
+              set_types() : Function that set sorted types on combobox_type
+              set_options() : Function that set options on combobox_type from DB
+              set_option(option) : Function that set the option information on label_info_2
+              create_chart(method) : Function that create Chart object. Depending on what method is chosen, the
+              function makes a different object Line_Chart, Average_Chart or Line_Chart_of_specific_Type.
+              set_concrete_type(concrete_type) : Function that set concrete_type
+              button_click() : Function that, when the button is pressed, checks which method(which charts class) is
+              selected and displays the result.
+              button_export_clicked() :  Function that, when the button is pressed, export the information into CSV.
+</computeroutput></literallayout> </para>
+</section>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_classmain_window_1_1_main_window_1a267fc91ebb2be4516f71dd7a48a3b67a"/><section>
+    <title>__init__()</title>
+<indexterm><primary>__init__</primary><secondary>mainWindow.MainWindow</secondary></indexterm>
+<indexterm><primary>mainWindow.MainWindow</primary><secondary>__init__</secondary></indexterm>
+<para><computeroutput>mainWindow.MainWindow.__init__ ( self)</computeroutput></para></section>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classmain_window_1_1_main_window_1a9b901063c2be86600207c0161fcf9030"/><section>
+    <title>button_clicked()</title>
+<indexterm><primary>button_clicked</primary><secondary>mainWindow.MainWindow</secondary></indexterm>
+<indexterm><primary>mainWindow.MainWindow</primary><secondary>button_clicked</secondary></indexterm>
+<para><computeroutput>mainWindow.MainWindow.button_clicked ( self)</computeroutput></para>
+<para><literallayout><computeroutput>    button_clicked()
+    Function that, when the button is pressed, checks which method(which charts class) is selected and displays
+    the result.
+</computeroutput></literallayout> </para>
+</section>
+<anchor xml:id="_classmain_window_1_1_main_window_1a09a8cd77f18ced8b03d1c057ea06256d"/><section>
+    <title>button_export_clicked()</title>
+<indexterm><primary>button_export_clicked</primary><secondary>mainWindow.MainWindow</secondary></indexterm>
+<indexterm><primary>mainWindow.MainWindow</primary><secondary>button_export_clicked</secondary></indexterm>
+<para><computeroutput>mainWindow.MainWindow.button_export_clicked ( self)</computeroutput></para>
+<para><literallayout><computeroutput>    button_export_clicked()
+    Function that, when the button is pressed, export the information into CSV.
+</computeroutput></literallayout> </para>
+</section>
+<anchor xml:id="_classmain_window_1_1_main_window_1a78fe2c53626613dba77a440a4e4430d0"/><section>
+    <title>create_chart()</title>
+<indexterm><primary>create_chart</primary><secondary>mainWindow.MainWindow</secondary></indexterm>
+<indexterm><primary>mainWindow.MainWindow</primary><secondary>create_chart</secondary></indexterm>
+<para><computeroutput>mainWindow.MainWindow.create_chart ( self,  method)</computeroutput></para>
+<para><literallayout><computeroutput>    create_chart(method)
+    Function that create Chart object. Depending on what method is chosen, the function makes a different object
+    Line_Chart, Average_Chart or Line_Chart_of_specific_Type.
+
+    Args:
+        method (str) :The method that is selected
+</computeroutput></literallayout> </para>
+</section>
+<anchor xml:id="_classmain_window_1_1_main_window_1a7b1e3c2704de0a744d7730a33c20073f"/><section>
+    <title>create_selected_camera()</title>
+<indexterm><primary>create_selected_camera</primary><secondary>mainWindow.MainWindow</secondary></indexterm>
+<indexterm><primary>mainWindow.MainWindow</primary><secondary>create_selected_camera</secondary></indexterm>
+<para><computeroutput>mainWindow.MainWindow.create_selected_camera ( self,  camera_name)</computeroutput></para>
+<para><literallayout><computeroutput>    get_selected_camera(self, camera_name)
+    Function that creates an object of class Camera.
+
+    Args:
+        camera_name(str) : this is the name of the camera
+</computeroutput></literallayout> </para>
+</section>
+<anchor xml:id="_classmain_window_1_1_main_window_1a8e5bda4ee74bf42d2260981cdd83d191"/><section>
+    <title>get_date_from()</title>
+<indexterm><primary>get_date_from</primary><secondary>mainWindow.MainWindow</secondary></indexterm>
+<indexterm><primary>mainWindow.MainWindow</primary><secondary>get_date_from</secondary></indexterm>
+<para><computeroutput>mainWindow.MainWindow.get_date_from ( self)</computeroutput></para>
+<para><literallayout><computeroutput>    get_date_from()
+    Function that get the date from which it starts
+
+    Returns:
+        date_from (str)
+</computeroutput></literallayout> </para>
+</section>
+<anchor xml:id="_classmain_window_1_1_main_window_1abe470e87142a405ac66b04871d447690"/><section>
+    <title>get_date_to()</title>
+<indexterm><primary>get_date_to</primary><secondary>mainWindow.MainWindow</secondary></indexterm>
+<indexterm><primary>mainWindow.MainWindow</primary><secondary>get_date_to</secondary></indexterm>
+<para><computeroutput>mainWindow.MainWindow.get_date_to ( self)</computeroutput></para>
+<para><literallayout><computeroutput>    get_date_to()
+    Function that get an end date.
+
+    Returns:
+        date_to (str)
+</computeroutput></literallayout> </para>
+</section>
+<anchor xml:id="_classmain_window_1_1_main_window_1ad8100445ac82abd0fc912ac3cf667414"/><section>
+    <title>set_cameras_name()</title>
+<indexterm><primary>set_cameras_name</primary><secondary>mainWindow.MainWindow</secondary></indexterm>
+<indexterm><primary>mainWindow.MainWindow</primary><secondary>set_cameras_name</secondary></indexterm>
+<para><computeroutput>mainWindow.MainWindow.set_cameras_name ( self,  cameras_name)</computeroutput></para>
+<para><literallayout><computeroutput>    set_cameras_name(self, cameras_name)
+    Function that set cameras name to comboBox from cameras_name array.
+
+    Args:
+        cameras_name (numpy.ndarray)
+</computeroutput></literallayout> </para>
+</section>
+<anchor xml:id="_classmain_window_1_1_main_window_1ad67b2a154b488607140bc3923035873c"/><section>
+    <title>set_concrete_type()</title>
+<indexterm><primary>set_concrete_type</primary><secondary>mainWindow.MainWindow</secondary></indexterm>
+<indexterm><primary>mainWindow.MainWindow</primary><secondary>set_concrete_type</secondary></indexterm>
+<para><computeroutput>mainWindow.MainWindow.set_concrete_type ( self,  concrete_type)</computeroutput></para>
+<para><literallayout><computeroutput>    get_concrete_type(concrete_type)
+    Function that set concrete_type
+
+    Args:
+        concrete_type (str) : The type that is selected
+</computeroutput></literallayout> </para>
+</section>
+<anchor xml:id="_classmain_window_1_1_main_window_1ab9d02b23cc93aa4c00d2cba3191e3c63"/><section>
+    <title>set_info()</title>
+<indexterm><primary>set_info</primary><secondary>mainWindow.MainWindow</secondary></indexterm>
+<indexterm><primary>mainWindow.MainWindow</primary><secondary>set_info</secondary></indexterm>
+<para><computeroutput>mainWindow.MainWindow.set_info ( self,  camera_name)</computeroutput></para>
+<para><literallayout><computeroutput>    set_info(camera_name)
+    Function that set information on label_info
+
+    Args:
+        camera_name (str) : this is the name of the camera
+</computeroutput></literallayout> </para>
+</section>
+<anchor xml:id="_classmain_window_1_1_main_window_1a070d151bfacc708334452587a5c02e46"/><section>
+    <title>set_option()</title>
+<indexterm><primary>set_option</primary><secondary>mainWindow.MainWindow</secondary></indexterm>
+<indexterm><primary>mainWindow.MainWindow</primary><secondary>set_option</secondary></indexterm>
+<para><computeroutput>mainWindow.MainWindow.set_option ( self,  option)</computeroutput></para>
+<para><literallayout><computeroutput>    set(self, option)
+    Function that set the option information on label_info_2
+
+    Args:
+        option (str) : The option that is selected
+</computeroutput></literallayout> </para>
+</section>
+<anchor xml:id="_classmain_window_1_1_main_window_1a112bace5a4d96b449ca273af560ce51c"/><section>
+    <title>set_options()</title>
+<indexterm><primary>set_options</primary><secondary>mainWindow.MainWindow</secondary></indexterm>
+<indexterm><primary>mainWindow.MainWindow</primary><secondary>set_options</secondary></indexterm>
+<para><computeroutput>mainWindow.MainWindow.set_options ( self)</computeroutput></para>
+<para><literallayout><computeroutput>    set_options()
+    Function that set options on combobox_type from DB
+</computeroutput></literallayout> </para>
+</section>
+<anchor xml:id="_classmain_window_1_1_main_window_1aca7d7be4401ede004c7489cc0e9b3b1c"/><section>
+    <title>set_types()</title>
+<indexterm><primary>set_types</primary><secondary>mainWindow.MainWindow</secondary></indexterm>
+<indexterm><primary>mainWindow.MainWindow</primary><secondary>set_types</secondary></indexterm>
+<para><computeroutput>mainWindow.MainWindow.set_types ( self)</computeroutput></para>
+<para><literallayout><computeroutput>    set_types()
+    Function that set sorted types on combobox_type
+</computeroutput></literallayout> </para>
+</section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classmain_window_1_1_main_window_1a76df2277ac2b0eb5db772f8d6a4ad8e2"/><section>
+    <title>button_clicked</title>
+<indexterm><primary>button_clicked</primary><secondary>mainWindow.MainWindow</secondary></indexterm>
+<indexterm><primary>mainWindow.MainWindow</primary><secondary>button_clicked</secondary></indexterm>
+<para><computeroutput>mainWindow.MainWindow.button_clicked</computeroutput></para></section>
+<anchor xml:id="_classmain_window_1_1_main_window_1a8a83e3ca33ec7a3427d02c2f3e1d3ede"/><section>
+    <title>button_export_clicked</title>
+<indexterm><primary>button_export_clicked</primary><secondary>mainWindow.MainWindow</secondary></indexterm>
+<indexterm><primary>mainWindow.MainWindow</primary><secondary>button_export_clicked</secondary></indexterm>
+<para><computeroutput>mainWindow.MainWindow.button_export_clicked</computeroutput></para></section>
+<anchor xml:id="_classmain_window_1_1_main_window_1abd1c9b49fe80974a285374cff034ba2b"/><section>
+    <title>create_chart</title>
+<indexterm><primary>create_chart</primary><secondary>mainWindow.MainWindow</secondary></indexterm>
+<indexterm><primary>mainWindow.MainWindow</primary><secondary>create_chart</secondary></indexterm>
+<para><computeroutput>mainWindow.MainWindow.create_chart</computeroutput></para></section>
+<anchor xml:id="_classmain_window_1_1_main_window_1a322d3cf953b27a71d9378b38ff7455cd"/><section>
+    <title>set_concrete_type</title>
+<indexterm><primary>set_concrete_type</primary><secondary>mainWindow.MainWindow</secondary></indexterm>
+<indexterm><primary>mainWindow.MainWindow</primary><secondary>set_concrete_type</secondary></indexterm>
+<para><computeroutput>mainWindow.MainWindow.set_concrete_type</computeroutput></para></section>
+<anchor xml:id="_classmain_window_1_1_main_window_1a5edb3405e6dddd0ee4fb645ba9b3968e"/><section>
+    <title>set_info</title>
+<indexterm><primary>set_info</primary><secondary>mainWindow.MainWindow</secondary></indexterm>
+<indexterm><primary>mainWindow.MainWindow</primary><secondary>set_info</secondary></indexterm>
+<para><computeroutput>mainWindow.MainWindow.set_info</computeroutput></para></section>
+<anchor xml:id="_classmain_window_1_1_main_window_1af100d13aeb41de4313507a45bb1368aa"/><section>
+    <title>set_option</title>
+<indexterm><primary>set_option</primary><secondary>mainWindow.MainWindow</secondary></indexterm>
+<indexterm><primary>mainWindow.MainWindow</primary><secondary>set_option</secondary></indexterm>
+<para><computeroutput>mainWindow.MainWindow.set_option</computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+D:/Katerina/data-visualisation-and-analysis-app/<link linkend="_main_window_8py">mainWindow.py</link></section>
+</section>

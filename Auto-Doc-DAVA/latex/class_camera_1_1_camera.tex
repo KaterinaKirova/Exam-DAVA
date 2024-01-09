@@ -1,0 +1,156 @@
+\doxysection{Camera.\+Camera Class Reference}
+\hypertarget{class_camera_1_1_camera}{}\label{class_camera_1_1_camera}\index{Camera.Camera@{Camera.Camera}}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_camera_1_1_camera_ace13c0651990c91a11ab4c769257d9ec}{\+\_\+\+\_\+init\+\_\+\+\_\+}} (self, title, date\+\_\+from, date\+\_\+to)
+\item 
+\mbox{\hyperlink{class_camera_1_1_camera_ae91ab5f8a2b515c5174ed6df1938babc}{get\+\_\+data}} (self)
+\item 
+\mbox{\hyperlink{class_camera_1_1_camera_a11c964399305741362b80524f760b315}{fetch\+\_\+data}} (self)
+\item 
+\mbox{\hyperlink{class_camera_1_1_camera_ab1829bed4a07d659e4c94e4191d3c23d}{get\+\_\+info}} (self)
+\item 
+\mbox{\hyperlink{class_camera_1_1_camera_a5f97627a748c57e8af2c9c37aef51a4f}{get\+\_\+info\+\_\+result}} (self)
+\item 
+\mbox{\hyperlink{class_camera_1_1_camera_a4a074527c85391bf7a210bdcf3e96df4}{get\+\_\+info\+\_\+option}} (self, option)
+\item 
+\mbox{\hyperlink{class_camera_1_1_camera_a0c49ce10aa756aed08ddc395e32bd325}{get\+\_\+sorted\+\_\+types}} (self)
+\item 
+\mbox{\hyperlink{class_camera_1_1_camera_a2e7861611a1ca003d086f417d18bc7bf}{get\+\_\+options}} (self)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\begin{DoxyVerb}The Camera class have:
+
+    Attributes:
+        title : Camera name
+        date_from : start date
+        date_to : end date
+        options : what options the camera has
+        data : the camera data
+        selected_camera_data : the selected_camera
+
+    Methods:
+        get_data() : Function that get the data
+        fetch_data() :  Function that fetch the data.
+        get_info() : Function that checks if there is data and return info about the camera if there is. Otherwise, it returns
+        text that it can't find any data.
+        get_info_result() :  Function that show how many accepted, failed, passed or notDone tests have been done.
+        get_info_option(option) : Function that checks if there is option and show info about the camera if there is. Otherwise, it returns
+        empty text.
+        get_sorted_types() : Function that sort the types.
+        get_options() : Function that return list of options.\end{DoxyVerb}
+ 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{class_camera_1_1_camera_ace13c0651990c91a11ab4c769257d9ec}\label{class_camera_1_1_camera_ace13c0651990c91a11ab4c769257d9ec} 
+\index{Camera.Camera@{Camera.Camera}!\_\_init\_\_@{\_\_init\_\_}}
+\index{\_\_init\_\_@{\_\_init\_\_}!Camera.Camera@{Camera.Camera}}
+\doxysubsubsection{\texorpdfstring{\_\_init\_\_()}{\_\_init\_\_()}}
+{\footnotesize\ttfamily Camera.\+Camera.\+\_\+\+\_\+init\+\_\+\+\_\+ (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{title,  }\item[{}]{date\+\_\+from,  }\item[{}]{date\+\_\+to }\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_camera_1_1_camera_a11c964399305741362b80524f760b315}\label{class_camera_1_1_camera_a11c964399305741362b80524f760b315} 
+\index{Camera.Camera@{Camera.Camera}!fetch\_data@{fetch\_data}}
+\index{fetch\_data@{fetch\_data}!Camera.Camera@{Camera.Camera}}
+\doxysubsubsection{\texorpdfstring{fetch\_data()}{fetch\_data()}}
+{\footnotesize\ttfamily Camera.\+Camera.\+fetch\+\_\+data (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}    fetch_data()
+    Function that fetch the data.
+
+    Returns:
+        self.__selected_camera_data.get_data() (DataFrame)
+\end{DoxyVerb}
+ \Hypertarget{class_camera_1_1_camera_ae91ab5f8a2b515c5174ed6df1938babc}\label{class_camera_1_1_camera_ae91ab5f8a2b515c5174ed6df1938babc} 
+\index{Camera.Camera@{Camera.Camera}!get\_data@{get\_data}}
+\index{get\_data@{get\_data}!Camera.Camera@{Camera.Camera}}
+\doxysubsubsection{\texorpdfstring{get\_data()}{get\_data()}}
+{\footnotesize\ttfamily Camera.\+Camera.\+get\+\_\+data (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}    get_data()
+    Function that get the data
+
+    Returns:
+        data (DataFrame)
+\end{DoxyVerb}
+ \Hypertarget{class_camera_1_1_camera_ab1829bed4a07d659e4c94e4191d3c23d}\label{class_camera_1_1_camera_ab1829bed4a07d659e4c94e4191d3c23d} 
+\index{Camera.Camera@{Camera.Camera}!get\_info@{get\_info}}
+\index{get\_info@{get\_info}!Camera.Camera@{Camera.Camera}}
+\doxysubsubsection{\texorpdfstring{get\_info()}{get\_info()}}
+{\footnotesize\ttfamily Camera.\+Camera.\+get\+\_\+info (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}    get_info()
+    Function that checks if there is data and return info about the camera if there is. Otherwise, it returns
+    text that it can't find any data.
+
+    Returns:
+        'No results found' (sting)
+        or
+        camera information that includes
+        the camera types and
+        how many tests were accepted or passed with each type (string)
+\end{DoxyVerb}
+ \Hypertarget{class_camera_1_1_camera_a4a074527c85391bf7a210bdcf3e96df4}\label{class_camera_1_1_camera_a4a074527c85391bf7a210bdcf3e96df4} 
+\index{Camera.Camera@{Camera.Camera}!get\_info\_option@{get\_info\_option}}
+\index{get\_info\_option@{get\_info\_option}!Camera.Camera@{Camera.Camera}}
+\doxysubsubsection{\texorpdfstring{get\_info\_option()}{get\_info\_option()}}
+{\footnotesize\ttfamily Camera.\+Camera.\+get\+\_\+info\+\_\+option (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{option }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}    get_info_option()
+    Function that checks if there is option and show info about the camera if there is. Otherwise, it returns
+    empty text.
+
+    Args:
+        option (str) : The option that is selected
+
+    Returns:
+        camera information that includes
+        how much is the minimum, maximum and average value of a selected option.(string)
+\end{DoxyVerb}
+ \Hypertarget{class_camera_1_1_camera_a5f97627a748c57e8af2c9c37aef51a4f}\label{class_camera_1_1_camera_a5f97627a748c57e8af2c9c37aef51a4f} 
+\index{Camera.Camera@{Camera.Camera}!get\_info\_result@{get\_info\_result}}
+\index{get\_info\_result@{get\_info\_result}!Camera.Camera@{Camera.Camera}}
+\doxysubsubsection{\texorpdfstring{get\_info\_result()}{get\_info\_result()}}
+{\footnotesize\ttfamily Camera.\+Camera.\+get\+\_\+info\+\_\+result (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}    get_info_result()
+    Function that show how many accepted, failed, passed or notDone tests have been done.
+
+    Returns:
+        camera information that includes
+        how many accepted, failed, passed or notDone tests (string)
+\end{DoxyVerb}
+ \Hypertarget{class_camera_1_1_camera_a2e7861611a1ca003d086f417d18bc7bf}\label{class_camera_1_1_camera_a2e7861611a1ca003d086f417d18bc7bf} 
+\index{Camera.Camera@{Camera.Camera}!get\_options@{get\_options}}
+\index{get\_options@{get\_options}!Camera.Camera@{Camera.Camera}}
+\doxysubsubsection{\texorpdfstring{get\_options()}{get\_options()}}
+{\footnotesize\ttfamily Camera.\+Camera.\+get\+\_\+options (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}    get_options()
+    Function that return list of options.
+
+    Returns:
+        options (list)
+\end{DoxyVerb}
+ \Hypertarget{class_camera_1_1_camera_a0c49ce10aa756aed08ddc395e32bd325}\label{class_camera_1_1_camera_a0c49ce10aa756aed08ddc395e32bd325} 
+\index{Camera.Camera@{Camera.Camera}!get\_sorted\_types@{get\_sorted\_types}}
+\index{get\_sorted\_types@{get\_sorted\_types}!Camera.Camera@{Camera.Camera}}
+\doxysubsubsection{\texorpdfstring{get\_sorted\_types()}{get\_sorted\_types()}}
+{\footnotesize\ttfamily Camera.\+Camera.\+get\+\_\+sorted\+\_\+types (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}    get_sorted_types()
+    Function that sort the types.
+
+    Returns:
+        map(str, values) (map object)
+\end{DoxyVerb}
+ 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/\+Katerina/data-\/visualisation-\/and-\/analysis-\/app/\mbox{\hyperlink{_camera_8py}{Camera.\+py}}\end{DoxyCompactItemize}
