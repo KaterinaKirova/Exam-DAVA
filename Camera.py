@@ -134,8 +134,10 @@ class Camera:
                 options (list)
         """
         options = []
+        print(self.__options)
+        print(self.__options['column_name'])
         all_options = self.__options['column_name'].unique()
-
+        print(all_options)
         for opt in all_options:
             options.append(opt)
         return options
